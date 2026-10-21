@@ -72,6 +72,11 @@ export interface CardState {
   masteredAt?: string;
   /** Người dùng bấm "Tôi đã biết từ này" khi học mới. */
   known?: boolean;
+  /** Số lần gõ sai chính tả ở lần thử đầu (ôn tập, kiểm tra chính tả). */
+  misspells?: number;
+  /** Số lần liên tiếp gõ đúng ngay lần đầu, tính từ lần sai gần nhất. */
+  spellStreak?: number;
+  lastMisspelledAt?: string;
 }
 
 export interface DailyPlan {
@@ -91,6 +96,8 @@ export interface DayActivity {
   errorReviews?: number;
   speaking?: number;
   writing?: number;
+  /** Số lượt gõ trong bài kiểm tra / luyện chính tả. */
+  spelling?: number;
 }
 
 export interface Settings {

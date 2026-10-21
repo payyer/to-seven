@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { isoWeek } from "@/lib/date";
 import { isErrorDue } from "@/lib/mistakes";
+import { weakSpellingCards } from "@/lib/spelling";
 import { promptForWeek } from "@/lib/writing";
 import { useAppState } from "@/lib/store";
 import { Icon, type IconName } from "../Icon";
@@ -51,6 +52,7 @@ export function PracticeHubView() {
 
   const { cards, errors, sentences, dictations, today } = state;
   const learned = Object.values(cards).filter((c) => !c.known).length;
+  const weakSpelling = weakSpellingCards(cards).length;
   const dueErrors = errors.filter((e) => isErrorDue(e, today)).length;
   const openErrors = errors.filter((e) => !e.fixedAt).length;
   const todaySentences = sentences.filter((s) => s.createdAt === today).length;
@@ -61,7 +63,7 @@ export function PracticeHubView() {
 
   return (
     <div>
-      <PageHeader title="Luyện tập" subtitle="Biến từ đã học thành từ tự dùng được: nói, viết, sửa lỗi, nghe – chép." />
+      <PageHeader title="Luyện tập" subtitle="Biến từ đã học thành từ tự dùng được: nói, viết, chính tả, sửa lỗi, nghe – chép." />
       <div className="space-y-3">
         <HubCard
           href="/practice/speaking"
@@ -77,6 +79,20 @@ export function PracticeHubView() {
           description={`Đề tuần: “${promptForWeek(today).titleVi}” (80–120 từ). AI sửa ngữ pháp, mạo từ, chính tả và giọng văn.`}
           meta={wroteThisWeek ? "Đã nộp bài tuần này" : "Chưa nộp bài tuần này"}
           highlight={!wroteThisWeek}
+        />
+        <HubCard
+          href="/practice/spelling"
+          icon="keyboard"
+          title="Luyện chính tả"
+          description="Nghe hoặc nhìn nghĩa rồi gõ lại từ đã học. Từ bạn hay viết sai được hỏi trước cho đến khi gõ đúng ổn định."
+          meta={
+            weakSpelling > 0
+              ? `${weakSpelling} từ hay viết sai cần luyện`
+              : learned > 0
+                ? `${learned} từ có thể luyện`
+                : "Học vài từ mới trước đã"
+          }
+          highlight={weakSpelling > 0}
         />
         <HubCard
           href="/practice/write"

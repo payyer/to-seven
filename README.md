@@ -30,15 +30,16 @@ Cần Node.js ≥ 20.9.
 |---|---|
 | `/` Tổng quan | Việc hôm nay (ôn → học mới → dùng từ), số từ đã học / đã thuộc, chuỗi ngày, thẻ cần ôn, biểu đồ 8 tuần |
 | `/placement` | 30 từ chia 6 band tần suất (A1 → B2+), có nút “Tôi không biết”, trừ điểm đoán mò, ước lượng word family + level + nhóm từ nên học |
-| `/learn` | Thẻ 4 mặt: Nghĩa → Cách đọc (IPA, trọng âm, nghe thường/chậm) → Cách dùng (2 collocation, câu ví dụ) → **Đặt câu** (AI chữa). Phím ← → |
-| `/review` | Hiện nghĩa tiếng Việt → gõ từ → so từng chữ cái → tự chấm Quên/Khó/Nhớ/Dễ (phím 1–4, Enter = mức gợi ý). Từ bị quên được hỏi lại cuối phiên |
+| `/learn` | Thẻ 5 mặt: Nghĩa → Cách đọc (IPA, trọng âm, nghe thường/chậm) → **Viết** (chép lại, rồi che từ và viết theo trí nhớ; sai thì so từng chữ cái và gõ lại, phải đúng mới đi tiếp) → Cách dùng (2 collocation, câu ví dụ) → **Đặt câu** (AI chữa). Phím ← →. Học xong chỉ tiêu ngày có **kiểm tra chính tả cuối buổi** (nhìn nghĩa, gõ lại các từ vừa học) |
+| `/review` | Hiện nghĩa tiếng Việt → gõ từ → so từng chữ cái → nếu chưa đúng thì **gõ lại từ đúng một lần** → tự chấm Quên/Khó/Nhớ/Dễ (phím 1–4, Enter = mức gợi ý). Từ bị quên được hỏi lại cuối phiên |
+| `/practice/spelling` | Luyện chính tả: nghe – gõ hoặc nhìn nghĩa – gõ, 10 từ/lượt, từ hay viết sai được hỏi trước. Mỗi thẻ ghi số lần gõ sai và chuỗi gõ đúng ngay lần đầu; đúng 3 lần liên tiếp là “đã sửa được” (`src/lib/spelling.ts`) |
 | `/practice/write` | Đặt câu với từ đã học. AI tô chỗ sai + gợi ý → **bạn tự sửa trước** → mới hiện giải thích, câu đúng (diff), câu tương tự để dịch lại |
 | `/practice/speaking` | Speaking Part 1: 70 câu hỏi / 14 chủ đề, nói (Web Speech API, tự bật lại khi trình duyệt ngắt) hoặc gõ, sửa transcript trước khi gửi. AI góp ý PEER, sửa thì / hoà hợp chủ ngữ – động từ (tự sửa trước), từ hay hơn, gợi ý dùng từ mới học 14 ngày gần nhất, câu trả lời mẫu để đọc theo |
 | `/practice/writing` | Mỗi tuần 1 đề General Training 80–120 từ (26 đề xoay vòng: thư thân mật / bán trang trọng / trang trọng, đoạn ý kiến). Đếm từ trực tiếp, tự lưu nháp, tối đa 3 lần nộp/tuần. AI sửa lỗi (tự sửa trước), gợi ý giọng văn, bài đã sửa giữ nguyên ý |
 | `/report` | Báo cáo tuần: ngày học, từ mới, từ đã thuộc, độ chính xác khi ôn, số câu / lượt nói / bài viết / dictation, 3 lỗi hay gặp, so với tuần trước. Kế hoạch tuần sau do AI soạn (hoặc gợi ý theo luật nếu không có AI), nút áp dụng số từ mới/ngày |
 | `/practice/mistakes` | Sổ lỗi sai: thống kê theo loại, lỗi hay lặp lại, danh sách có lọc, nút xoá khi AI chấm nhầm, **chế độ ôn**: sửa đoạn bị tô đỏ |
 | `/practice/dictation` | Nghe – chép 24 bài có sẵn (A1–B1, câu trả lời kiểu Part 1), câu ví dụ của từ đã học, hoặc văn bản tự dán. So theo từ, tô đỏ chỗ sai |
-| `/words` | 240 từ, lọc theo chủ đề / level / trạng thái, tìm kiếm |
+| `/words` | Toàn bộ kho từ, lọc theo chủ đề / LIST trên lớp / level / trạng thái, tìm kiếm |
 | `/settings` | Số từ mỗi ngày, nhóm level ưu tiên, chủ đề ưu tiên, mã truy cập AI, giọng đọc, xuất/nhập/xoá dữ liệu |
 
 ### Lịch ôn từ (SM-2 rút gọn) — `src/lib/srs.ts`
@@ -100,9 +101,9 @@ UI không gọi trực tiếp `localStorage`. Mọi dữ liệu đi qua `store.t
 | Phương thức | Bảng Supabase dự kiến |
 |---|---|
 | `saveSettings` | `user_settings` (1 dòng / user) |
-| `saveCards` | `cards` (user_id, word_id, reps, ease, interval, due, …) — upsert |
+| `saveCards` | `cards` (user_id, word_id, reps, ease, interval, due, …, misspells, spell_streak, last_misspelled_at) — upsert |
 | `savePlan` | `daily_plans` (user_id, date, word_ids, extra) |
-| `saveActivity` | `activity` (user_id, date, new_words, reviews, forgot, sentences, dictations, error_reviews) |
+| `saveActivity` | `activity` (user_id, date, new_words, reviews, forgot, sentences, dictations, error_reviews, speaking, writing, spelling) |
 | `savePlacement` | `placement_results` |
 | `appendSentence` | `sentence_attempts` (feedback lưu dạng jsonb) |
 | `saveErrors` / `deleteError` | `error_entries` (có cột `source`: sentence / speaking / writing) — upsert / delete theo id |

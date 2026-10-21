@@ -4,7 +4,7 @@ import type { CardState, DayActivity } from "./types";
 
 export function isActiveDay(day: DayActivity | undefined): boolean {
   if (!day) return false;
-  const extra = (day.sentences ?? 0) + (day.dictations ?? 0) + (day.errorReviews ?? 0) + (day.speaking ?? 0) + (day.writing ?? 0);
+  const extra = (day.sentences ?? 0) + (day.dictations ?? 0) + (day.errorReviews ?? 0) + (day.speaking ?? 0) + (day.writing ?? 0) + (day.spelling ?? 0);
   return day.newWords + day.reviews + extra > 0;
 }
 

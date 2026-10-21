@@ -6,6 +6,7 @@ import { toDateKey } from "./date";
 import { samePlan, syncPlan } from "./planner";
 import { getRepository } from "./repository";
 import { addErrors, makeErrorEntries, makeTextErrorEntries, reviewError as reviewErrorEntry } from "./mistakes";
+import { recordSpell } from "./spelling";
 import { knownCard, newCard, schedule } from "./srs";
 import type {
   CardState,
@@ -145,11 +146,13 @@ export function markKnown(wordId: string) {
   setState(withPlan({ ...state, cards }, state.today));
 }
 
-export function gradeCard(wordId: string, grade: Grade) {
+/** `spelledOk`: lần gõ đầu có đúng chính tả không (bỏ trống khi người học bấm "Không nhớ"). */
+export function gradeCard(wordId: string, grade: Grade, spelledOk?: boolean) {
   if (!state) return;
   const card = state.cards[wordId];
   if (!card) return;
-  const next = schedule(card, grade, state.today);
+  const spelled = spelledOk === undefined ? card : recordSpell(card, spelledOk, state.today);
+  const next = schedule(spelled, grade, state.today);
   setState({
     ...state,
     cards: putCard(state, next),
@@ -161,6 +164,14 @@ export function gradeCard(wordId: string, grade: Grade) {
 export function logPractice() {
   if (!state) return;
   setState({ ...state, activity: bumpActivity(state, { reviews: 1 }) });
+}
+
+/** Kết quả lần gõ đầu trong bài kiểm tra / luyện chính tả. Không đổi lịch ôn. */
+export function recordSpelling(wordId: string, ok: boolean) {
+  if (!state) return;
+  const card = state.cards[wordId];
+  const cards = card ? putCard(state, recordSpell(card, ok, state.today)) : state.cards;
+  setState({ ...state, cards, activity: bumpActivity(state, { spelling: 1 }) });
 }
 
 export function learnMore(count: number) {

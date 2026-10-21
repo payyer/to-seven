@@ -5,26 +5,19 @@ import { WORD_BY_ID } from "@/data/words";
 import { formatLong } from "@/lib/date";
 import { playWord } from "@/lib/speech";
 import { formatInterval, GRADE_LABEL, GRADES, isDue, previewInterval } from "@/lib/srs";
+import { letterPattern, shuffle } from "@/lib/spelling";
 import { gradeCard, logPractice, useAppState } from "@/lib/store";
-import { charDiff, checkAnswer, maskWord, type AnswerVerdict, type DiffPart } from "@/lib/text";
+import { checkAnswer, maskWord, type AnswerVerdict } from "@/lib/text";
 import { POS_LABEL, type CardState, type Grade, type Word } from "@/lib/types";
 import { Icon } from "../Icon";
 import { SpeakWord, StressWord } from "../Pronounce";
+import { RetypeBox, SpellDiff } from "../Spelling";
 import { Badge, Button, ButtonLink, Card, Kbd, Loading, PageHeader, ProgressBar } from "../ui";
 import { Highlighted } from "../WordBits";
 
 type QueueItem = { id: string; relearn: boolean };
 type Tally = Record<Grade, number>;
 const EMPTY_TALLY: Tally = { again: 0, hard: 0, good: 0, easy: 0 };
-
-function shuffle<T>(items: T[]): T[] {
-  const a = [...items];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
 
 export function ReviewView() {
   const state = useAppState();
@@ -70,11 +63,11 @@ export function ReviewView() {
   const word = WORD_BY_ID[item.id];
   const card = cards[item.id];
 
-  const finish = (grade: Grade | null) => {
+  const finish = (grade: Grade | null, spelledOk?: boolean) => {
     if (item.relearn || !grade) {
       logPractice();
     } else {
-      gradeCard(item.id, grade);
+      gradeCard(item.id, grade, spelledOk);
       setTally((t) => ({ ...t, [grade]: t[grade] + 1 }));
       // Từ bị quên được hỏi lại một lần ở cuối phiên (không đổi lịch).
       if (grade === "again") setQueue((q) => [...(q ?? []), { id: item.id, relearn: true }]);
@@ -155,7 +148,7 @@ function StartCard({
         <li>
           1. Đọc nghĩa tiếng Việt, <strong className="text-ink">tự gõ</strong> từ tiếng Anh (không xem đáp án trước).
         </li>
-        <li>2. Xem đáp án, nghe lại phát âm, so từng chữ cái nếu gõ sai.</li>
+        <li>2. Xem đáp án, nghe lại phát âm. Gõ sai thì so từng chữ cái và gõ lại cho đúng một lần.</li>
         <li>
           3. Tự chấm: <strong className="text-ink">Quên / Khó / Nhớ / Dễ</strong>. App sẽ hẹn lần ôn tiếp theo (1 → 3 → 7 → 14 ngày…).
         </li>
@@ -164,35 +157,17 @@ function StartCard({
   );
 }
 
-function letterPattern(word: string, reveal: boolean): string {
-  return word.replace(/[a-z]/gi, (ch, i: number) => (reveal && i === 0 ? ch : "_")).split("").join(" ");
-}
-
 function suggestGrade(verdict: AnswerVerdict | "gaveup", hints: number): Grade {
   if (verdict === "gaveup" || verdict === "wrong") return "again";
   if (verdict === "close" || hints > 0) return "hard";
   return "good";
 }
 
-function DiffLine({ parts }: { parts: DiffPart[] }) {
-  return (
-    <span className="font-mono text-lg tracking-wide">
-      {parts.map((p, i) => (
-        <span
-          key={i}
-          className={
-            p.kind === "extra"
-              ? "rounded-sm bg-bad-soft text-bad line-through"
-              : p.kind === "missing"
-                ? "rounded-sm bg-good-soft font-bold text-good underline"
-                : ""
-          }
-        >
-          {p.text}
-        </span>
-      ))}
-    </span>
-  );
+/** Lần gõ đầu có đúng chính tả không; "Không nhớ" thì không tính. */
+function spelledOkOf(verdict: AnswerVerdict | "gaveup" | null): boolean | undefined {
+  if (verdict === "correct") return true;
+  if (verdict === "close" || verdict === "wrong") return false;
+  return undefined;
 }
 
 function RecallCard({
@@ -206,13 +181,17 @@ function RecallCard({
   card: CardState;
   relearn: boolean;
   preferReal: boolean;
-  onDone: (grade: Grade | null) => void;
+  onDone: (grade: Grade | null, spelledOk?: boolean) => void;
 }) {
   const [input, setInput] = useState("");
   const [verdict, setVerdict] = useState<AnswerVerdict | "gaveup" | null>(null);
   const [hints, setHints] = useState(0);
+  const [retyped, setRetyped] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const revealed = verdict !== null;
+  // Chưa gõ đúng ngay: phải gõ lại từ đúng một lần rồi mới được chấm.
+  const mustRetype = revealed && verdict !== "correct" && !retyped;
+  const spelledOk = spelledOkOf(verdict);
   const suggested = verdict ? suggestGrade(verdict, hints) : "good";
   const masked = maskWord(word.example, word.word);
   const maxHints = masked ? 2 : 1;
@@ -231,22 +210,22 @@ function RecallCard({
   };
 
   useEffect(() => {
-    if (!revealed) return;
+    if (!revealed || mustRetype) return;
     const onKey = (e: KeyboardEvent) => {
-      if (e.target instanceof HTMLElement && e.target.closest("button, a")) return;
+      if (e.target instanceof HTMLElement && e.target.closest("button, a, input")) return;
       if (relearn) {
         if (e.key === "Enter") onDone(null);
         return;
       }
       const index = ["1", "2", "3", "4"].indexOf(e.key);
-      if (index >= 0) onDone(GRADES[index]);
-      else if (e.key === "Enter") onDone(suggested);
+      if (index >= 0) onDone(GRADES[index], spelledOk);
+      else if (e.key === "Enter") onDone(suggested, spelledOk);
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [revealed, relearn, suggested, onDone]);
+  }, [revealed, mustRetype, relearn, suggested, spelledOk, onDone]);
 
-  const diff = verdict && verdict !== "correct" && input.trim() ? charDiff(input.trim(), word.word) : null;
+  const showDiff = verdict && verdict !== "correct" && input.trim();
 
   const banner = {
     correct: { tone: "bg-good-soft text-good", text: "Chính xác!" },
@@ -332,14 +311,9 @@ function RecallCard({
                 {verdict === "wrong" && <Icon name="x" />}
                 {banner[verdict].text}
               </div>
-              {diff && (
-                <div className="mt-2 space-y-1 text-sm text-ink-2">
-                  <div>
-                    Bạn gõ: <DiffLine parts={diff.given} />
-                  </div>
-                  <div>
-                    Đáp án: <DiffLine parts={diff.answer} />
-                  </div>
+              {showDiff && (
+                <div className="mt-2">
+                  <SpellDiff given={input.trim()} answer={word.word} />
                 </div>
               )}
             </div>
@@ -362,11 +336,19 @@ function RecallCard({
               <p className="mt-0.5 text-sm text-ink-2">{word.exampleVi}</p>
               <p className="mt-2 text-xs text-ink-3">Hay đi với: {word.collocations.join(" · ")}</p>
             </div>
+
+            {verdict !== "correct" && (retyped ? (
+              <p className="flex items-center gap-1.5 text-sm text-good">
+                <Icon name="check" /> Đã gõ lại đúng.
+              </p>
+            ) : (
+              <RetypeBox word={word} onDone={() => setRetyped(true)} />
+            ))}
           </div>
         )}
       </div>
 
-      {revealed && (
+      {revealed && !mustRetype && (
         <div className="border-t border-line p-4">
           {relearn ? (
             <div className="flex justify-end">
@@ -382,7 +364,7 @@ function RecallCard({
                   <button
                     key={g}
                     type="button"
-                    onClick={() => onDone(g)}
+                    onClick={() => onDone(g, spelledOk)}
                     className={`flex flex-col items-center rounded-xl border px-1 py-2.5 text-sm transition-colors hover:bg-surface-2 ${
                       g === suggested ? "border-accent ring-2 ring-accent/25" : "border-line"
                     }`}

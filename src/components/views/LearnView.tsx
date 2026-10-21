@@ -10,9 +10,11 @@ import { Icon } from "../Icon";
 import { SpeakWord, StressHint, StressWord } from "../Pronounce";
 import { Button, ButtonLink, Card, Kbd, Loading, PageHeader, ProgressBar } from "../ui";
 import { SentencePractice } from "../SentencePractice";
+import { SpellQuiz, SpellTask } from "../Spelling";
 import { Usage, WordMeta } from "../WordBits";
 
-const FACES = ["Nghĩa", "Cách đọc", "Cách dùng", "Đặt câu"] as const;
+const FACES = ["Nghĩa", "Cách đọc", "Viết", "Cách dùng", "Đặt câu"] as const;
+const WRITE_FACE = 2;
 
 export function LearnView() {
   const state = useAppState();
@@ -26,7 +28,10 @@ export function LearnView() {
 
   return (
     <div>
-      <PageHeader title="Học từ mới" subtitle={`Mỗi từ: nghĩa → cách đọc → cách dùng → tự đặt câu. Chỉ tiêu hôm nay: ${goal} từ.`} />
+      <PageHeader
+        title="Học từ mới"
+        subtitle={`Mỗi từ: nghĩa → cách đọc → viết đúng → cách dùng → tự đặt câu. Chỉ tiêu hôm nay: ${goal} từ.`}
+      />
 
       <div className="mb-4 flex items-center gap-3">
         <ProgressBar value={learned.length} max={goal} label="Tiến độ học hôm nay" />
@@ -38,7 +43,7 @@ export function LearnView() {
       {currentId ? (
         <LearnCard key={currentId} word={WORD_BY_ID[currentId]} preferReal={settings.preferRealAudio} />
       ) : (
-        <DoneCard learnedIds={learned} due={due} bankEmpty={plan.wordIds.length < goal} />
+        <DoneCard learnedIds={learned} due={due} bankEmpty={plan.wordIds.length < goal} preferReal={settings.preferRealAudio} />
       )}
 
       {plan.wordIds.length > 0 && (
@@ -74,14 +79,22 @@ export function LearnView() {
 
 function LearnCard({ word, preferReal }: { word: Word; preferReal: boolean }) {
   const [face, setFace] = useState(0);
+  // Bước viết: 0 = chép lại, 1 = viết theo trí nhớ, 2 = xong.
+  const [writeStep, setWriteStep] = useState(0);
   const isLast = face === FACES.length - 1;
+  // Phải viết đúng mới sang mặt tiếp theo (vẫn bấm được tab nếu muốn bỏ qua).
+  const blocked = face === WRITE_FACE && writeStep < 2;
 
   const goTo = (next: number) => {
     setFace(next);
     if (next === 1) void playWord(word.word, { preferReal });
   };
 
-  const advance = () => (isLast ? learnWord(word.id) : goTo(face + 1));
+  const advance = () => {
+    if (blocked) return;
+    if (isLast) learnWord(word.id);
+    else goTo(face + 1);
+  };
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -91,6 +104,7 @@ function LearnCard({ word, preferReal }: { word: Word; preferReal: boolean }) {
       const onControl = !!target?.closest("button, a");
       if (e.key === "ArrowRight" || (!onControl && (e.key === "Enter" || e.key === " "))) {
         e.preventDefault();
+        if (face === WRITE_FACE && writeStep < 2) return;
         if (face === FACES.length - 1) learnWord(word.id);
         else {
           setFace(face + 1);
@@ -102,7 +116,7 @@ function LearnCard({ word, preferReal }: { word: Word; preferReal: boolean }) {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [face, word, preferReal]);
+  }, [face, writeStep, word, preferReal]);
 
   return (
     <Card flush>
@@ -118,8 +132,9 @@ function LearnCard({ word, preferReal }: { word: Word; preferReal: boolean }) {
               face === i ? "border-accent font-semibold text-accent-strong" : "border-transparent text-ink-3 hover:text-ink"
             }`}
           >
-            <span className="tabular mr-1 text-xs">{i + 1}.</span>
+            <span className="tabular mr-1 hidden text-xs sm:inline">{i + 1}.</span>
             {label}
+            {i === WRITE_FACE && writeStep === 2 && <Icon name="check" className="ml-0.5 inline h-3 w-3 text-good" />}
           </button>
         ))}
       </div>
@@ -152,7 +167,62 @@ function LearnCard({ word, preferReal }: { word: Word; preferReal: boolean }) {
           </div>
         )}
 
-        {face === 2 && (
+        {face === WRITE_FACE && (
+          <div className="mx-auto max-w-md">
+            <ol className="mb-5 flex gap-2 text-xs">
+              {["Chép lại", "Viết theo trí nhớ"].map((label, i) => (
+                <li
+                  key={label}
+                  className={`flex-1 rounded-full border px-3 py-1 text-center ${
+                    writeStep > i
+                      ? "border-good/30 bg-good-soft text-good"
+                      : writeStep === i
+                        ? "border-accent bg-accent-soft font-semibold text-accent-strong"
+                        : "border-line text-ink-3"
+                  }`}
+                >
+                  {i + 1}. {label}
+                </li>
+              ))}
+            </ol>
+            {writeStep === 0 && (
+              <SpellTask
+                key="copy"
+                word={word}
+                mode="copy"
+                preferReal={preferReal}
+                onPass={() => setWriteStep(1)}
+                passLabel="Viết theo trí nhớ"
+              />
+            )}
+            {writeStep === 1 && (
+              <SpellTask
+                key="recall"
+                word={word}
+                mode="meaning"
+                preferReal={preferReal}
+                onPass={() => {
+                  setWriteStep(2);
+                  goTo(WRITE_FACE + 1);
+                }}
+                passLabel={FACES[WRITE_FACE + 1]}
+              />
+            )}
+            {writeStep === 2 && (
+              <div className="flex flex-col items-center gap-3 py-6 text-center">
+                <div className="grid h-12 w-12 place-items-center rounded-full bg-good-soft text-good">
+                  <Icon name="check" className="h-6 w-6" />
+                </div>
+                <p className="font-semibold">Bạn đã viết đúng “{word.word}”.</p>
+                <Button variant="secondary" onClick={() => setWriteStep(0)}>
+                  Viết lại lần nữa
+                </Button>
+              </div>
+            )}
+          </div>
+        )}
+
+        {face === 3 && (
           <div className="space-y-5">
             <div className="flex items-baseline justify-between gap-3">
               <div className="text-2xl font-bold">{word.word}</div>
@@ -162,7 +232,7 @@ function LearnCard({ word, preferReal }: { word: Word; preferReal: boolean }) {
           </div>
         )}
 
-        {face === 3 && (
+        {face === 4 && (
           <div className="space-y-4">
             <div className="flex items-baseline justify-between gap-3">
               <div className="text-2xl font-bold">{word.word}</div>
@@ -192,8 +262,10 @@ function LearnCard({ word, preferReal }: { word: Word; preferReal: boolean }) {
               Quay lại
             </Button>
           )}
-          <Button onClick={advance}>
-            {isLast ? (
+          <Button onClick={advance} disabled={blocked} title={blocked ? "Viết đúng từ này để đi tiếp" : undefined}>
+            {blocked ? (
+              "Viết đúng để đi tiếp"
+            ) : isLast ? (
               <>
                 <Icon name="check" /> Đã học xong từ này
               </>
@@ -209,7 +281,36 @@ function LearnCard({ word, preferReal }: { word: Word; preferReal: boolean }) {
   );
 }
 
-function DoneCard({ learnedIds, due, bankEmpty }: { learnedIds: string[]; due: number; bankEmpty: boolean }) {
+function DoneCard({
+  learnedIds,
+  due,
+  bankEmpty,
+  preferReal,
+}: {
+  learnedIds: string[];
+  due: number;
+  bankEmpty: boolean;
+  preferReal: boolean;
+}) {
+  const [quiz, setQuiz] = useState(false);
+  const [checked, setChecked] = useState(false);
+
+  if (quiz) {
+    return (
+      <SpellQuiz
+        words={learnedIds.map((id) => WORD_BY_ID[id]).filter(Boolean)}
+        mode="meaning"
+        preferReal={preferReal}
+        exitLabel="Về trang học"
+        onExit={() => {
+          setQuiz(false);
+          setChecked(true);
+        }}
+      />
+    );
+  }
+
+  const canCheck = learnedIds.length > 0 && !checked;
   return (
     <Card className="text-center">
       <div className="mx-auto mb-3 grid h-12 w-12 place-items-center rounded-full bg-good-soft text-good">
@@ -223,10 +324,27 @@ function DoneCard({ learnedIds, due, bankEmpty }: { learnedIds: string[]; due: n
           ? `Hôm nay bạn đã học ${learnedIds.length} từ. Lần ôn đầu tiên là ngày mai, bạn sẽ phải tự gõ lại từ.`
           : "Hôm nay chưa có từ mới nào."}
       </p>
+      {canCheck && (
+        <div className="mx-auto mt-5 max-w-md rounded-xl border border-accent/40 bg-accent-soft p-4 text-left">
+          <div className="flex items-center gap-1.5 font-semibold text-accent-strong">
+            <Icon name="pen" /> Kiểm tra chính tả cuối buổi
+          </div>
+          <p className="mt-1 text-sm text-ink-2">
+            Nhìn nghĩa, gõ lại {learnedIds.length} từ vừa học. Từ nào sai sẽ hỏi lại đến khi đúng. Không ảnh hưởng lịch ôn.
+          </p>
+          <Button className="mt-3" onClick={() => setQuiz(true)} autoFocus>
+            Bắt đầu kiểm tra <Icon name="arrowRight" />
+          </Button>
+        </div>
+      )}
       <div className="mt-5 flex flex-wrap justify-center gap-2">
-        {due > 0 && <ButtonLink href="/review">Ôn tập {due} thẻ</ButtonLink>}
+        {due > 0 && (
+          <ButtonLink href="/review" variant={canCheck ? "secondary" : "primary"}>
+            Ôn tập {due} thẻ
+          </ButtonLink>
+        )}
         {!bankEmpty && (
-          <Button variant={due > 0 ? "secondary" : "primary"} onClick={() => learnMore(5)}>
+          <Button variant={due > 0 || canCheck ? "secondary" : "primary"} onClick={() => learnMore(5)}>
             Học thêm 5 từ
           </Button>
         )}
