@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --bg: #f6f6f3;
+  --surface: #ffffff;
+  --surface-2: #f0efeb;
+  --line: #e3e2dd;
+  --grid: #ebeae6;
+  --ink: #0b0b0b;
+  --ink-2: #52514e;
+  --ink-3: #7a7974;
+  --accent: #2a78d6;
+  --accent-strong: #1c5cab;
+  --accent-soft: #e7f0fb;
+  --on-accent: #ffffff;
+  --good: #16794a;
+  --good-soft: #e3f4ea;
+  --warn: #8a5a00;
+  --warn-soft: #fdf1d6;
+  --bad: #c0392b;
+  --bad-soft: #fbe9e7;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bg: #121211;
+    --surface: #1a1a19;
+    --surface-2: #242422;
+    --line: #2f2f2c;
+    --grid: #2a2a28;
+    --ink: #f0efec;
+    --ink-2: #c3c2b7;
+    --ink-3: #8f8e86;
+    --accent: #3987e5;
+    --accent-strong: #6da7ec;
+    --accent-soft: #182a40;
+    --on-accent: #ffffff;
+    --good: #4cc38a;
+    --good-soft: #15291f;
+    --warn: #e0b24a;
+    --warn-soft: #2d2412;
+    --bad: #f07a6e;
+    --bad-soft: #321a17;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-soft: var(--accent-soft);
+  --color-on-accent: var(--on-accent);
+  --color-good: var(--good);
+  --color-good-soft: var(--good-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --font-sans: var(--font-be-vietnam), "Segoe UI", system-ui, sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+}
+
+/* Phiên âm IPA cần font có đủ ký tự (ə, ʃ, ˈ...). */
+.ipa {
+  font-family: "Segoe UI", "Lucida Sans Unicode", "Noto Sans", "DejaVu Sans", sans-serif;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
