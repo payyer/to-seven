@@ -69,6 +69,9 @@ Cần Node.js ≥ 20.9.
 ### Kho từ & bài nghe — `src/data/`
 
 - `words.ts`: 240 từ tự soạn theo 14 chủ đề Part 1 (A1: 16, A2: 72, B1: 125, B2: 27). Không nạp NGSL vì danh sách đó chỉ có headword, còn mỗi thẻ cần nghĩa Việt, IPA, trọng âm, collocation, câu ví dụ A2–B1. Test kiểm tra từng từ.
+- Chủ đề "Từ bạn thêm" (`mylist` trong `words.ts`): từ người học gửi trong chat, học trước theo `MY_WORD_IDS`.
+- `class-words.ts`: từ vựng trên lớp, chia theo LIST, lấy từ Google Sheet của trung tâm. Thẻ mới thuộc chủ đề "Từ trên lớp". Từ đã có trong kho chỉ được gắn nhãn LIST, không tạo thẻ trùng. Thứ tự học: từ tự gửi, rồi tới LIST 1, 2, 3…
+  - `npm run class-lists`: đọc sheet và báo LIST nào mới hoặc đã bị sửa (so số dòng với `sourceRows`), kèm các dòng cần soạn. Thêm `-- --all` để in mọi LIST. Script chỉ đọc, không sửa file.
 - `dictation.ts`: 24 bài A1–B1 kèm bản dịch.
 - `speaking-questions.ts`: 70 câu hỏi Part 1. `writing-prompts.ts`: 26 đề General Training + hướng dẫn và mẫu câu theo dạng đề.
 

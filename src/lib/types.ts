@@ -20,7 +20,9 @@ export type TopicId =
   | "people"
   | "entertainment"
   /** Từ người học tự thêm. */
-  | "mylist";
+  | "mylist"
+  /** Từ vựng trên lớp (các LIST của trung tâm). */
+  | "class";
 
 export interface Topic {
   id: TopicId;
@@ -48,6 +50,8 @@ export interface Word {
   exampleVi: string;
   /** Cách viết khác được chấp nhận khi gõ (ví dụ chính tả Anh-Mỹ). */
   altSpellings?: string[];
+  /** Các LIST trên lớp có từ này (LIST 1, 2…). */
+  classLists?: number[];
 }
 
 export type Grade = "again" | "hard" | "good" | "easy";

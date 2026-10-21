@@ -7,8 +7,8 @@ export interface SpeakingQuestion {
 }
 
 /** Câu hỏi IELTS Speaking Part 1 thường gặp, cùng 14 chủ đề với kho từ. */
-// Chủ đề "mylist" (từ người học tự thêm) không có câu hỏi riêng.
-const RAW: Record<Exclude<TopicId, "mylist">, string[]> = {
+// Chủ đề "mylist" (từ người học tự thêm) và "class" (từ trên lớp) không có câu hỏi riêng.
+const RAW: Record<Exclude<TopicId, "mylist" | "class">, string[]> = {
   work: [
     "Do you work or are you a student?",
     "Why did you choose that job?",

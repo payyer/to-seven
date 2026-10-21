@@ -1,13 +1,14 @@
 "use client";
 
 import { useState } from "react";
+import { CLASS_LISTS } from "@/data/class-words";
 import { TOPICS } from "@/data/topics";
 import { WORDS } from "@/data/words";
 import { formatLong } from "@/lib/date";
 import { isMastered } from "@/lib/srs";
 import { useAppState } from "@/lib/store";
 import { normalizeAnswer } from "@/lib/text";
-import { LEVELS, type CardState, type Level, type TopicId } from "@/lib/types";
+import { LEVELS, type CardState, type Level, type TopicId, type Word } from "@/lib/types";
 import { Icon } from "../Icon";
 import { SpeakWord, StressWord } from "../Pronounce";
 import { Badge, Loading, PageHeader } from "../ui";
@@ -27,13 +28,24 @@ function statusOf(card: CardState | undefined): Exclude<Status, "all"> {
   return isMastered(card) ? "mastered" : "learning";
 }
 
+/** Chủ đề, hoặc một LIST trên lớp ("list-3"). */
+type TopicFilter = TopicId | "all" | `list-${number}`;
+
+function matchesTopic(w: Word, filter: TopicFilter): boolean {
+  if (filter === "all") return true;
+  // "Từ trên lớp" gồm cả từ đã có sẵn ở chủ đề khác nhưng nằm trong LIST.
+  if (filter === "class") return Boolean(w.classLists?.length);
+  if (filter.startsWith("list-")) return w.classLists?.includes(Number(filter.slice(5))) ?? false;
+  return w.topic === filter;
+}
+
 const SELECT =
   "rounded-lg border border-line bg-surface px-3 py-2 text-sm outline-none focus:border-accent focus:ring-2 focus:ring-accent/25";
 
 export function WordsView() {
   const state = useAppState();
   const [query, setQuery] = useState("");
-  const [topic, setTopic] = useState<TopicId | "all">("all");
+  const [topic, setTopic] = useState<TopicFilter>("all");
   const [level, setLevel] = useState<Level | "all">("all");
   const [status, setStatus] = useState<Status>("all");
 
@@ -43,7 +55,7 @@ export function WordsView() {
   const q = normalizeAnswer(query);
   const list = WORDS.filter(
     (w) =>
-      (topic === "all" || w.topic === topic) &&
+      matchesTopic(w, topic) &&
       (level === "all" || w.level === level) &&
       (status === "all" || statusOf(cards[w.id]) === status) &&
       (!q || w.word.toLowerCase().includes(q) || w.vi.toLowerCase().includes(q)),
@@ -51,7 +63,7 @@ export function WordsView() {
 
   return (
     <div>
-      <PageHeader title="Kho từ" subtitle={`${WORDS.length} từ theo ${TOPICS.length} chủ đề IELTS Speaking Part 1`} />
+      <PageHeader title="Kho từ" subtitle={`${WORDS.length} từ theo chủ đề IELTS Speaking Part 1 và các LIST trên lớp`} />
 
       <div className="mb-4 grid gap-2 sm:grid-cols-[1fr_auto_auto_auto]">
         <input
@@ -62,13 +74,20 @@ export function WordsView() {
           aria-label="Tìm từ"
           className={SELECT}
         />
-        <select value={topic} onChange={(e) => setTopic(e.target.value as TopicId | "all")} aria-label="Chủ đề" className={SELECT}>
+        <select value={topic} onChange={(e) => setTopic(e.target.value as TopicFilter)} aria-label="Chủ đề" className={SELECT}>
           <option value="all">Mọi chủ đề</option>
           {TOPICS.map((t) => (
             <option key={t.id} value={t.id}>
               {t.name}
             </option>
           ))}
+          <optgroup label="Từng LIST trên lớp">
+            {CLASS_LISTS.map((l) => (
+              <option key={l.list} value={`list-${l.list}`}>
+                LIST {l.list} · {l.title}
+              </option>
+            ))}
+          </optgroup>
         </select>
         <select value={level} onChange={(e) => setLevel(e.target.value as Level | "all")} aria-label="Level" className={SELECT}>
           <option value="all">Mọi level</option>

@@ -10,6 +10,11 @@ export function WordMeta({ word }: { word: Word }) {
       <Badge tone="accent">{POS_LABEL[word.pos]}</Badge>
       <Badge>{word.level}</Badge>
       <Badge>{TOPIC_BY_ID[word.topic].name}</Badge>
+      {word.classLists?.map((n) => (
+        <Badge key={n} tone="good">
+          LIST {n}
+        </Badge>
+      ))}
     </div>
   );
 }

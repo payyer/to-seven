@@ -16,6 +16,7 @@ export const TOPICS: Topic[] = [
   { id: "people", name: "Gia đình & bạn bè", sampleQuestion: "Do you spend much time with your family?" },
   { id: "entertainment", name: "Phim, nhạc & sách", sampleQuestion: "What kind of films do you like?" },
   { id: "mylist", name: "Từ bạn thêm", sampleQuestion: "How has your city changed in recent years?" },
+  { id: "class", name: "Từ trên lớp", sampleQuestion: "How do you usually communicate with your friends?" },
 ];
 
 export const TOPIC_BY_ID = Object.fromEntries(TOPICS.map((t) => [t.id, t])) as Record<TopicId, Topic>;

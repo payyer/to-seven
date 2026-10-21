@@ -1,4 +1,5 @@
 import type { Level, PartOfSpeech, TopicId, Word } from "@/lib/types";
+import { CLASS_LISTS } from "./class-words";
 
 /**
  * Kho từ tự soạn theo chủ đề IELTS Speaking Part 1.
@@ -6,7 +7,7 @@ import type { Level, PartOfSpeech, TopicId, Word } from "@/lib/types";
  *
  * Mỗi dòng: [từ, loại từ, nghĩa, IPA, trọng âm, level, [collocation 1, collocation 2], câu ví dụ, nghĩa câu ví dụ]
  */
-type RawWord = [
+export type RawWord = [
   word: string,
   pos: PartOfSpeech,
   vi: string,
@@ -314,7 +315,7 @@ const RAW: Record<TopicId, RawWord[]> = {
     ["change", "n", "tiền thối lại, tiền lẻ", "/tʃeɪndʒ/", "CHANGE", "A2", ["keep the change", "small change"], "The cashier gave me the wrong change.", "Thu ngân thối nhầm tiền cho tôi."],
     ["currency", "n", "tiền tệ, đơn vị tiền", "/ˈkʌrənsi/", "CUR·ren·cy", "B1", ["foreign currency", "the local currency"], "You can change foreign currency at the airport.", "Bạn có thể đổi ngoại tệ ở sân bay."],
     ["pound", "n", "đồng bảng Anh (£)", "/paʊnd/", "POUND", "A2", ["ten pounds", "a pound coin"], "This T-shirt costs fifteen pounds.", "Chiếc áo phông này giá mười lăm bảng."],
-    ["lend", "v", "cho mượn, cho vay", "/lend/", "LEND", "A2", ["lend money to someone", "lend me your pen"], "Could you lend me some money until Friday?", "Bạn cho tôi mượn ít tiền đến thứ Sáu được không?"],
+    ["lend", "v", "cho mượn, cho vay (lend – lent – lent)", "/lend/", "LEND", "A2", ["lend money to someone", "lend me your pen"], "Could you lend me some money until Friday?", "Bạn cho tôi mượn ít tiền đến thứ Sáu được không?"],
     ["owe", "v", "nợ (tiền, ơn)", "/əʊ/", "OWE", "B1", ["owe someone money", "owe the bank"], "I still owe my sister two hundred thousand dong.", "Tôi vẫn còn nợ chị gái hai trăm nghìn đồng."],
     ["pay back", "phrv", "trả lại (tiền đã vay, mượn)", "/ˌpeɪ ˈbæk/", "pay BACK", "B1", ["pay back a loan", "pay someone back"], "I will pay back the money next month.", "Tháng sau tôi sẽ trả lại tiền."],
     ["departure", "n", "sự khởi hành, giờ đi", "/dɪˈpɑːtʃə/", "de·PAR·ture", "B1", ["departure time", "the departure gate"], "Please arrive at the airport two hours before departure.", "Vui lòng có mặt ở sân bay hai tiếng trước giờ khởi hành."],
@@ -334,13 +335,15 @@ const RAW: Record<TopicId, RawWord[]> = {
     ["fool around", "phrv", "đùa giỡn, làm trò linh tinh", "/ˌfuːl əˈraʊnd/", "fool a·ROUND", "B2", ["stop fooling around", "fool around in class"], "Stop fooling around and do your homework!", "Đừng đùa giỡn nữa, làm bài tập đi!"],
     ["precious", "adj", "quý giá", "/ˈpreʃəs/", "PRE·cious", "B1", ["precious time", "a precious memory"], "Time with my family is very precious to me.", "Thời gian bên gia đình rất quý giá với tôi."],
   ],
+  // Từ trên lớp: thẻ mới của các LIST (từ đã có ở chủ đề khác chỉ được gắn nhãn LIST), xem class-words.ts.
+  class: CLASS_LISTS.flatMap((l) => l.items.filter((item): item is RawWord => typeof item !== "string")),
 };
 
 /**
- * Từ người học muốn học trước, theo đúng thứ tự họ gửi. Gồm từ trong chủ đề "mylist"
+ * Từ người học tự gửi, theo đúng thứ tự gửi. Gồm từ trong chủ đề "mylist"
  * và các từ đã có sẵn ở chủ đề khác (climate, environment, experience, bargain, spend, afford, generous).
  */
-export const PRIORITY_WORD_IDS: string[] = [
+export const MY_WORD_IDS: string[] = [
   "revolve", "advice", "plenty-of", "province", "cause", "climate", "discuss", "rapidly", "government", "queue",
   "become", "increase", "harsh", "worsen", "species", "significantly", "environment", "receive", "lay-off",
   "assignment", "experience", "remarkably", "foreign", "access",
@@ -350,7 +353,25 @@ export const PRIORITY_WORD_IDS: string[] = [
   "illustrate", "spill", "panic", "considerate", "pick-up-after", "fool-around", "precious",
 ];
 
-/** Cách viết Anh-Mỹ được chấp nhận khi gõ đáp án. */
+/** Từ trên lớp theo thứ tự LIST 1, 2, 3… và thứ tự trong sheet (kể cả từ đã có sẵn trong kho). */
+export const CLASS_WORD_IDS: string[] = [
+  ...new Set(CLASS_LISTS.flatMap((l) => l.items.map((item) => (typeof item === "string" ? item : slugify(item[0]))))),
+];
+
+/** Số LIST trên lớp của từng từ, ví dụ colleague → [4, 5]. */
+const CLASS_LISTS_BY_ID: Record<string, number[]> = {};
+for (const l of CLASS_LISTS) {
+  for (const item of l.items) {
+    const id = typeof item === "string" ? item : slugify(item[0]);
+    const lists = (CLASS_LISTS_BY_ID[id] ??= []);
+    if (!lists.includes(l.list)) lists.push(l.list);
+  }
+}
+
+/** Thứ tự học trước: từ người học tự gửi, rồi tới từ trên lớp. */
+export const PRIORITY_WORD_IDS: string[] = [...new Set([...MY_WORD_IDS, ...CLASS_WORD_IDS])];
+
+/** Cách viết / cách nói khác được chấp nhận khi gõ đáp án (chính tả Anh-Mỹ, từ đồng nghĩa trên lớp). */
 const ALT_SPELLINGS: Record<string, string[]> = {
   neighbour: ["neighbor"],
   neighbourhood: ["neighborhood"],
@@ -366,6 +387,36 @@ const ALT_SPELLINGS: Record<string, string[]> = {
   "user-friendly": ["user friendly"],
   heatwave: ["heat wave"],
   takeaway: ["take-away", "takeout"],
+  // Từ trên lớp
+  "e-commerce platform": ["online shopping platform", "ecommerce platform"],
+  "speak your mind": ["speak one's mind"],
+  "on the same wavelength": ["be on the same wavelength"],
+  "get on well with": ["get on well"],
+  metro: ["subway", "underground"],
+  truck: ["lorry"],
+  sailboat: ["sailing boat"],
+  guesthouse: ["guest house"],
+  "tourist hotspot": ["tourist hot spot"],
+  "must-see": ["must see"],
+  "catch the bus": ["catch the train"],
+  "miss the bus": ["miss the train"],
+  cheque: ["check"],
+  voucher: ["coupon"],
+  "careful with money": ["be careful with money"],
+  prioritize: ["prioritise"],
+  "tighten your belt": ["tighten one's belt"],
+  "on a tight budget": ["be on a tight budget"],
+  "April Fools' Day": ["April Fool's Day"],
+  "Lunar New Year": ["Tet"],
+  "International Workers' Day": ["Labour Day", "May Day"],
+  "National Day": ["Independence Day"],
+  "peach blossom": ["peach blossoms"],
+  "apricot blossom": ["apricot blossoms"],
+  "candied fruit": ["candied fruits"],
+  "with flying colours": ["with flying colors", "pass with flying colours"],
+  "nine-to-five job": ["a nine-to-five job", "nine to five job"],
+  "up to my ears": ["be up to my ears"],
+  "broaden my horizons": ["broaden your horizons", "broaden one's horizons"],
 };
 
 export function slugify(text: string): string {
@@ -389,6 +440,7 @@ export const WORDS: Word[] = Object.entries(RAW).flatMap(([topic, rows]) =>
     example,
     exampleVi,
     altSpellings: ALT_SPELLINGS[word],
+    classLists: CLASS_LISTS_BY_ID[slugify(word)],
   })),
 );
 

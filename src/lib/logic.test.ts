@@ -117,10 +117,26 @@ describe("planner & streak", () => {
   });
 
   it("danh sách ưu tiên chỉ chứa id có trong kho, không trùng", async () => {
-    const { PRIORITY_WORD_IDS, WORD_BY_ID } = await import("@/data/words");
+    const { MY_WORD_IDS, PRIORITY_WORD_IDS, WORD_BY_ID } = await import("@/data/words");
     expect(new Set(PRIORITY_WORD_IDS).size).toBe(PRIORITY_WORD_IDS.length);
     for (const id of PRIORITY_WORD_IDS) expect(WORD_BY_ID[id], id).toBeDefined();
-    expect(PRIORITY_WORD_IDS).toHaveLength(50);
+    expect(new Set(MY_WORD_IDS).size).toBe(MY_WORD_IDS.length);
+    expect(MY_WORD_IDS).toHaveLength(50);
+    // Từ tự gửi học trước, rồi tới từ trên lớp.
+    expect(PRIORITY_WORD_IDS.slice(0, MY_WORD_IDS.length)).toEqual(MY_WORD_IDS);
+  });
+
+  it("LIST trên lớp: đánh số liên tục, id có trong kho, gắn nhãn đúng", async () => {
+    const { CLASS_LISTS } = await import("@/data/class-words");
+    const { CLASS_WORD_IDS, PRIORITY_WORD_IDS, WORD_BY_ID } = await import("@/data/words");
+    expect(CLASS_LISTS.map((l) => l.list)).toEqual(CLASS_LISTS.map((_, i) => i + 1));
+    for (const id of CLASS_WORD_IDS) {
+      expect(WORD_BY_ID[id], id).toBeDefined();
+      expect(WORD_BY_ID[id].classLists?.length, id).toBeGreaterThan(0);
+      expect(PRIORITY_WORD_IDS).toContain(id);
+    }
+    expect(WORD_BY_ID.colleague.classLists).toEqual([4, 5]);
+    expect(WORD_BY_ID["verbal-communication"]).toMatchObject({ topic: "class", classLists: [1] });
   });
 
   it("kế hoạch ngày bù từ khi người dùng báo đã biết", () => {

@@ -52,7 +52,7 @@ describe("speaking data", () => {
   it("70 câu hỏi, mỗi chủ đề 5 câu, id không trùng", () => {
     expect(SPEAKING_QUESTIONS).toHaveLength(70);
     expect(new Set(SPEAKING_QUESTIONS.map((q) => q.id)).size).toBe(70);
-    for (const t of TOPICS.filter((t) => t.id !== "mylist")) expect(SPEAKING_QUESTIONS.filter((q) => q.topic === t.id)).toHaveLength(5);
+    for (const t of TOPICS.filter((t) => t.id !== "mylist" && t.id !== "class")) expect(SPEAKING_QUESTIONS.filter((q) => q.topic === t.id)).toHaveLength(5);
   });
 });
 
