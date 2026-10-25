@@ -121,7 +121,7 @@ describe("planner & streak", () => {
     expect(new Set(PRIORITY_WORD_IDS).size).toBe(PRIORITY_WORD_IDS.length);
     for (const id of PRIORITY_WORD_IDS) expect(WORD_BY_ID[id], id).toBeDefined();
     expect(new Set(MY_WORD_IDS).size).toBe(MY_WORD_IDS.length);
-    expect(MY_WORD_IDS).toHaveLength(50);
+    expect(MY_WORD_IDS).toHaveLength(65);
     // Từ tự gửi học trước, rồi tới từ trên lớp.
     expect(PRIORITY_WORD_IDS.slice(0, MY_WORD_IDS.length)).toEqual(MY_WORD_IDS);
   });

@@ -71,7 +71,7 @@ const RAW: Record<TopicId, RawWord[]> = {
     ["balcony", "n", "ban công", "/ˈbælkəni/", "BAL·co·ny", "A2", ["a small balcony", "sit on the balcony"], "I grow some plants on my balcony.", "Tôi trồng vài cái cây ngoài ban công."],
     ["decorate", "v", "trang trí", "/ˈdekəreɪt/", "DEC·o·rate", "B1", ["decorate a room", "decorate the house"], "We decorate our house before Tet every year.", "Năm nào chúng tôi cũng trang trí nhà trước Tết."],
     ["tidy", "adj", "gọn gàng", "/ˈtaɪdi/", "TI·dy", "A2", ["keep the room tidy", "a tidy desk"], "I try to keep my room tidy.", "Tôi cố gắng giữ phòng gọn gàng."],
-    ["messy", "adj", "bừa bộn", "/ˈmesi/", "MES·sy", "B1", ["a messy room", "get messy"], "My desk is often messy when I am busy.", "Bàn làm việc của tôi thường bừa bộn khi tôi bận."],
+    ["messy", "adj", "bừa bộn (= untidy)", "/ˈmesi/", "MES·sy", "B1", ["a messy room", "get messy"], "My desk is often messy when I am busy.", "Bàn làm việc của tôi thường bừa bộn khi tôi bận."],
     ["housework", "n", "việc nhà", "/ˈhaʊswɜːk/", "HOUSE·work", "B1", ["do the housework", "share the housework"], "I do the housework on Sunday mornings.", "Tôi làm việc nhà vào sáng Chủ nhật."],
     ["move", "v", "chuyển (nhà, nơi ở)", "/muːv/", "MOVE", "A2", ["move house", "move to a new city"], "We moved to Ho Chi Minh City in 2019.", "Chúng tôi chuyển đến TP. Hồ Chí Minh năm 2019."],
     ["convenient", "adj", "thuận tiện, tiện lợi", "/kənˈviːniənt/", "con·VE·ni·ent", "B1", ["a convenient location", "convenient for me"], "My flat is convenient because it is near a supermarket.", "Căn hộ của tôi tiện lợi vì gần siêu thị."],
@@ -334,6 +334,16 @@ const RAW: Record<TopicId, RawWord[]> = {
     ["pick up after", "phrv", "dọn dẹp đồ bừa bộn cho ai (khác: pick somebody up = đón ai)", "/ˌpɪk ˈʌp ˌɑːftə/", "pick UP af·ter", "B2", ["pick up after someone", "pick up after yourself"], "My mum always has to pick up after me.", "Mẹ tôi lúc nào cũng phải dọn dẹp đồ bừa bộn của tôi."],
     ["fool around", "phrv", "đùa giỡn, làm trò linh tinh", "/ˌfuːl əˈraʊnd/", "fool a·ROUND", "B2", ["stop fooling around", "fool around in class"], "Stop fooling around and do your homework!", "Đừng đùa giỡn nữa, làm bài tập đi!"],
     ["precious", "adj", "quý giá", "/ˈpreʃəs/", "PRE·cious", "B1", ["precious time", "a precious memory"], "Time with my family is very precious to me.", "Thời gian bên gia đình rất quý giá với tôi."],
+    // Đợt 3 (25/10/2026). affects → affect. stomachache, sore throat, insomnia nằm ở LIST 6 (class-words.ts).
+    ["directly", "adv", "trực tiếp, thẳng", "/dɪˈrektli/", "di·RECT·ly", "B1", ["directly from the website", "speak directly to"], "You can buy tickets directly from the website.", "Bạn có thể mua vé trực tiếp trên trang web."],
+    ["petrol", "n", "xăng", "/ˈpetrəl/", "PET·rol", "B1", ["the price of petrol", "a petrol station"], "The price of petrol has increased again.", "Giá xăng lại tăng nữa rồi."],
+    ["affect", "v", "ảnh hưởng đến", "/əˈfekt/", "af·FECT", "B1", ["affect your health", "be affected by"], "Air pollution affects our health.", "Ô nhiễm không khí ảnh hưởng đến sức khoẻ của chúng ta."],
+    ["quality", "n", "chất lượng", "/ˈkwɒləti/", "QUAL·i·ty", "B1", ["high quality", "quality of life"], "The quality of life in my city is getting better.", "Chất lượng cuộc sống ở thành phố tôi đang tốt lên."],
+    ["something", "pron", "cái gì đó, điều gì đó", "/ˈsʌmθɪŋ/", "SOME·thing", "A1", ["something to eat", "something interesting"], "I want something cold to drink.", "Tôi muốn uống gì đó lạnh."],
+    ["can be", "phr", "có thể (là / trở nên)", "/kən ˈbiː/", "can BE", "A2", ["can be difficult", "can be very crowded"], "The traffic in Hanoi can be terrible at rush hour.", "Giao thông ở Hà Nội có thể rất tệ vào giờ cao điểm."],
+    ["characteristic", "n", "đặc điểm, nét đặc trưng", "/ˌkærəktəˈrɪstɪk/", "char·ac·ter·IS·tic", "B2", ["a common characteristic", "the main characteristics"], "Being friendly is a characteristic of people in my hometown.", "Thân thiện là một nét đặc trưng của người dân quê tôi."],
+    ["increase gradually", "phr", "tăng dần dần", "/ɪnˌkriːs ˈɡrædʒuəli/", "in·crease GRAD·u·al·ly", "B2", ["increase gradually over time", "prices increase gradually"], "The number of tourists increased gradually from 2015 to 2020.", "Số lượng khách du lịch tăng dần từ năm 2015 đến 2020."],
+    ["decrease steadily", "phr", "giảm đều đặn", "/dɪˌkriːs ˈstedɪli/", "de·crease STEAD·i·ly", "B2", ["decrease steadily over the years", "sales decrease steadily"], "The price of laptops has decreased steadily.", "Giá máy tính xách tay đã giảm đều đặn."],
   ],
   // Từ trên lớp: thẻ mới của các LIST (từ đã có ở chủ đề khác chỉ được gắn nhãn LIST), xem class-words.ts.
   class: CLASS_LISTS.flatMap((l) => l.items.filter((item): item is RawWord => typeof item !== "string")),
@@ -341,7 +351,8 @@ const RAW: Record<TopicId, RawWord[]> = {
 
 /**
  * Từ người học tự gửi, theo đúng thứ tự gửi. Gồm từ trong chủ đề "mylist"
- * và các từ đã có sẵn ở chủ đề khác (climate, environment, experience, bargain, spend, afford, generous).
+ * và các từ đã có sẵn ở chủ đề khác / ở LIST trên lớp (climate, environment, experience, bargain, spend, afford,
+ * generous, messy, addicted, headache, stomachache, insomnia, sore throat).
  */
 export const MY_WORD_IDS: string[] = [
   "revolve", "advice", "plenty-of", "province", "cause", "climate", "discuss", "rapidly", "government", "queue",
@@ -351,6 +362,9 @@ export const MY_WORD_IDS: string[] = [
   "change", "currency", "pound", "bargain", "lend", "owe", "pay-back", "spend", "afford", "departure",
   "enrol", "invent", "paraphrase", "generous", "milkshake", "pineapple", "honeymoon", "interest", "withdraw",
   "illustrate", "spill", "panic", "considerate", "pick-up-after", "fool-around", "precious",
+  // Đợt 3 (25/10/2026)
+  "directly", "petrol", "affect", "stomachache", "messy", "addicted", "headache", "insomnia", "sore-throat",
+  "quality", "something", "can-be", "characteristic", "increase-gradually", "decrease-steadily",
 ];
 
 /** Từ trên lớp theo thứ tự LIST 1, 2, 3… và thứ tự trong sheet (kể cả từ đã có sẵn trong kho). */
@@ -417,6 +431,21 @@ const ALT_SPELLINGS: Record<string, string[]> = {
   "nine-to-five job": ["a nine-to-five job", "nine to five job"],
   "up to my ears": ["be up to my ears"],
   "broaden my horizons": ["broaden your horizons", "broaden one's horizons"],
+  // Đợt 3 + LIST 6
+  petrol: ["gasoline", "gas"],
+  messy: ["untidy"],
+  addicted: ["addicted to"],
+  toothache: ["tooth ache"],
+  stomachache: ["stomach ache"],
+  cold: ["a cold"],
+  flu: ["the flu", "influenza"],
+  fever: ["a fever"],
+  cough: ["a cough"],
+  "runny nose": ["a runny nose"],
+  cut: ["a cut"],
+  "high blood pressure": ["hypertension"],
+  "follow advice": ["follow someone's advice"],
+  "under pressure": ["be under pressure"],
 };
 
 export function slugify(text: string): string {

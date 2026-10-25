@@ -1,8 +1,8 @@
 export type Level = "A1" | "A2" | "B1" | "B2";
 export const LEVELS: Level[] = ["A1", "A2", "B1", "B2"];
 
-/** n: danh từ, v: động từ, adj: tính từ, adv: trạng từ, phr: cụm từ, phrv: cụm động từ */
-export type PartOfSpeech = "n" | "v" | "adj" | "adv" | "phr" | "phrv";
+/** n: danh từ, v: động từ, adj: tính từ, adv: trạng từ, pron: đại từ, phr: cụm từ, phrv: cụm động từ */
+export type PartOfSpeech = "n" | "v" | "adj" | "adv" | "pron" | "phr" | "phrv";
 
 export type TopicId =
   | "work"
@@ -312,6 +312,7 @@ export const POS_LABEL: Record<PartOfSpeech, string> = {
   v: "động từ",
   adj: "tính từ",
   adv: "trạng từ",
+  pron: "đại từ",
   phr: "cụm từ",
   phrv: "cụm động từ",
 };
