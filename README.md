@@ -21,7 +21,7 @@ Cần Node.js ≥ 20.9.
 | `ANTHROPIC_API_KEY` | **Bắt buộc** cho tính năng chữa câu. Chỉ đọc ở server (`src/lib/ai/`, có `import "server-only"`), không bao giờ gửi xuống trình duyệt |
 | `ANTHROPIC_MODEL` | Mặc định `claude-opus-5-5` |
 | `ANTHROPIC_EFFORT` | Mặc định `low` (nhanh, rẻ). Tăng lên `medium` nếu thấy AI bỏ sót lỗi |
-| `APP_ACCESS_CODE` | **Nên đặt khi deploy công khai.** Route AI chỉ nhận request có header đúng mã; người dùng nhập mã ở trang Cài đặt |
+| `APP_ACCESS_CODE` | Required private code, entered once per browser to unlock cloud progress and AI |
 | `AI_MOCK=1` | Chỉ để phát triển giao diện: chấm câu giả, không gọi API |
 
 ## Tính năng
@@ -94,29 +94,13 @@ src/
     repository/           # lớp truy cập dữ liệu
 ```
 
-## Lưu trữ & chuyển sang Supabase
+## Supabase progress storage
 
-UI không gọi trực tiếp `localStorage`. Mọi dữ liệu đi qua `store.ts` → `StudyRepository` (`src/lib/repository/types.ts`), một interface async:
-
-| Phương thức | Bảng Supabase dự kiến |
-|---|---|
-| `saveSettings` | `user_settings` (1 dòng / user) |
-| `saveCards` | `cards` (user_id, word_id, reps, ease, interval, due, …, misspells, spell_streak, last_misspelled_at) — upsert |
-| `savePlan` | `daily_plans` (user_id, date, word_ids, extra) |
-| `saveActivity` | `activity` (user_id, date, new_words, reviews, forgot, sentences, dictations, error_reviews, speaking, writing, spelling) |
-| `savePlacement` | `placement_results` |
-| `appendSentence` | `sentence_attempts` (feedback lưu dạng jsonb) |
-| `saveErrors` / `deleteError` | `error_entries` (có cột `source`: sentence / speaking / writing) — upsert / delete theo id |
-| `appendDictation` | `dictation_results` |
-| `appendSpeaking` | `speaking_attempts` (feedback jsonb) |
-| `appendWriting` | `writing_submissions` (week, prompt_id, text, feedback jsonb) |
-| `saveReport` | `weekly_reports` — upsert theo (user_id, week) |
-
-Để chuyển: viết `SupabaseStudyRepository implements StudyRepository`, trả về nó trong `getRepository()` (`src/lib/repository/index.ts`). File sao lưu JSON ở trang Cài đặt có thể dùng để chuyển dữ liệu cũ lên.
+Progress and weekly drafts now sync through protected Next.js routes. Follow [the Supabase and Vercel setup guide](docs/supabase-setup.md) to run the SQL migration, configure server secrets, deploy, and import existing browser progress.
 
 ## Ghi chú kỹ thuật
 
 - Next.js 16 với `cacheComponents`: trang đã mở được giữ trạng thái khi chuyển trang (React Activity). Dữ liệu chỉ đọc phía client (server snapshot = `null` → hiện skeleton) để không lệch hydration.
 - Nhận giọng nói (Speaking) cần HTTPS hoặc `localhost`; mở bằng IP LAN qua http trên điện thoại sẽ không bật được micro. Âm thanh được gửi qua dịch vụ nhận dạng của Google (Chrome) / Apple (Safari).
 - Phát âm: bật “Ưu tiên giọng người thật” sẽ lấy mp3 từ dictionaryapi.dev (ưu tiên giọng UK), không có thì dùng giọng đọc của trình duyệt. Dictation luôn dùng giọng đọc trình duyệt. Chrome/Edge có nhiều giọng en-GB hơn Firefox.
-- Deploy Vercel: import repo, thêm `ANTHROPIC_API_KEY` và `APP_ACCESS_CODE` trong Project Settings → Environment Variables.
+- Deploy Vercel: follow [the setup guide](docs/supabase-setup.md) for the database migration and all required environment variables.

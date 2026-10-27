@@ -24,8 +24,13 @@ import type {
   WritingSubmission,
 } from "./types";
 import { DEFAULT_SETTINGS } from "./types";
+import { emptySnapshot, parseSnapshot } from "./progress/snapshot";
+import { SaveQueue } from "./progress/queue";
+import { CloudError } from "./repository/cloud";
+import { LocalStudyRepository } from "./repository/local";
 
 const EMPTY_SNAPSHOT: StudySnapshot = {
+  drafts: {},
   settings: DEFAULT_SETTINGS,
   cards: {},
   plan: null,
@@ -58,7 +63,44 @@ export interface AppState extends StudySnapshot {
 let state: AppState | null = null;
 let loading: Promise<void> | null = null;
 const listeners = new Set<() => void>();
-let writeQueue: Promise<void> = Promise.resolve();
+export interface CloudState {
+  phase: "loading" | "ready" | "locked" | "error" | "migration";
+  message: string;
+  pending: boolean;
+  conflict: boolean;
+}
+let cloud: CloudState = { phase: "loading", message: "Đang tải tiến độ…", pending: false, conflict: false };
+const cloudListeners = new Set<() => void>();
+function updateCloud(patch: Partial<CloudState>) {
+  cloud = { ...cloud, ...patch };
+  cloudListeners.forEach(l => l());
+}
+function reportError(error: unknown) {
+  const locked = error instanceof CloudError && error.status === 401;
+  updateCloud({ phase: locked ? "locked" : "error", message: error instanceof Error ? error.message : "Không kết nối được máy chủ.", conflict: error instanceof CloudError && error.status === 409 });
+}
+const writeQueue = new SaveQueue(() => {
+  updateCloud({ pending: writeQueue.pending || draftTimers.size > 0 });
+  if (writeQueue.error) reportError(writeQueue.error);
+});
+const draftTimers = new Map<string, ReturnType<typeof setTimeout>>();
+
+export function useCloudState() {
+  return useSyncExternalStore(l => { cloudListeners.add(l); return () => cloudListeners.delete(l); }, () => cloud, () => cloud);
+}
+
+export async function retryCloud() {
+  try {
+    if (cloud.conflict) return;
+    updateCloud({ phase: "loading", message: "" });
+    await writeQueue.retry();
+    if (!state) await ensureLoaded();
+    else {
+      updateCloud({ phase: "ready" });
+      await refreshCloud();
+    }
+  } catch (error) { reportError(error); }
+}
 
 function setState(next: AppState) {
   state = next;
@@ -66,7 +108,7 @@ function setState(next: AppState) {
 }
 
 function persist(task: () => Promise<void>) {
-  writeQueue = writeQueue.then(task).catch((err) => console.error("Không lưu được dữ liệu:", err));
+  writeQueue.enqueue(task);
 }
 
 function subscribe(listener: () => void) {
@@ -80,11 +122,19 @@ function withPlan(snapshot: StudySnapshot, today: string): AppState {
   return { ...snapshot, today, plan };
 }
 
-function ensureLoaded(): Promise<void> {
+export function ensureLoaded(): Promise<void> {
   if (state) return Promise.resolve();
   loading ??= getRepository()
     .load()
-    .then((snapshot) => setState(withPlan(snapshot, toDateKey())))
+    .then((snapshot) => {
+      if (!getRepository().initialized && hasLocalProgress()) {
+        updateCloud({ phase: "migration", message: "Trình duyệt này có tiến độ cũ. Bạn muốn chuyển lên Supabase?" });
+        return;
+      }
+      setState(withPlan(snapshot, toDateKey()));
+      updateCloud({ phase: "ready", message: "", conflict: false });
+    })
+    .catch(reportError)
     .finally(() => {
       loading = null;
     });
@@ -105,12 +155,7 @@ export function useAppState(): AppState | null {
     () => null,
   );
   useEffect(() => {
-    void ensureLoaded().then(refreshDay);
-    const onVisible = () => {
-      if (document.visibilityState === "visible") refreshDay();
-    };
-    document.addEventListener("visibilitychange", onVisible);
-    return () => document.removeEventListener("visibilitychange", onVisible);
+    refreshDay();
   }, []);
   return snapshot;
 }
@@ -294,39 +339,89 @@ export function saveReport(report: WeeklyReport) {
 
 export function exportSnapshot(): StudySnapshot | null {
   if (!state) return null;
-  const { settings, cards, plan, activity, placement, sentences, errors, dictations, speaking, writings, reports } = state;
-  return { settings, cards, plan, activity, placement, sentences, errors, dictations, speaking, writings, reports };
-}
-
-function isSnapshot(value: unknown): value is StudySnapshot {
-  if (!value || typeof value !== "object") return false;
-  const v = value as Record<string, unknown>;
-  return typeof v.settings === "object" && typeof v.cards === "object" && typeof v.activity === "object";
+  const { settings, cards, plan, activity, placement, sentences, errors, dictations, speaking, writings, reports, drafts } = state;
+  return { settings, cards, plan, activity, placement, sentences, errors, dictations, speaking, writings, reports, drafts };
 }
 
 export async function importSnapshot(value: unknown): Promise<void> {
-  if (!isSnapshot(value)) throw new Error("File không đúng định dạng sao lưu của app.");
-  // File sao lưu cũ có thể thiếu các mảng của giai đoạn 2–3.
-  const snapshot: StudySnapshot = {
-    settings: { ...DEFAULT_SETTINGS, ...value.settings },
-    cards: value.cards ?? {},
-    plan: value.plan ?? null,
-    activity: value.activity ?? {},
-    placement: value.placement ?? null,
-    sentences: Array.isArray(value.sentences) ? value.sentences : [],
-    errors: Array.isArray(value.errors) ? value.errors : [],
-    dictations: Array.isArray(value.dictations) ? value.dictations : [],
-    speaking: Array.isArray(value.speaking) ? value.speaking : [],
-    writings: Array.isArray(value.writings) ? value.writings : [],
-    reports: Array.isArray(value.reports) ? value.reports : [],
-  };
-  await writeQueue;
-  await getRepository().replaceAll(snapshot);
-  setState(withPlan(snapshot, toDateKey()));
+  const snapshot = parseSnapshot(value);
+  flushDrafts();
+  await writeQueue.flush();
+  persist(async () => {
+    await getRepository().replaceAll(snapshot);
+    setState(withPlan(snapshot, toDateKey()));
+  });
+  await writeQueue.flush();
 }
 
 export async function resetAll(): Promise<void> {
-  await writeQueue;
-  await getRepository().clearAll();
-  setState(withPlan(EMPTY_SNAPSHOT, toDateKey()));
+  flushDrafts();
+  await writeQueue.flush();
+  persist(async () => {
+    await getRepository().clearAll();
+    setState(withPlan(EMPTY_SNAPSHOT, toDateKey()));
+  });
+  await writeQueue.flush();
+}
+
+export function saveDraft(week: string, text: string) {
+  if (!state) return;
+  setState({ ...state, drafts: { ...state.drafts, [week]: text } });
+  const previous = draftTimers.get(week);
+  if (previous) clearTimeout(previous);
+  draftTimers.set(week, setTimeout(() => flushDraft(week), 500));
+  updateCloud({ pending: true });
+}
+
+export function flushDraft(week: string) {
+  const timer = draftTimers.get(week);
+  if (!timer) return;
+  clearTimeout(timer);
+  draftTimers.delete(week);
+  const text = state?.drafts[week] ?? "";
+  persist(() => getRepository().saveDraft(week, text));
+}
+
+export function flushDrafts() { for (const week of draftTimers.keys()) flushDraft(week); }
+
+export async function refreshCloud() {
+  if (!state || cloud.phase !== "ready") return;
+  updateCloud({ phase: "loading" });
+  try {
+    flushDrafts();
+    await writeQueue.flush();
+    const snapshot = await getRepository().load();
+    setState(withPlan(snapshot, toDateKey()));
+    updateCloud({ phase: "ready" });
+  } catch (error) { reportError(error); }
+}
+
+export function hasLocalProgress() {
+  try {
+    return Object.keys(window.localStorage).some(key => key.startsWith("ielts-vocab:v1:") || key.startsWith("ielts-vocab:writing-draft:"));
+  } catch { return false; }
+}
+
+export async function localSnapshot() { return parseSnapshot(await new LocalStudyRepository().load()); }
+
+export function downloadSnapshot(snapshot: StudySnapshot, name = "ielts-vocab-backup") {
+  const url = URL.createObjectURL(new Blob([JSON.stringify(snapshot, null, 2)], { type: "application/json" }));
+  const anchor = document.createElement("a");
+  anchor.href = url;
+  anchor.download = name + "-" + toDateKey() + ".json";
+  anchor.click();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+export async function finishMigration(importLocal: boolean) {
+  try {
+    const snapshot = importLocal ? await localSnapshot() : emptySnapshot();
+    if (importLocal) downloadSnapshot(snapshot, "ielts-vocab-before-migration");
+    persist(async () => {
+      await getRepository().initialize(snapshot);
+      setState(withPlan(snapshot, toDateKey()));
+      updateCloud({ phase: "ready", message: "" });
+    });
+    await writeQueue.flush();
+  } catch (error) { reportError(error); }
 }

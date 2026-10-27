@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Be_Vietnam_Pro } from "next/font/google";
 import { Nav } from "@/components/Nav";
+import { CloudGate } from "@/components/CloudGate";
 import "./globals.css";
 
 const beVietnam = Be_Vietnam_Pro({
@@ -19,7 +20,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="vi" className={`${beVietnam.variable} h-full antialiased`}>
       <body className="min-h-full font-sans">
         <Nav />
-        <main className="mx-auto w-full max-w-3xl px-4 pt-6 pb-28 sm:pb-12">{children}</main>
+        <main className="mx-auto w-full max-w-3xl px-4 pt-6 pb-28 sm:pb-12"><CloudGate>{children}</CloudGate></main>
       </body>
     </html>
   );

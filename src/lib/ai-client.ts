@@ -1,32 +1,12 @@
 import type { SentenceFeedback, SpeakingFeedback, WeeklyPlan, WeekStats, WritingFeedback } from "./types";
 
-// Mã truy cập là thông tin của thiết bị, không nằm trong dữ liệu học (không xuất ra file sao lưu).
-const ACCESS_KEY = "ielts-vocab:access-code";
-
-export function getAccessCode(): string {
-  try {
-    return window.localStorage.getItem(ACCESS_KEY) ?? "";
-  } catch {
-    return "";
-  }
-}
-
-export function setAccessCode(code: string): void {
-  try {
-    if (code) window.localStorage.setItem(ACCESS_KEY, code);
-    else window.localStorage.removeItem(ACCESS_KEY);
-  } catch {
-    // localStorage bị chặn: bỏ qua.
-  }
-}
-
 /** Gọi một route AI; lỗi được ném ra với thông báo tiếng Việt từ server. */
 async function postAi<T>(path: string, body: unknown, field: string): Promise<T> {
   let res: Response;
   try {
     res = await fetch(path, {
       method: "POST",
-      headers: { "content-type": "application/json", "x-access-code": getAccessCode() },
+      headers: { "content-type": "application/json" },
       body: JSON.stringify(body),
     });
   } catch {

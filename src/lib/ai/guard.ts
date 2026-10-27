@@ -1,6 +1,7 @@
 import "server-only";
 
 import { AiError } from "./client";
+import { requireOrigin, requireSession, HttpError } from "../progress/session";
 
 const WINDOW_MS = 60_000;
 const MAX_PER_WINDOW = 15;
@@ -11,15 +12,13 @@ export function jsonError(message: string, status: number): Response {
 }
 
 /**
- * Kiểm tra chung cho mọi route AI: mã truy cập (nếu đặt APP_ACCESS_CODE),
+ * Kiểm tra chung cho mọi route AI: phiên mở khóa và nguồn yêu cầu,
  * giới hạn tần suất theo IP, và đọc body JSON. Ném AiError nếu không hợp lệ.
  * Giới hạn tần suất chỉ có hiệu lực trong một instance — đủ chặn bấm liên tục, không thay cho auth thật.
  */
 export async function guardRequest(request: Request): Promise<Record<string, unknown>> {
-  const accessCode = process.env.APP_ACCESS_CODE;
-  if (accessCode && request.headers.get("x-access-code") !== accessCode) {
-    throw new AiError("Sai hoặc thiếu mã truy cập. Nhập mã trong Cài đặt.", 401);
-  }
+  try { requireSession(request); requireOrigin(request); }
+  catch (error) { if (error instanceof HttpError) throw new AiError(error.message, error.status); throw error; }
 
   const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "local";
   const now = Date.now();

@@ -19,6 +19,7 @@ import type {
  * (mỗi phương thức ứng với một bảng / một upsert) mà không phải sửa UI.
  */
 export interface StudyRepository {
+  saveDraft(week: string, text: string): Promise<void>;
   load(): Promise<StudySnapshot>;
   saveSettings(settings: Settings): Promise<void>;
   saveCards(cards: CardState[]): Promise<void>;

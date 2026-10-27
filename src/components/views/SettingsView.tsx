@@ -5,49 +5,9 @@ import { useRef, useState, type ChangeEvent } from "react";
 import { TOPICS } from "@/data/topics";
 import { WORDS } from "@/data/words";
 import { playWord } from "@/lib/speech";
-import { exportSnapshot, importSnapshot, resetAll, updateSettings, useAppState } from "@/lib/store";
+import { downloadSnapshot, exportSnapshot, hasLocalProgress, importSnapshot, localSnapshot, resetAll, updateSettings, useAppState } from "@/lib/store";
 import { LEVELS, type TopicId } from "@/lib/types";
-import { getAccessCode, setAccessCode } from "@/lib/ai-client";
 import { Button, Card, Loading, PageHeader } from "../ui";
-
-/** Mã truy cập AI: chỉ cần khi server đặt APP_ACCESS_CODE (bản deploy công khai). */
-function AccessCodeCard() {
-  const [code, setCode] = useState(() => getAccessCode());
-  const [saved, setSaved] = useState(false);
-  return (
-    <Card>
-      <h2 className="font-semibold">Mã truy cập AI</h2>
-      <p className="mt-0.5 text-sm text-ink-2">
-        Chỉ cần khi bản deploy có đặt biến <code className="rounded bg-surface-2 px-1">APP_ACCESS_CODE</code> để người lạ không dùng được
-        API key của bạn. Mã chỉ lưu trên trình duyệt này.
-      </p>
-      <form
-        className="mt-3 flex gap-2"
-        onSubmit={(e) => {
-          e.preventDefault();
-          setAccessCode(code.trim());
-          setSaved(true);
-        }}
-      >
-        <input
-          type="password"
-          value={code}
-          onChange={(e) => {
-            setCode(e.target.value);
-            setSaved(false);
-          }}
-          placeholder="Nhập mã…"
-          aria-label="Mã truy cập AI"
-          autoComplete="off"
-          className="flex-1 rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-accent focus:ring-2 focus:ring-accent/25"
-        />
-        <Button type="submit" variant="secondary">
-          {saved ? "Đã lưu" : "Lưu"}
-        </Button>
-      </form>
-    </Card>
-  );
-}
 
 export function SettingsView() {
   const state = useAppState();
@@ -55,7 +15,7 @@ export function SettingsView() {
   const [message, setMessage] = useState<string | null>(null);
 
   if (!state) return <Loading />;
-  const { settings, placement, today } = state;
+  const { settings, placement } = state;
 
   const toggleTopic = (id: TopicId) => {
     const list = settings.preferredTopics;
@@ -65,13 +25,7 @@ export function SettingsView() {
   const download = () => {
     const data = exportSnapshot();
     if (!data) return;
-    const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = `ielts-vocab-${today}.json`;
-    a.click();
-    URL.revokeObjectURL(url);
+    downloadSnapshot(data);
   };
 
   const upload = async (e: ChangeEvent<HTMLInputElement>) => {
@@ -79,6 +33,9 @@ export function SettingsView() {
     e.target.value = "";
     if (!file) return;
     try {
+      if (!window.confirm("Thay thế toàn bộ tiến độ đám mây bằng file này?")) return;
+      const current = exportSnapshot();
+      if (current) downloadSnapshot(current, "ielts-vocab-before-import");
       await importSnapshot(JSON.parse(await file.text()));
       setMessage("Đã nhập dữ liệu thành công.");
     } catch (err) {
@@ -88,8 +45,8 @@ export function SettingsView() {
 
   const reset = async () => {
     if (!window.confirm("Xoá toàn bộ tiến độ học, kết quả kiểm tra và cài đặt? Không thể hoàn tác.")) return;
-    await resetAll();
-    setMessage("Đã xoá toàn bộ dữ liệu.");
+    try { await resetAll(); setMessage("Đã xoá toàn bộ dữ liệu."); }
+    catch (error) { setMessage(error instanceof Error ? error.message : "Không xóa được dữ liệu."); }
   };
 
   return (
@@ -180,8 +137,6 @@ export function SettingsView() {
         </div>
       </Card>
 
-      <AccessCodeCard />
-
       <Card>
         <h2 className="font-semibold">Phát âm</h2>
         <label className="mt-3 flex cursor-pointer items-start gap-3">
@@ -208,7 +163,7 @@ export function SettingsView() {
       <Card>
         <h2 className="font-semibold">Dữ liệu</h2>
         <p className="mt-0.5 text-sm text-ink-2">
-          Tiến độ đang lưu trong trình duyệt này (localStorage). Nên xuất file sao lưu định kỳ, hoặc trước khi đổi máy/trình duyệt.
+          Tiến độ và bản nháp đang lưu trên Supabase, đồng bộ giữa các thiết bị. Bạn vẫn có thể xuất file sao lưu.
         </p>
         <div className="mt-3 flex flex-wrap gap-2">
           <Button variant="secondary" onClick={download}>
@@ -217,6 +172,17 @@ export function SettingsView() {
           <Button variant="secondary" onClick={() => fileRef.current?.click()}>
             Nhập từ file
           </Button>
+          {hasLocalProgress() && <Button variant="secondary" onClick={async () => {
+            if (!window.confirm("Thay thế tiến độ đám mây bằng tiến độ cũ trên máy này?")) return;
+            try {
+              const current = exportSnapshot();
+              if (current) downloadSnapshot(current, "ielts-vocab-before-local-import");
+              const local = await localSnapshot();
+              downloadSnapshot(local, "ielts-vocab-local-backup");
+              await importSnapshot(local);
+              setMessage("Đã chuyển tiến độ cũ lên Supabase.");
+            } catch (error) { setMessage(error instanceof Error ? error.message : "Không chuyển được dữ liệu."); }
+          }}>Nhập tiến độ cũ trên máy</Button>}
           <input ref={fileRef} type="file" accept="application/json,.json" onChange={upload} className="hidden" />
           <Button variant="danger" onClick={reset}>
             Xoá toàn bộ dữ liệu

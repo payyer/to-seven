@@ -50,8 +50,19 @@ function write(key: string, value: unknown): void {
 }
 
 export class LocalStudyRepository implements StudyRepository {
+  async saveDraft(week: string, text: string): Promise<void> {
+    write(`ielts-vocab:writing-draft:${week}`, text);
+  }
   async load(): Promise<StudySnapshot> {
+    const drafts: Record<string, string> = {};
+    for (let i = 0; i < window.localStorage.length; i++) {
+      const key = window.localStorage.key(i);
+      if (key?.startsWith("ielts-vocab:writing-draft:")) {
+        drafts[key.slice("ielts-vocab:writing-draft:".length)] = window.localStorage.getItem(key) ?? "";
+      }
+    }
     return {
+      drafts,
       settings: { ...DEFAULT_SETTINGS, ...read<Partial<Settings>>(KEYS.settings, {}) },
       cards: read<Record<string, CardState>>(KEYS.cards, {}),
       plan: read<DailyPlan | null>(KEYS.plan, null),
@@ -130,6 +141,7 @@ export class LocalStudyRepository implements StudyRepository {
   }
 
   async replaceAll(snapshot: StudySnapshot): Promise<void> {
+    for (const [week, text] of Object.entries(snapshot.drafts)) await this.saveDraft(week, text);
     write(KEYS.settings, snapshot.settings);
     write(KEYS.cards, snapshot.cards);
     write(KEYS.activity, snapshot.activity);

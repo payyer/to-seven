@@ -287,6 +287,7 @@ export interface WeeklyReport {
 
 /** Toàn bộ dữ liệu cá nhân của người học. Đây là ranh giới giữa app và nơi lưu trữ. */
 export interface StudySnapshot {
+  drafts: Record<string, string>;
   settings: Settings;
   cards: Record<string, CardState>;
   plan: DailyPlan | null;

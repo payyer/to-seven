@@ -1,11 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { TASK_GUIDE, WRITING_PROMPTS, type WritingPrompt } from "@/data/writing-prompts";
 import { requestWritingFeedback } from "@/lib/ai-client";
 import { addDays, formatShort, isoWeek, startOfWeek } from "@/lib/date";
 import { recentWords } from "@/lib/planner";
-import { recordWriting, useAppState } from "@/lib/store";
+import { flushDraft, recordWriting, saveDraft, useAppState } from "@/lib/store";
 import { findWordInSentence } from "@/lib/text";
 import type { WritingFeedback, WritingSubmission } from "@/lib/types";
 import {
@@ -20,25 +20,6 @@ import {
 import { Icon } from "../Icon";
 import { Badge, Button, Card, Kbd, Loading, PageHeader } from "../ui";
 import { WritingFeedbackView } from "../WritingFeedbackView";
-
-const DRAFT_KEY = (week: string) => `ielts-vocab:writing-draft:${week}`;
-
-function readDraft(week: string): string {
-  try {
-    return window.localStorage.getItem(DRAFT_KEY(week)) ?? "";
-  } catch {
-    return "";
-  }
-}
-
-function writeDraft(week: string, text: string) {
-  try {
-    if (text) window.localStorage.setItem(DRAFT_KEY(week), text);
-    else window.localStorage.removeItem(DRAFT_KEY(week));
-  } catch {
-    // bản nháp chỉ là tiện ích, bỏ qua nếu không lưu được
-  }
-}
 
 export function WritingView() {
   const state = useAppState();
@@ -60,6 +41,7 @@ export function WritingView() {
       <Editor
         key={week}
         week={week}
+        draft={state.drafts[week] ?? ""}
         prompt={prompt}
         usedSubmissions={thisWeek.length}
         recent={recentWords(state.cards, state.today).map((w) => w.word)}
@@ -119,14 +101,17 @@ function Editor({
   week,
   prompt,
   usedSubmissions,
+  draft,
   recent,
 }: {
   week: string;
   prompt: WritingPrompt;
   usedSubmissions: number;
+  draft: string;
   recent: string[];
 }) {
-  const [text, setText] = useState(() => readDraft(week));
+  const [text, setText] = useState(draft);
+  useEffect(() => () => flushDraft(week), [week]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [feedback, setFeedback] = useState<WritingFeedback | null>(null);
@@ -137,7 +122,7 @@ function Editor({
 
   const change = (value: string) => {
     setText(value);
-    writeDraft(week, value);
+    saveDraft(week, value);
   };
 
   const submit = async () => {
@@ -213,7 +198,7 @@ function Editor({
           {words} từ ·{" "}
           {countState === "short" ? `cần thêm ${WRITING_MIN - words} từ` : countState === "long" ? `dài hơn ${words - WRITING_MAX} từ` : "độ dài đạt"}
         </span>
-        <span className="text-xs text-ink-3">Bản nháp tự lưu trên máy này</span>
+        <span className="text-xs text-ink-3">Bản nháp tự lưu lên Supabase</span>
       </div>
 
       {error && (
