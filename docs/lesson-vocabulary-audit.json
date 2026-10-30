@@ -1,0 +1,3362 @@
+{
+  "sourceRows": 255,
+  "uniqueEntries": 291,
+  "added": 236,
+  "existing": 55,
+  "entries": [
+    {
+      "word": "all right",
+      "wordId": "all-right",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "all right"
+      ]
+    },
+    {
+      "word": "awful",
+      "wordId": "awful",
+      "lessonIds": [
+        1,
+        5
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "awful"
+      ]
+    },
+    {
+      "word": "strange",
+      "wordId": "strange",
+      "lessonIds": [
+        1,
+        5
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "strange"
+      ]
+    },
+    {
+      "word": "delicious",
+      "wordId": "delicious",
+      "lessonIds": [
+        1,
+        5
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "delicious"
+      ]
+    },
+    {
+      "word": "perfect",
+      "wordId": "perfect",
+      "lessonIds": [
+        1,
+        5
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "perfect"
+      ]
+    },
+    {
+      "word": "boring",
+      "wordId": "boring",
+      "lessonIds": [
+        1
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "boring"
+      ]
+    },
+    {
+      "word": "great",
+      "wordId": "great",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "great"
+      ]
+    },
+    {
+      "word": "relaxed",
+      "wordId": "relaxed",
+      "lessonIds": [
+        1,
+        5
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "relaxed"
+      ]
+    },
+    {
+      "word": "rude",
+      "wordId": "rude",
+      "lessonIds": [
+        1,
+        5
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "rude"
+      ]
+    },
+    {
+      "word": "personal",
+      "wordId": "personal",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "personal"
+      ]
+    },
+    {
+      "word": "age",
+      "wordId": "age",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "age"
+      ]
+    },
+    {
+      "word": "married",
+      "wordId": "married",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "married"
+      ]
+    },
+    {
+      "word": "interests",
+      "wordId": "interests",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "interests"
+      ]
+    },
+    {
+      "word": "hobbies",
+      "wordId": "hobbies",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "hobbies"
+      ]
+    },
+    {
+      "word": "religion",
+      "wordId": "religion",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "religion"
+      ]
+    },
+    {
+      "word": "politics",
+      "wordId": "politics",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "politics"
+      ]
+    },
+    {
+      "word": "money",
+      "wordId": "money",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "money"
+      ]
+    },
+    {
+      "word": "birthday",
+      "wordId": "birthday",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "birthday"
+      ]
+    },
+    {
+      "word": "plan",
+      "wordId": "plan",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "plan"
+      ]
+    },
+    {
+      "word": "cancel",
+      "wordId": "cancel",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "cancel"
+      ]
+    },
+    {
+      "word": "be into",
+      "wordId": "be-into",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "be into (something)"
+      ]
+    },
+    {
+      "word": "holiday",
+      "wordId": "holiday",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "holiday"
+      ]
+    },
+    {
+      "word": "communication",
+      "wordId": "communication",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "communication"
+      ]
+    },
+    {
+      "word": "message",
+      "wordId": "message",
+      "lessonIds": [
+        1,
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "message",
+        "message"
+      ]
+    },
+    {
+      "word": "comment",
+      "wordId": "comment",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "comment"
+      ]
+    },
+    {
+      "word": "follower",
+      "wordId": "follower",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "follower"
+      ]
+    },
+    {
+      "word": "blog",
+      "wordId": "blog",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "blog"
+      ]
+    },
+    {
+      "word": "greet",
+      "wordId": "greet",
+      "lessonIds": [
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "greet"
+      ]
+    },
+    {
+      "word": "greeting",
+      "wordId": "greeting",
+      "lessonIds": [
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "greeting"
+      ]
+    },
+    {
+      "word": "keep in touch",
+      "wordId": "keep-in-touch",
+      "lessonIds": [
+        2
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "keep in touch"
+      ]
+    },
+    {
+      "word": "get in touch",
+      "wordId": "get-in-touch",
+      "lessonIds": [
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "get in touch"
+      ]
+    },
+    {
+      "word": "hear from",
+      "wordId": "hear-from",
+      "lessonIds": [
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "hear from somebody"
+      ]
+    },
+    {
+      "word": "reply",
+      "wordId": "reply",
+      "lessonIds": [
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "reply"
+      ]
+    },
+    {
+      "word": "contact",
+      "wordId": "contact",
+      "lessonIds": [
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "contact"
+      ]
+    },
+    {
+      "word": "conversation",
+      "wordId": "conversation",
+      "lessonIds": [
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "conversation"
+      ]
+    },
+    {
+      "word": "introduce",
+      "wordId": "introduce",
+      "lessonIds": [
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "introduce"
+      ]
+    },
+    {
+      "word": "surprise",
+      "wordId": "surprise",
+      "lessonIds": [
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "surprise"
+      ]
+    },
+    {
+      "word": "news",
+      "wordId": "news",
+      "lessonIds": [
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "news"
+      ]
+    },
+    {
+      "word": "these days",
+      "wordId": "these-days",
+      "lessonIds": [
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "these days"
+      ]
+    },
+    {
+      "word": "by the way",
+      "wordId": "by-the-way",
+      "lessonIds": [
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "by the way"
+      ]
+    },
+    {
+      "word": "lose touch",
+      "wordId": "lose-touch",
+      "lessonIds": [
+        2
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "lose touch"
+      ]
+    },
+    {
+      "word": "catch up with",
+      "wordId": "catch-up-with",
+      "lessonIds": [
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "catch up with somebody"
+      ]
+    },
+    {
+      "word": "meet for a chat",
+      "wordId": "meet-for-a-chat",
+      "lessonIds": [
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "meet for a chat"
+      ]
+    },
+    {
+      "word": "socialise",
+      "wordId": "socialise",
+      "lessonIds": [
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "socialise"
+      ]
+    },
+    {
+      "word": "host family",
+      "wordId": "host-family",
+      "lessonIds": [
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "host family"
+      ]
+    },
+    {
+      "word": "abroad",
+      "wordId": "abroad",
+      "lessonIds": [
+        2
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "abroad"
+      ]
+    },
+    {
+      "word": "challenge",
+      "wordId": "challenge",
+      "lessonIds": [
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "challenge"
+      ]
+    },
+    {
+      "word": "experience",
+      "wordId": "experience-event",
+      "lessonIds": [
+        2
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "experience",
+        "experience"
+      ]
+    },
+    {
+      "word": "opportunity",
+      "wordId": "opportunity",
+      "lessonIds": [
+        2,
+        9,
+        11,
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "opportunity",
+        "opportunity",
+        "opportunity",
+        "opportunity"
+      ]
+    },
+    {
+      "word": "colleague",
+      "wordId": "colleague",
+      "lessonIds": [
+        2
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "colleague"
+      ]
+    },
+    {
+      "word": "guidebook",
+      "wordId": "guidebook",
+      "lessonIds": [
+        3
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "guidebook"
+      ]
+    },
+    {
+      "word": "passport",
+      "wordId": "passport",
+      "lessonIds": [
+        3
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "passport"
+      ]
+    },
+    {
+      "word": "sightseeing",
+      "wordId": "sightseeing",
+      "lessonIds": [
+        3
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "sightseeing"
+      ]
+    },
+    {
+      "word": "souvenir",
+      "wordId": "souvenir",
+      "lessonIds": [
+        3
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "souvenir"
+      ]
+    },
+    {
+      "word": "campsite",
+      "wordId": "campsite",
+      "lessonIds": [
+        3
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "campsite"
+      ]
+    },
+    {
+      "word": "accommodation",
+      "wordId": "accommodation",
+      "lessonIds": [
+        3
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "accommodation"
+      ]
+    },
+    {
+      "word": "miss a train",
+      "wordId": "miss-a-train",
+      "lessonIds": [
+        3
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "miss (a train)"
+      ]
+    },
+    {
+      "word": "break down",
+      "wordId": "break-down",
+      "lessonIds": [
+        3
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "break down"
+      ]
+    },
+    {
+      "word": "get lost",
+      "wordId": "get-lost",
+      "lessonIds": [
+        3
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "get lost"
+      ]
+    },
+    {
+      "word": "set off",
+      "wordId": "set-off",
+      "lessonIds": [
+        3,
+        5
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "set off"
+      ]
+    },
+    {
+      "word": "board the plane",
+      "wordId": "board-the-plane",
+      "lessonIds": [
+        3
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "board the plane"
+      ]
+    },
+    {
+      "word": "traffic jam",
+      "wordId": "traffic-jam",
+      "lessonIds": [
+        3
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "traffic jam"
+      ]
+    },
+    {
+      "word": "itinerary",
+      "wordId": "itinerary",
+      "lessonIds": [
+        3
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "itinerary"
+      ]
+    },
+    {
+      "word": "destination",
+      "wordId": "destination",
+      "lessonIds": [
+        3
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "destination"
+      ]
+    },
+    {
+      "word": "excursion",
+      "wordId": "excursion",
+      "lessonIds": [
+        3
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "excursion"
+      ]
+    },
+    {
+      "word": "delayed",
+      "wordId": "delayed",
+      "lessonIds": [
+        3
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "delayed"
+      ]
+    },
+    {
+      "word": "cancelled",
+      "wordId": "cancelled",
+      "lessonIds": [
+        3
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "cancelled"
+      ]
+    },
+    {
+      "word": "luggage allowance",
+      "wordId": "luggage-allowance",
+      "lessonIds": [
+        3
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "luggage allowance"
+      ]
+    },
+    {
+      "word": "travel insurance",
+      "wordId": "travel-insurance",
+      "lessonIds": [
+        3
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "travel insurance"
+      ]
+    },
+    {
+      "word": "picturesque",
+      "wordId": "picturesque",
+      "lessonIds": [
+        3
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "picturesque"
+      ]
+    },
+    {
+      "word": "breathtaking",
+      "wordId": "breathtaking",
+      "lessonIds": [
+        3
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "breathtaking"
+      ]
+    },
+    {
+      "word": "unforgettable",
+      "wordId": "unforgettable",
+      "lessonIds": [
+        3
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "unforgettable"
+      ]
+    },
+    {
+      "word": "hospitality",
+      "wordId": "hospitality",
+      "lessonIds": [
+        3
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "hospitality"
+      ]
+    },
+    {
+      "word": "turbulence",
+      "wordId": "turbulence",
+      "lessonIds": [
+        3
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "turbulence"
+      ]
+    },
+    {
+      "word": "ticket office",
+      "wordId": "ticket-office",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "ticket office"
+      ]
+    },
+    {
+      "word": "platform",
+      "wordId": "platform",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "platform"
+      ]
+    },
+    {
+      "word": "timetable",
+      "wordId": "timetable",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "timetable"
+      ]
+    },
+    {
+      "word": "single ticket",
+      "wordId": "single-ticket",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "single ticket"
+      ]
+    },
+    {
+      "word": "return ticket",
+      "wordId": "return-ticket",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "return ticket"
+      ]
+    },
+    {
+      "word": "bus station",
+      "wordId": "bus-station",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "bus station"
+      ]
+    },
+    {
+      "word": "tourist information centre",
+      "wordId": "tourist-information-centre",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "tourist information center"
+      ]
+    },
+    {
+      "word": "travel blog",
+      "wordId": "travel-blog",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "travel blog"
+      ]
+    },
+    {
+      "word": "opening hours",
+      "wordId": "opening-hours",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "opening hours"
+      ]
+    },
+    {
+      "word": "harbour",
+      "wordId": "harbour",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "harbour"
+      ]
+    },
+    {
+      "word": "sightseeing tour",
+      "wordId": "sightseeing-tour",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "sightseeing tour"
+      ]
+    },
+    {
+      "word": "housemate",
+      "wordId": "housemate",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "housemate"
+      ]
+    },
+    {
+      "word": "commuter",
+      "wordId": "commuter",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "commuter"
+      ]
+    },
+    {
+      "word": "express train",
+      "wordId": "express-train",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "express train"
+      ]
+    },
+    {
+      "word": "fare",
+      "wordId": "fare",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "fare"
+      ]
+    },
+    {
+      "word": "in advance",
+      "wordId": "in-advance",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "in advance"
+      ]
+    },
+    {
+      "word": "booking reference",
+      "wordId": "booking-reference",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "booking reference"
+      ]
+    },
+    {
+      "word": "peak hours",
+      "wordId": "peak-hours",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "peak hours"
+      ]
+    },
+    {
+      "word": "welcoming",
+      "wordId": "welcoming",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "welcoming"
+      ]
+    },
+    {
+      "word": "attractive",
+      "wordId": "attractive",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "attractive"
+      ]
+    },
+    {
+      "word": "efficient",
+      "wordId": "efficient",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "efficient"
+      ]
+    },
+    {
+      "word": "local speciality",
+      "wordId": "local-speciality",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "local specialty"
+      ]
+    },
+    {
+      "word": "scenery",
+      "wordId": "scenery",
+      "lessonIds": [
+        4
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "scenery"
+      ]
+    },
+    {
+      "word": "recommendation",
+      "wordId": "recommendation",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "recommendation"
+      ]
+    },
+    {
+      "word": "cash",
+      "wordId": "cash",
+      "lessonIds": [
+        6
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "cash"
+      ]
+    },
+    {
+      "word": "credit card",
+      "wordId": "credit-card",
+      "lessonIds": [
+        6
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "credit card"
+      ]
+    },
+    {
+      "word": "discount",
+      "wordId": "discount",
+      "lessonIds": [
+        6,
+        10
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "discount"
+      ]
+    },
+    {
+      "word": "bargain",
+      "wordId": "bargain",
+      "lessonIds": [
+        6
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "bargain"
+      ]
+    },
+    {
+      "word": "sale",
+      "wordId": "sale",
+      "lessonIds": [
+        6
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "sale"
+      ]
+    },
+    {
+      "word": "bank account",
+      "wordId": "bank-account",
+      "lessonIds": [
+        6
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "bank account"
+      ]
+    },
+    {
+      "word": "borrow",
+      "wordId": "borrow",
+      "lessonIds": [
+        6,
+        10
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "borrow"
+      ]
+    },
+    {
+      "word": "lend",
+      "wordId": "lend",
+      "lessonIds": [
+        6,
+        10
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "lend"
+      ]
+    },
+    {
+      "word": "owe",
+      "wordId": "owe",
+      "lessonIds": [
+        6
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "owe"
+      ]
+    },
+    {
+      "word": "save up",
+      "wordId": "save-up",
+      "lessonIds": [
+        6
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "save up"
+      ]
+    },
+    {
+      "word": "afford",
+      "wordId": "afford",
+      "lessonIds": [
+        6,
+        10
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "afford"
+      ]
+    },
+    {
+      "word": "pay back",
+      "wordId": "pay-back",
+      "lessonIds": [
+        6
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "pay back"
+      ]
+    },
+    {
+      "word": "budget",
+      "wordId": "budget",
+      "lessonIds": [
+        6
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "budget"
+      ]
+    },
+    {
+      "word": "income",
+      "wordId": "income",
+      "lessonIds": [
+        6
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "income"
+      ]
+    },
+    {
+      "word": "expense",
+      "wordId": "expense",
+      "lessonIds": [
+        6
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "expense"
+      ]
+    },
+    {
+      "word": "investment",
+      "wordId": "investment",
+      "lessonIds": [
+        6
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "investment"
+      ]
+    },
+    {
+      "word": "charity",
+      "wordId": "charity",
+      "lessonIds": [
+        6,
+        7,
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "charity",
+        "charity"
+      ]
+    },
+    {
+      "word": "donation",
+      "wordId": "donation",
+      "lessonIds": [
+        6,
+        7,
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "donation",
+        "donation"
+      ]
+    },
+    {
+      "word": "impulsive buying",
+      "wordId": "impulsive-buying",
+      "lessonIds": [
+        6
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "impulsive buying"
+      ]
+    },
+    {
+      "word": "financial independence",
+      "wordId": "financial-independence",
+      "lessonIds": [
+        6
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "financial independence"
+      ]
+    },
+    {
+      "word": "value for money",
+      "wordId": "value-for-money",
+      "lessonIds": [
+        6
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "value for money"
+      ]
+    },
+    {
+      "word": "extravagant",
+      "wordId": "extravagant",
+      "lessonIds": [
+        6
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "extravagant"
+      ]
+    },
+    {
+      "word": "economical",
+      "wordId": "economical",
+      "lessonIds": [
+        6
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "economical"
+      ]
+    },
+    {
+      "word": "overspend",
+      "wordId": "overspend",
+      "lessonIds": [
+        6
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "overspend"
+      ]
+    },
+    {
+      "word": "shop assistant",
+      "wordId": "shop-assistant",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "shop assistant"
+      ]
+    },
+    {
+      "word": "customer",
+      "wordId": "customer",
+      "lessonIds": [
+        7
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "customer"
+      ]
+    },
+    {
+      "word": "cash register",
+      "wordId": "cash-register",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "cash register"
+      ]
+    },
+    {
+      "word": "receipt",
+      "wordId": "receipt",
+      "lessonIds": [
+        7,
+        10
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "receipt"
+      ]
+    },
+    {
+      "word": "PIN",
+      "wordId": "pin",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "PIN / PIN number"
+      ]
+    },
+    {
+      "word": "change",
+      "wordId": "change",
+      "lessonIds": [
+        7
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "change",
+        "change"
+      ]
+    },
+    {
+      "word": "present",
+      "wordId": "present",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "present / gift"
+      ]
+    },
+    {
+      "word": "price tag",
+      "wordId": "price-tag",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "price tag"
+      ]
+    },
+    {
+      "word": "fundraising",
+      "wordId": "fundraising",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "fundraising"
+      ]
+    },
+    {
+      "word": "sponsor",
+      "wordId": "sponsor",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "sponsor"
+      ]
+    },
+    {
+      "word": "refund",
+      "wordId": "refund",
+      "lessonIds": [
+        7
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "refund"
+      ]
+    },
+    {
+      "word": "exchange",
+      "wordId": "exchange",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "exchange"
+      ]
+    },
+    {
+      "word": "cashier",
+      "wordId": "cashier",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "cashier"
+      ]
+    },
+    {
+      "word": "contactless payment",
+      "wordId": "contactless-payment",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "contactless payment"
+      ]
+    },
+    {
+      "word": "overpriced",
+      "wordId": "overpriced",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "overpriced"
+      ]
+    },
+    {
+      "word": "affordable",
+      "wordId": "affordable",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "affordable"
+      ]
+    },
+    {
+      "word": "generosity",
+      "wordId": "generosity",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "generosity"
+      ]
+    },
+    {
+      "word": "volunteer",
+      "wordId": "volunteer",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "volunteer"
+      ]
+    },
+    {
+      "word": "supporter",
+      "wordId": "supporter",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "supporter"
+      ]
+    },
+    {
+      "word": "awareness",
+      "wordId": "awareness",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "awareness"
+      ]
+    },
+    {
+      "word": "non-profit organisation",
+      "wordId": "non-profit-organisation",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "non-profit organization"
+      ]
+    },
+    {
+      "word": "campaign",
+      "wordId": "campaign",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "campaign"
+      ]
+    },
+    {
+      "word": "tie",
+      "wordId": "tie",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "tie"
+      ]
+    },
+    {
+      "word": "bracelet",
+      "wordId": "bracelet",
+      "lessonIds": [
+        8,
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "bracelet"
+      ]
+    },
+    {
+      "word": "high heels",
+      "wordId": "high-heels",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "high heels"
+      ]
+    },
+    {
+      "word": "tracksuit",
+      "wordId": "tracksuit",
+      "lessonIds": [
+        8,
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "tracksuit"
+      ]
+    },
+    {
+      "word": "sweatshirt",
+      "wordId": "sweatshirt",
+      "lessonIds": [
+        8,
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "sweatshirt"
+      ]
+    },
+    {
+      "word": "gloves",
+      "wordId": "gloves",
+      "lessonIds": [
+        8,
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "gloves"
+      ]
+    },
+    {
+      "word": "tights",
+      "wordId": "tights",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "tights"
+      ]
+    },
+    {
+      "word": "earrings",
+      "wordId": "earrings",
+      "lessonIds": [
+        8,
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "earrings"
+      ]
+    },
+    {
+      "word": "sandals",
+      "wordId": "sandals",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "sandals"
+      ]
+    },
+    {
+      "word": "flat shoes",
+      "wordId": "flat-shoes",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "flat shoes"
+      ]
+    },
+    {
+      "word": "formal",
+      "wordId": "formal",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "formal"
+      ]
+    },
+    {
+      "word": "casual",
+      "wordId": "casual",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "casual"
+      ]
+    },
+    {
+      "word": "ancient",
+      "wordId": "ancient",
+      "lessonIds": [
+        8,
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "ancient"
+      ]
+    },
+    {
+      "word": "modern",
+      "wordId": "modern",
+      "lessonIds": [
+        8
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "modern"
+      ]
+    },
+    {
+      "word": "magnificent",
+      "wordId": "magnificent",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "magnificent"
+      ]
+    },
+    {
+      "word": "ordinary",
+      "wordId": "ordinary",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "ordinary"
+      ]
+    },
+    {
+      "word": "peaceful",
+      "wordId": "peaceful",
+      "lessonIds": [
+        8,
+        10
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "peaceful"
+      ]
+    },
+    {
+      "word": "noisy",
+      "wordId": "noisy",
+      "lessonIds": [
+        8
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "noisy"
+      ]
+    },
+    {
+      "word": "narrow",
+      "wordId": "narrow",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "narrow"
+      ]
+    },
+    {
+      "word": "wide",
+      "wordId": "wide",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "wide"
+      ]
+    },
+    {
+      "word": "crowded",
+      "wordId": "crowded",
+      "lessonIds": [
+        5,
+        8,
+        10
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "crowded"
+      ]
+    },
+    {
+      "word": "empty",
+      "wordId": "empty",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "empty"
+      ]
+    },
+    {
+      "word": "indoor",
+      "wordId": "indoor",
+      "lessonIds": [
+        8
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "indoor"
+      ]
+    },
+    {
+      "word": "outdoor",
+      "wordId": "outdoor",
+      "lessonIds": [
+        8
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "outdoor"
+      ]
+    },
+    {
+      "word": "arrangement",
+      "wordId": "arrangement",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "arrangement"
+      ]
+    },
+    {
+      "word": "invitation",
+      "wordId": "invitation",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "invitation"
+      ]
+    },
+    {
+      "word": "invite",
+      "wordId": "invite",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "invite"
+      ]
+    },
+    {
+      "word": "available",
+      "wordId": "available",
+      "lessonIds": [
+        9,
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "available",
+        "available"
+      ]
+    },
+    {
+      "word": "busy",
+      "wordId": "busy",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "busy"
+      ]
+    },
+    {
+      "word": "get together",
+      "wordId": "get-together",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "get together"
+      ]
+    },
+    {
+      "word": "come round",
+      "wordId": "come-round",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "come round"
+      ]
+    },
+    {
+      "word": "meet up",
+      "wordId": "meet-up",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "meet up"
+      ]
+    },
+    {
+      "word": "organise",
+      "wordId": "organise",
+      "lessonIds": [
+        9,
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "organise",
+        "organise"
+      ]
+    },
+    {
+      "word": "reschedule",
+      "wordId": "reschedule",
+      "lessonIds": [
+        9,
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "reschedule"
+      ]
+    },
+    {
+      "word": "appointment",
+      "wordId": "appointment",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "appointment"
+      ]
+    },
+    {
+      "word": "catch up",
+      "wordId": "catch-up",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "catch up"
+      ]
+    },
+    {
+      "word": "birthday dinner",
+      "wordId": "birthday-dinner",
+      "lessonIds": [
+        9,
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "birthday dinner"
+      ]
+    },
+    {
+      "word": "barbecue",
+      "wordId": "barbecue",
+      "lessonIds": [
+        9,
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "barbecue"
+      ]
+    },
+    {
+      "word": "housewarming party",
+      "wordId": "housewarming-party",
+      "lessonIds": [
+        9,
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "housewarming party"
+      ]
+    },
+    {
+      "word": "celebration",
+      "wordId": "celebration",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "celebration"
+      ]
+    },
+    {
+      "word": "host",
+      "wordId": "host",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "host"
+      ]
+    },
+    {
+      "word": "guest",
+      "wordId": "guest",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "guest"
+      ]
+    },
+    {
+      "word": "accept an invitation",
+      "wordId": "accept-an-invitation",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "accept an invitation"
+      ]
+    },
+    {
+      "word": "decline an invitation",
+      "wordId": "decline-an-invitation",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "decline an invitation"
+      ]
+    },
+    {
+      "word": "bring along",
+      "wordId": "bring-along",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "bring something along"
+      ]
+    },
+    {
+      "word": "look forward to",
+      "wordId": "look-forward-to",
+      "lessonIds": [
+        9,
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "look forward to",
+        "look forward to"
+      ]
+    },
+    {
+      "word": "confirm",
+      "wordId": "confirm",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "confirm"
+      ]
+    },
+    {
+      "word": "convenient",
+      "wordId": "convenient",
+      "lessonIds": [
+        9
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "convenient"
+      ]
+    },
+    {
+      "word": "flexible",
+      "wordId": "flexible",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "flexible"
+      ]
+    },
+    {
+      "word": "considerate",
+      "wordId": "considerate",
+      "lessonIds": [
+        9
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "considerate"
+      ]
+    },
+    {
+      "word": "apologise",
+      "wordId": "apologise",
+      "lessonIds": [
+        9,
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "apologise",
+        "apologise"
+      ]
+    },
+    {
+      "word": "memorable",
+      "wordId": "memorable",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "memorable"
+      ]
+    },
+    {
+      "word": "strengthen relationships",
+      "wordId": "strengthen-relationships",
+      "lessonIds": [
+        9
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "strengthen relationships"
+      ]
+    },
+    {
+      "word": "application",
+      "wordId": "application",
+      "lessonIds": [
+        11,
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "application",
+        "application"
+      ]
+    },
+    {
+      "word": "career",
+      "wordId": "career",
+      "lessonIds": [
+        11
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "career"
+      ]
+    },
+    {
+      "word": "employee",
+      "wordId": "employee",
+      "lessonIds": [
+        11
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "employee"
+      ]
+    },
+    {
+      "word": "employer",
+      "wordId": "employer",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "employer"
+      ]
+    },
+    {
+      "word": "salary",
+      "wordId": "salary",
+      "lessonIds": [
+        11
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "salary"
+      ]
+    },
+    {
+      "word": "qualification",
+      "wordId": "qualification",
+      "lessonIds": [
+        11
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "qualification"
+      ]
+    },
+    {
+      "word": "interview",
+      "wordId": "interview",
+      "lessonIds": [
+        11,
+        12
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "interview",
+        "interview"
+      ]
+    },
+    {
+      "word": "experience",
+      "wordId": "experience",
+      "lessonIds": [
+        11
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "experience",
+        "experience"
+      ]
+    },
+    {
+      "word": "promotion",
+      "wordId": "promotion",
+      "lessonIds": [
+        11
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "promotion"
+      ]
+    },
+    {
+      "word": "resume",
+      "wordId": "resume",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "resume"
+      ]
+    },
+    {
+      "word": "future plan",
+      "wordId": "future-plan",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "future plan"
+      ]
+    },
+    {
+      "word": "career path",
+      "wordId": "career-path",
+      "lessonIds": [
+        11
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "career path"
+      ]
+    },
+    {
+      "word": "degree",
+      "wordId": "degree",
+      "lessonIds": [
+        11
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "degree"
+      ]
+    },
+    {
+      "word": "graduate",
+      "wordId": "graduate",
+      "lessonIds": [
+        11
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "graduate"
+      ]
+    },
+    {
+      "word": "field",
+      "wordId": "field",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "field"
+      ]
+    },
+    {
+      "word": "training",
+      "wordId": "training",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "training"
+      ]
+    },
+    {
+      "word": "schedule",
+      "wordId": "schedule",
+      "lessonIds": [
+        11
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "schedule"
+      ]
+    },
+    {
+      "word": "assignment",
+      "wordId": "assignment",
+      "lessonIds": [
+        11
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "assignment"
+      ]
+    },
+    {
+      "word": "goal",
+      "wordId": "goal",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "goal"
+      ]
+    },
+    {
+      "word": "full-time job",
+      "wordId": "full-time-job",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "full-time job"
+      ]
+    },
+    {
+      "word": "part-time work",
+      "wordId": "part-time-work",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "part-time work"
+      ]
+    },
+    {
+      "word": "work-life balance",
+      "wordId": "work-life-balance",
+      "lessonIds": [
+        11
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "work-life balance"
+      ]
+    },
+    {
+      "word": "ambition",
+      "wordId": "ambition",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "ambition"
+      ]
+    },
+    {
+      "word": "job advertisement",
+      "wordId": "job-advertisement",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "job advertisement"
+      ]
+    },
+    {
+      "word": "apply for",
+      "wordId": "apply-for",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "apply for"
+      ]
+    },
+    {
+      "word": "applicant",
+      "wordId": "applicant",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "applicant"
+      ]
+    },
+    {
+      "word": "CV",
+      "wordId": "cv",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "CV"
+      ]
+    },
+    {
+      "word": "vacancy",
+      "wordId": "vacancy",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "vacancy"
+      ]
+    },
+    {
+      "word": "previous experience",
+      "wordId": "previous-experience",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "previous experience"
+      ]
+    },
+    {
+      "word": "customer service",
+      "wordId": "customer-service",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "customer service"
+      ]
+    },
+    {
+      "word": "attach",
+      "wordId": "attach",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "attach"
+      ]
+    },
+    {
+      "word": "working hours",
+      "wordId": "working-hours",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "working hours"
+      ]
+    },
+    {
+      "word": "offer",
+      "wordId": "offer",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "offer"
+      ]
+    },
+    {
+      "word": "suggestion",
+      "wordId": "suggestion",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "suggestion"
+      ]
+    },
+    {
+      "word": "reassure",
+      "wordId": "reassure",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "reassure"
+      ]
+    },
+    {
+      "word": "worry",
+      "wordId": "worry",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "worry"
+      ]
+    },
+    {
+      "word": "arrange",
+      "wordId": "arrange",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "arrange"
+      ]
+    },
+    {
+      "word": "help out",
+      "wordId": "help-out",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "help out"
+      ]
+    },
+    {
+      "word": "make a list",
+      "wordId": "make-a-list",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "make a list"
+      ]
+    },
+    {
+      "word": "take care of",
+      "wordId": "take-care-of",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "take care of"
+      ]
+    },
+    {
+      "word": "suitable",
+      "wordId": "suitable",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "suitable"
+      ]
+    },
+    {
+      "word": "hardworking",
+      "wordId": "hardworking",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "hardworking"
+      ]
+    },
+    {
+      "word": "confident",
+      "wordId": "confident",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "confident"
+      ]
+    },
+    {
+      "word": "reliable",
+      "wordId": "reliable",
+      "lessonIds": [
+        12
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "reliable"
+      ]
+    },
+    {
+      "word": "develop skills",
+      "wordId": "develop-skills",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "develop skills"
+      ]
+    },
+    {
+      "word": "work in a team",
+      "wordId": "work-in-a-team",
+      "lessonIds": [
+        12
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "work in a team"
+      ]
+    },
+    {
+      "word": "gift",
+      "wordId": "gift",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "present / gift"
+      ]
+    },
+    {
+      "word": "donate",
+      "wordId": "donate",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "donate"
+      ]
+    },
+    {
+      "word": "information",
+      "wordId": "information",
+      "lessonIds": [
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "information"
+      ]
+    },
+    {
+      "word": "travel around",
+      "wordId": "travel-around",
+      "lessonIds": [
+        5
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "travel around"
+      ]
+    },
+    {
+      "word": "get to",
+      "wordId": "get-to",
+      "lessonIds": [
+        5
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "get to"
+      ]
+    },
+    {
+      "word": "go away",
+      "wordId": "go-away",
+      "lessonIds": [
+        5
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "go away"
+      ]
+    },
+    {
+      "word": "do some sightseeing",
+      "wordId": "do-some-sightseeing",
+      "lessonIds": [
+        5
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "do some sightseeing"
+      ]
+    },
+    {
+      "word": "change",
+      "wordId": "change-verb",
+      "lessonIds": [
+        5
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "change",
+        "change"
+      ]
+    },
+    {
+      "word": "raise money",
+      "wordId": "raise-money",
+      "lessonIds": [
+        7,
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "raise money"
+      ]
+    },
+    {
+      "word": "arrange a meeting",
+      "wordId": "arrange-a-meeting",
+      "lessonIds": [
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "arrange a meeting"
+      ]
+    },
+    {
+      "word": "till",
+      "wordId": "till",
+      "lessonIds": [
+        7
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "till"
+      ]
+    },
+    {
+      "word": "scarf",
+      "wordId": "scarf",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "scarf"
+      ]
+    },
+    {
+      "word": "T-shirt",
+      "wordId": "t-shirt",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "T-shirt"
+      ]
+    },
+    {
+      "word": "formal jacket",
+      "wordId": "formal-jacket",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "formal jacket"
+      ]
+    },
+    {
+      "word": "loan",
+      "wordId": "loan",
+      "lessonIds": [
+        6
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "loan"
+      ]
+    },
+    {
+      "word": "receptionist",
+      "wordId": "receptionist",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "receptionist"
+      ]
+    },
+    {
+      "word": "plumber",
+      "wordId": "plumber",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "plumber"
+      ]
+    },
+    {
+      "word": "accountant",
+      "wordId": "accountant",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "accountant"
+      ]
+    },
+    {
+      "word": "pilot",
+      "wordId": "pilot",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "pilot"
+      ]
+    },
+    {
+      "word": "electrician",
+      "wordId": "electrician",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "electrician"
+      ]
+    },
+    {
+      "word": "instructor",
+      "wordId": "instructor",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "instructor"
+      ]
+    },
+    {
+      "word": "engineer",
+      "wordId": "engineer",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "engineer"
+      ]
+    },
+    {
+      "word": "lawyer",
+      "wordId": "lawyer",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "lawyer"
+      ]
+    },
+    {
+      "word": "rewarding",
+      "wordId": "rewarding",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "rewarding"
+      ]
+    },
+    {
+      "word": "careers fair",
+      "wordId": "careers-fair",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "careers fair"
+      ]
+    },
+    {
+      "word": "responsibility",
+      "wordId": "responsibility",
+      "lessonIds": [
+        11
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "responsibility"
+      ]
+    },
+    {
+      "word": "necklace",
+      "wordId": "necklace",
+      "lessonIds": [
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "necklace"
+      ]
+    },
+    {
+      "word": "shirt",
+      "wordId": "shirt",
+      "lessonIds": [
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "shirt"
+      ]
+    },
+    {
+      "word": "clothing",
+      "wordId": "clothing",
+      "lessonIds": [
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "clothing"
+      ]
+    },
+    {
+      "word": "furniture",
+      "wordId": "furniture",
+      "lessonIds": [
+        10
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "furniture"
+      ]
+    },
+    {
+      "word": "luggage",
+      "wordId": "luggage",
+      "lessonIds": [
+        10
+      ],
+      "status": "existing",
+      "sourceTerms": [
+        "luggage"
+      ]
+    },
+    {
+      "word": "bottle",
+      "wordId": "bottle",
+      "lessonIds": [
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "bottle"
+      ]
+    },
+    {
+      "word": "ticket",
+      "wordId": "ticket",
+      "lessonIds": [
+        10
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "ticket"
+      ]
+    },
+    {
+      "word": "always",
+      "wordId": "always",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "always"
+      ]
+    },
+    {
+      "word": "usually",
+      "wordId": "usually",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "usually"
+      ]
+    },
+    {
+      "word": "normally",
+      "wordId": "normally",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "normally"
+      ]
+    },
+    {
+      "word": "often",
+      "wordId": "often",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "often"
+      ]
+    },
+    {
+      "word": "sometimes",
+      "wordId": "sometimes",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "sometimes"
+      ]
+    },
+    {
+      "word": "hardly ever",
+      "wordId": "hardly-ever",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "hardly ever"
+      ]
+    },
+    {
+      "word": "never",
+      "wordId": "never",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "never"
+      ]
+    },
+    {
+      "word": "seldom",
+      "wordId": "seldom",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "seldom"
+      ]
+    },
+    {
+      "word": "amazing",
+      "wordId": "amazing",
+      "lessonIds": [
+        1
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "amazing"
+      ]
+    },
+    {
+      "word": "gorgeous",
+      "wordId": "gorgeous",
+      "lessonIds": [
+        5
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "gorgeous"
+      ]
+    },
+    {
+      "word": "information desk",
+      "wordId": "information-desk",
+      "lessonIds": [
+        4
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "information desk"
+      ]
+    },
+    {
+      "word": "high",
+      "wordId": "high",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "high"
+      ]
+    },
+    {
+      "word": "tiny",
+      "wordId": "tiny",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "tiny"
+      ]
+    },
+    {
+      "word": "huge",
+      "wordId": "huge",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "huge"
+      ]
+    },
+    {
+      "word": "low",
+      "wordId": "low",
+      "lessonIds": [
+        8
+      ],
+      "status": "added",
+      "sourceTerms": [
+        "low"
+      ]
+    }
+  ],
+  "corrections": {
+    "miss a train": {
+      "ipa": "/mɪs ə ˈtreɪn/"
+    },
+    "break down": {
+      "ipa": "/ˌbreɪk ˈdaʊn/"
+    },
+    "get lost": {
+      "ipa": "/ɡet ˈlɒst/"
+    },
+    "board the plane": {
+      "ipa": "/bɔːd ðə ˈpleɪn/"
+    },
+    "peak hours": {
+      "ipa": "/ˈpiːk ˌaʊəz/"
+    },
+    "save up": {
+      "ipa": "/ˌseɪv ˈʌp/"
+    },
+    "come round": {
+      "ipa": "/ˌkʌm ˈraʊnd/"
+    },
+    "meet up": {
+      "ipa": "/ˌmiːt ˈʌp/"
+    },
+    "catch up": {
+      "ipa": "/ˌkætʃ ˈʌp/"
+    },
+    "full-time job": {
+      "ipa": "/ˌfʊlˈtaɪm dʒɒb/"
+    },
+    "part-time work": {
+      "ipa": "/ˌpɑːtˈtaɪm wɜːk/"
+    },
+    "help out": {
+      "ipa": "/ˌhelp ˈaʊt/"
+    },
+    "make a list": {
+      "ipa": "/meɪk ə ˈlɪst/"
+    },
+    "take care of": {
+      "ipa": "/teɪk ˈkeər əv/"
+    },
+    "work in a team": {
+      "ipa": "/wɜːk ɪn ə ˈtiːm/"
+    },
+    "contact": {
+      "pos": "v",
+      "ipa": "/ˈkɒntækt/",
+      "vi": "liên lạc, liên hệ (v); sự liên lạc (n)"
+    },
+    "present": {
+      "ipa": "/ˈpreznt/",
+      "vi": "quà tặng"
+    },
+    "exchange": {
+      "pos": "v",
+      "vi": "đổi hàng (v); sự đổi hàng (n)"
+    },
+    "offer": {
+      "pos": "v",
+      "vi": "đề nghị giúp (v); lời đề nghị giúp (n)"
+    },
+    "host": {
+      "pos": "v",
+      "vi": "tổ chức, đăng cai (v); chủ nhà, chủ tiệc (n)"
+    },
+    "sponsor": {
+      "pos": "v",
+      "vi": "tài trợ (v); nhà tài trợ (n)"
+    },
+    "reply": {
+      "pos": "v",
+      "vi": "trả lời (v); câu trả lời (n)"
+    },
+    "tourist information centre": {
+      "ipa": "/ˌtʊərɪst ˌɪnfəˈmeɪʃən ˈsentə/"
+    },
+    "local speciality": {
+      "ipa": "/ˌləʊkəl ˌspeʃiˈæləti/"
+    },
+    "non-profit organisation": {
+      "ipa": "/ˌnɒnˈprɒfɪt ˌɔːɡənaɪˈzeɪʃən/"
+    },
+    "financial independence": {
+      "ipa": "/faɪˌnænʃəl ˌɪndɪˈpendəns/"
+    },
+    "luggage allowance": {
+      "ipa": "/ˈlʌɡɪdʒ əˌlaʊəns/"
+    },
+    "reschedule": {
+      "ipa": "/ˌriːˈʃedʒuːl/"
+    },
+    "PIN": {
+      "ipa": "/pɪn/"
+    }
+  }
+}

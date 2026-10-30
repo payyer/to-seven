@@ -9,11 +9,10 @@ import type { Word } from "@/lib/types";
 import { Icon } from "../Icon";
 import { SpeakWord, StressHint, StressWord } from "../Pronounce";
 import { Button, ButtonLink, Card, Kbd, Loading, PageHeader, ProgressBar } from "../ui";
-import { SentencePractice } from "../SentencePractice";
 import { SpellQuiz, SpellTask } from "../Spelling";
 import { Usage, WordMeta } from "../WordBits";
 
-const FACES = ["Nghĩa", "Cách đọc", "Viết", "Cách dùng", "Đặt câu"] as const;
+const FACES = ["Nghĩa", "Cách đọc", "Viết", "Cách dùng"] as const;
 const WRITE_FACE = 2;
 
 export function LearnView() {
@@ -30,7 +29,7 @@ export function LearnView() {
     <div>
       <PageHeader
         title="Học từ mới"
-        subtitle={`Mỗi từ: nghĩa → cách đọc → viết đúng → cách dùng → tự đặt câu. Chỉ tiêu hôm nay: ${goal} từ.`}
+        subtitle={`Mỗi từ: nghĩa → cách đọc → viết đúng → cách dùng. Chỉ tiêu hôm nay: ${goal} từ.`}
       />
 
       <div className="mb-4 flex items-center gap-3">
@@ -232,20 +231,11 @@ function LearnCard({ word, preferReal }: { word: Word; preferReal: boolean }) {
           </div>
         )}
 
-        {face === 4 && (
-          <div className="space-y-4">
-            <div className="flex items-baseline justify-between gap-3">
-              <div className="text-2xl font-bold">{word.word}</div>
-              <div className="text-sm text-ink-2">{word.vi}</div>
-            </div>
-            <SentencePractice word={word} />
-          </div>
-        )}
       </div>
 
       {isLast && (
         <p className="border-t border-line px-5 pt-3 text-xs text-ink-3">
-          Viết xong hoặc muốn bỏ qua bước này thì bấm “Đã học xong từ này”. Lỗi AI chỉ ra được lưu vào Sổ lỗi sai.
+          Xem lại cách dùng rồi bấm “Đã học xong từ này”.
         </p>
       )}
 

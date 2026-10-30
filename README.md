@@ -1,12 +1,12 @@
 # IELTS Vocab
 
-Web app học từ vựng IELTS cá nhân: kiểm tra đầu vào, học 5–15 từ mới mỗi ngày theo chủ đề Speaking Part 1, ôn tập ngắt quãng bằng cách **tự gõ lại từ** (active recall), rồi **dùng từ**: tự đặt câu cho AI chữa, ôn sổ lỗi sai, nghe – chép, Speaking Part 1, Writing General Training hằng tuần và báo cáo tuần.
+Web app học từ vựng và ngữ pháp cá nhân. Menu chính: **Hôm nay · Từ vựng · Ngữ pháp · Ôn theo cấp độ**. Khu Pre-intermediate có 12 lesson, chấm bài theo tài liệu, câu luyện bổ sung và tiến độ riêng; dữ liệu học từ vựng gốc được bảo toàn. Xem [hướng dẫn học, lưu trữ và thêm lesson](docs/courses.md).
 
 ## Chạy
 
 ```bash
 npm install
-cp .env.example .env.local   # điền ANTHROPIC_API_KEY để dùng AI chữa câu
+cp .env.example .env.local   # cấu hình Supabase và mã truy cập theo hướng dẫn bên dưới
 npm run dev                  # http://localhost:3000
 npm test                     # unit test (SRS, chấm điểm, sổ lỗi, diff, dữ liệu kho từ)
 npm run build                # build production
@@ -24,7 +24,9 @@ Cần Node.js ≥ 20.9.
 | `APP_ACCESS_CODE` | Required private code, entered once per browser to unlock cloud progress and AI |
 | `AI_MOCK=1` | Chỉ để phát triển giao diện: chấm câu giả, không gọi API |
 
-## Tính năng
+## Chức năng trước khi tinh gọn
+
+Bảng dưới lưu mô tả hệ thống cũ để tham khảo tương thích dữ liệu/API. Giao diện hiện tại được mô tả trong [Ôn theo cấp độ](docs/courses.md); các trang kỹ năng cũ chuyển về khu học phù hợp, và không cần gọi AI lúc làm bài theo cấp độ.
 
 | Trang | Nội dung |
 |---|---|

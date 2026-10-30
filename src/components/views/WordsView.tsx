@@ -8,7 +8,13 @@ import { formatLong } from "@/lib/date";
 import { isMastered } from "@/lib/srs";
 import { useAppState } from "@/lib/store";
 import { normalizeAnswer } from "@/lib/text";
-import { LEVELS, type CardState, type Level, type TopicId, type Word } from "@/lib/types";
+import {
+  LEVELS,
+  type CardState,
+  type Level,
+  type TopicId,
+  type Word,
+} from "@/lib/types";
 import { Icon } from "../Icon";
 import { SpeakWord, StressWord } from "../Pronounce";
 import { Badge, Loading, PageHeader } from "../ui";
@@ -35,7 +41,8 @@ function matchesTopic(w: Word, filter: TopicFilter): boolean {
   if (filter === "all") return true;
   // "Từ trên lớp" gồm cả từ đã có sẵn ở chủ đề khác nhưng nằm trong LIST.
   if (filter === "class") return Boolean(w.classLists?.length);
-  if (filter.startsWith("list-")) return w.classLists?.includes(Number(filter.slice(5))) ?? false;
+  if (filter.startsWith("list-"))
+    return w.classLists?.includes(Number(filter.slice(5))) ?? false;
   return w.topic === filter;
 }
 
@@ -48,6 +55,7 @@ export function WordsView() {
   const [topic, setTopic] = useState<TopicFilter>("all");
   const [level, setLevel] = useState<Level | "all">("all");
   const [status, setStatus] = useState<Status>("all");
+  const [lesson, setLesson] = useState("all");
 
   if (!state) return <Loading />;
   const { cards } = state;
@@ -56,14 +64,40 @@ export function WordsView() {
   const list = WORDS.filter(
     (w) =>
       matchesTopic(w, topic) &&
+      (lesson === "all" ||
+        w.lessonRefs?.some(
+          (ref) =>
+            ref.levelId === "pre-intermediate" && ref.lesson === Number(lesson),
+        )) &&
       (level === "all" || w.level === level) &&
       (status === "all" || statusOf(cards[w.id]) === status) &&
-      (!q || w.word.toLowerCase().includes(q) || w.vi.toLowerCase().includes(q)),
+      (!q ||
+        w.word.toLowerCase().includes(q) ||
+        w.vi.toLowerCase().includes(q)),
   );
 
   return (
     <div>
-      <PageHeader title="Kho từ" subtitle={`${WORDS.length} từ theo chủ đề IELTS Speaking Part 1 và các LIST trên lớp`} />
+      <PageHeader
+        title="Kho từ"
+        subtitle={`${WORDS.length} từ · chủ đề, LIST trên lớp và Lesson 1–12`}
+      />
+      <label className="mb-3 block text-sm">
+        Nguồn lesson{" "}
+        <select
+          aria-label="Lọc từ theo lesson"
+          className={SELECT}
+          value={lesson}
+          onChange={(e) => setLesson(e.target.value)}
+        >
+          <option value="all">Toàn bộ kho gốc và từ bổ sung</option>
+          {Array.from({ length: 12 }, (_, i) => (
+            <option key={i} value={i + 1}>
+              Pre-intermediate · Lesson {i + 1}
+            </option>
+          ))}
+        </select>
+      </label>
 
       <div className="mb-4 grid gap-2 sm:grid-cols-[1fr_auto_auto_auto]">
         <input
@@ -74,7 +108,12 @@ export function WordsView() {
           aria-label="Tìm từ"
           className={SELECT}
         />
-        <select value={topic} onChange={(e) => setTopic(e.target.value as TopicFilter)} aria-label="Chủ đề" className={SELECT}>
+        <select
+          value={topic}
+          onChange={(e) => setTopic(e.target.value as TopicFilter)}
+          aria-label="Chủ đề"
+          className={SELECT}
+        >
           <option value="all">Mọi chủ đề</option>
           {TOPICS.map((t) => (
             <option key={t.id} value={t.id}>
@@ -89,7 +128,12 @@ export function WordsView() {
             ))}
           </optgroup>
         </select>
-        <select value={level} onChange={(e) => setLevel(e.target.value as Level | "all")} aria-label="Level" className={SELECT}>
+        <select
+          value={level}
+          onChange={(e) => setLevel(e.target.value as Level | "all")}
+          aria-label="Level"
+          className={SELECT}
+        >
           <option value="all">Mọi level</option>
           {LEVELS.map((l) => (
             <option key={l} value={l}>
@@ -97,7 +141,12 @@ export function WordsView() {
             </option>
           ))}
         </select>
-        <select value={status} onChange={(e) => setStatus(e.target.value as Status)} aria-label="Trạng thái" className={SELECT}>
+        <select
+          value={status}
+          onChange={(e) => setStatus(e.target.value as Status)}
+          aria-label="Trạng thái"
+          className={SELECT}
+        >
           {(Object.keys(STATUS_LABEL) as Status[]).map((s) => (
             <option key={s} value={s}>
               {STATUS_LABEL[s]}
@@ -123,9 +172,16 @@ export function WordsView() {
                     </div>
                     <div className="truncate text-sm text-ink-2">{w.vi}</div>
                   </div>
-                  {s !== "new" && <Badge tone={s === "mastered" ? "good" : "accent"}>{STATUS_LABEL[s]}</Badge>}
+                  {s !== "new" && (
+                    <Badge tone={s === "mastered" ? "good" : "accent"}>
+                      {STATUS_LABEL[s]}
+                    </Badge>
+                  )}
                   <Badge>{w.level}</Badge>
-                  <Icon name="chevronDown" className="h-4 w-4 shrink-0 text-ink-3 transition-transform group-open:rotate-180" />
+                  <Icon
+                    name="chevronDown"
+                    className="h-4 w-4 shrink-0 text-ink-3 transition-transform group-open:rotate-180"
+                  />
                 </summary>
                 <div className="space-y-4 border-t border-line px-4 py-4">
                   <div className="flex flex-wrap items-center justify-between gap-3">
@@ -136,7 +192,8 @@ export function WordsView() {
                   <Usage word={w} />
                   {card && (
                     <p className="text-xs text-ink-3">
-                      Học ngày {formatLong(card.learnedAt)} · lần ôn tới {formatLong(card.due)} · khoảng cách {card.interval} ngày
+                      Học ngày {formatLong(card.learnedAt)} · lần ôn tới{" "}
+                      {formatLong(card.due)} · khoảng cách {card.interval} ngày
                     </p>
                   )}
                 </div>
@@ -145,7 +202,11 @@ export function WordsView() {
           );
         })}
       </ul>
-      {list.length === 0 && <p className="py-10 text-center text-sm text-ink-3">Không có từ nào khớp bộ lọc.</p>}
+      {list.length === 0 && (
+        <p className="py-10 text-center text-sm text-ink-3">
+          Không có từ nào khớp bộ lọc.
+        </p>
+      )}
     </div>
   );
 }

@@ -1,0 +1,6208 @@
+[
+  {
+    "id": "all-right",
+    "word": "all right",
+    "pos": "adj",
+    "additionalPos": [
+      "adv"
+    ],
+    "vi": "Ổn, bình thường, tốt",
+    "ipa": "/ˌɔːl ˈraɪt/",
+    "stress": "all RIGHT",
+    "level": "A2",
+    "topic": "people",
+    "collocations": [
+      "feel all right",
+      "be all right"
+    ],
+    "example": "Everything is going to be all right.",
+    "exampleVi": "Mọi thứ rồi sẽ ổn thôi.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/all-right_1"
+    ]
+  },
+  {
+    "id": "awful",
+    "word": "awful",
+    "pos": "adj",
+    "vi": "Kinh khủng, tồi tệ",
+    "ipa": "/ˈɔːfl/",
+    "stress": "AW·ful",
+    "level": "A2",
+    "topic": "people",
+    "collocations": [
+      "awful weather",
+      "feel awful"
+    ],
+    "example": "The weather is awful.",
+    "exampleVi": "Thời tiết thật tồi tệ.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 5
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/awful_1"
+    ]
+  },
+  {
+    "id": "strange",
+    "word": "strange",
+    "pos": "adj",
+    "vi": "Kỳ lạ, lạ lẫm",
+    "ipa": "/streɪndʒ/",
+    "stress": "STRANGE",
+    "level": "A2",
+    "topic": "people",
+    "collocations": [
+      "a strange noise",
+      "a strange feeling"
+    ],
+    "example": "I heard a strange noise outside last night.",
+    "exampleVi": "Tôi nghe thấy một tiếng động kỳ lạ bên ngoài vào đêm qua.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 5
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/strange"
+    ]
+  },
+  {
+    "id": "perfect",
+    "word": "perfect",
+    "pos": "adj",
+    "vi": "Hoàn hảo",
+    "ipa": "/ˈpɜːfɪkt/",
+    "stress": "PER·fect",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "a perfect day",
+      "a perfect example"
+    ],
+    "example": "It is a perfect day for a picnic.",
+    "exampleVi": "Đó là một ngày hoàn hảo để đi dã ngoại.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 5
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/perfect_1"
+    ]
+  },
+  {
+    "id": "great",
+    "word": "great",
+    "pos": "adj",
+    "vi": "Tuyệt vời",
+    "ipa": "/ɡreɪt/",
+    "stress": "GREAT",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "a great time",
+      "a great idea"
+    ],
+    "example": "We had a great time at the party.",
+    "exampleVi": "Chúng tôi đã có thời gian tuyệt vời tại tiệc.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/great_1"
+    ]
+  },
+  {
+    "id": "relaxed",
+    "word": "relaxed",
+    "pos": "adj",
+    "vi": "Thư giãn, thoải mái",
+    "ipa": "/rɪˈlækst/",
+    "stress": "re·LAXED",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "feel relaxed",
+      "a relaxed atmosphere"
+    ],
+    "example": "I feel relaxed after taking a warm bath.",
+    "exampleVi": "Tôi cảm thấy thư giãn sau khi tắm nước ấm.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 5
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/relaxed"
+    ]
+  },
+  {
+    "id": "rude",
+    "word": "rude",
+    "pos": "adj",
+    "vi": "Bất lịch sự, thô lỗ",
+    "ipa": "/ruːd/",
+    "stress": "RUDE",
+    "level": "A2",
+    "topic": "people",
+    "collocations": [
+      "rude behaviour",
+      "be rude to someone"
+    ],
+    "example": "It is rude to interrupt people when they are talking.",
+    "exampleVi": "Thật bất lịch sự khi ngắt lời người khác khi họ đang nói.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 5
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/rude"
+    ]
+  },
+  {
+    "id": "personal",
+    "word": "personal",
+    "pos": "adj",
+    "vi": "Cá nhân, riêng tư",
+    "ipa": "/ˈpɜːsənl/",
+    "stress": "PER·son·al",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "personal information",
+      "personal interests"
+    ],
+    "example": "Please keep your personal items in the locker.",
+    "exampleVi": "Vui lòng giữ đồ dùng cá nhân của bạn trong tủ đồ.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/personal"
+    ]
+  },
+  {
+    "id": "age",
+    "word": "age",
+    "pos": "n",
+    "vi": "Tuổi tác",
+    "ipa": "/eɪdʒ/",
+    "stress": "AGE",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "at the age of",
+      "people of all ages"
+    ],
+    "example": "She entered university at the age of eighteen.",
+    "exampleVi": "Cô ấy vào đại học ở tuổi 18.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/age_1"
+    ]
+  },
+  {
+    "id": "married",
+    "word": "married",
+    "pos": "adj",
+    "vi": "Đã kết hôn",
+    "ipa": "/ˈmærid/",
+    "stress": "MAR·ried",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "get married",
+      "be married to"
+    ],
+    "example": "They have been happily married for ten years.",
+    "exampleVi": "Họ đã kết hôn hạnh phúc được mười năm.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/married"
+    ]
+  },
+  {
+    "id": "interests",
+    "word": "interests",
+    "pos": "n",
+    "vi": "Sở thích, mối quan tâm",
+    "ipa": "/ˈɪn.trəsts/",
+    "stress": "IN·ter·ests",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "personal interests",
+      "share common interests"
+    ],
+    "example": "Music and travel are my main interests.",
+    "exampleVi": "Âm nhạc và du lịch là những mối quan tâm chính của tôi.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/interest_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "hobbies",
+    "word": "hobbies",
+    "pos": "n",
+    "vi": "Sở thích (lúc rảnh rỗi)",
+    "ipa": "/ˈhɒb.iz/",
+    "stress": "HOB·bies",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "different hobbies",
+      "hobbies and interests"
+    ],
+    "example": "My hobbies include reading and swimming.",
+    "exampleVi": "Sở thích của tôi gồm đọc sách và bơi lội.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/hobby"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "religion",
+    "word": "religion",
+    "pos": "n",
+    "vi": "Tôn giáo",
+    "ipa": "/rɪˈlɪdʒən/",
+    "stress": "re·LI·gion",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "respect a religion",
+      "freedom of religion"
+    ],
+    "example": "Respecting each other's religion is very important.",
+    "exampleVi": "Tôn trọng tôn giáo của nhau là điều rất quan trọng.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/religion"
+    ]
+  },
+  {
+    "id": "politics",
+    "word": "politics",
+    "pos": "n",
+    "vi": "Chính trị",
+    "ipa": "/ˈpɒlətɪks/",
+    "stress": "POL·i·tics",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "international politics",
+      "discuss politics"
+    ],
+    "example": "He is very interested in international politics.",
+    "exampleVi": "Anh ấy rất quan tâm đến chính trị quốc tế.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/politics"
+    ]
+  },
+  {
+    "id": "money",
+    "word": "money",
+    "pos": "n",
+    "vi": "Tiền bạc",
+    "ipa": "/ˈmʌni/",
+    "stress": "MON·ey",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "save money",
+      "spend money"
+    ],
+    "example": "She saved a lot of money to buy a new car.",
+    "exampleVi": "Cô ấy đã tiết kiệm được nhiều tiền để mua một chiếc ô tô mới.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/money"
+    ]
+  },
+  {
+    "id": "birthday",
+    "word": "birthday",
+    "pos": "n",
+    "vi": "Ngày sinh nhật",
+    "ipa": "/ˈbɜːθdeɪ/",
+    "stress": "BIRTH·day",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "a birthday party",
+      "a birthday present"
+    ],
+    "example": "We are organizing a surprise party for his birthday.",
+    "exampleVi": "Chúng tôi đang tổ chức một buổi tiệc bất ngờ cho sinh nhật của anh ấy.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/birthday"
+    ]
+  },
+  {
+    "id": "plan",
+    "word": "plan",
+    "pos": "n",
+    "additionalPos": [
+      "v"
+    ],
+    "vi": "Kế hoạch / Lên kế hoạch",
+    "ipa": "/plæn/",
+    "stress": "PLAN",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "make a plan",
+      "a future plan"
+    ],
+    "example": "My plan is to travel around Europe next summer.",
+    "exampleVi": "Kế hoạch của tôi là đi du lịch quanh châu Âu vào mùa hè tới.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/plan_1"
+    ]
+  },
+  {
+    "id": "cancel",
+    "word": "cancel",
+    "pos": "v",
+    "vi": "Hủy bỏ",
+    "ipa": "/ˈkænsl/",
+    "stress": "CAN·cel",
+    "level": "B2",
+    "topic": "people",
+    "collocations": [
+      "cancel a meeting",
+      "cancel a flight"
+    ],
+    "example": "They had to cancel the meeting due to the rain.",
+    "exampleVi": "Họ đã phải hủy cuộc họp vì trời mưa.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/cancel"
+    ]
+  },
+  {
+    "id": "be-into",
+    "word": "be into",
+    "pos": "phr",
+    "vi": "Hứng thú, thích cái gì đó",
+    "ipa": "/bi ˈɪn.tuː/",
+    "stress": "be IN·to",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "be into music",
+      "be really into something"
+    ],
+    "example": "You don't have to be into football to enjoy the match.",
+    "exampleVi": "Bạn không cần mê bóng đá để thưởng thức trận đấu.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/be_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "holiday",
+    "word": "holiday",
+    "pos": "n",
+    "vi": "Kỳ nghỉ, ngày lễ",
+    "ipa": "/ˈhɒlədeɪ/",
+    "stress": "HOL·i·day",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "go on holiday",
+      "a summer holiday"
+    ],
+    "example": "We are planning to go on holiday next month.",
+    "exampleVi": "Chúng tôi đang lên kế hoạch đi nghỉ vào tháng tới.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/holiday_1"
+    ]
+  },
+  {
+    "id": "communication",
+    "word": "communication",
+    "pos": "n",
+    "vi": "Sự giao tiếp, thông tin liên lạc",
+    "ipa": "/kəˌmjuːnɪˈkeɪʃn/",
+    "stress": "com·mu·ni·CA·tion",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "communication skills",
+      "effective communication"
+    ],
+    "example": "Good communication skills are essential for this job.",
+    "exampleVi": "Kỹ năng giao tiếp tốt là rất cần thiết cho công việc này.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/communication"
+    ]
+  },
+  {
+    "id": "message",
+    "word": "message",
+    "pos": "n",
+    "additionalPos": [
+      "v"
+    ],
+    "vi": "Tin nhắn / Gửi tin nhắn",
+    "ipa": "/ˈmesɪdʒ/",
+    "stress": "MES·sage",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "send a message",
+      "a text message"
+    ],
+    "example": "I will send you a message when I arrive home.",
+    "exampleVi": "Tôi sẽ gửi cho bạn một tin nhắn khi tôi về đến nhà.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/message_1"
+    ]
+  },
+  {
+    "id": "comment",
+    "word": "comment",
+    "pos": "n",
+    "additionalPos": [
+      "v"
+    ],
+    "vi": "Bình luận, lời nhận xét",
+    "ipa": "/ˈkɒment/",
+    "stress": "COM·ment",
+    "level": "A2",
+    "topic": "people",
+    "collocations": [
+      "make a comment",
+      "leave a comment"
+    ],
+    "example": "Please leave a comment on my blog.",
+    "exampleVi": "Hãy để lại bình luận trên blog của tôi.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/comment_1"
+    ]
+  },
+  {
+    "id": "follower",
+    "word": "follower",
+    "pos": "n",
+    "vi": "Người theo dõi (trên MXH)",
+    "ipa": "/ˈfɒləʊə(r)/",
+    "stress": "FOL·low·er",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "gain followers",
+      "social media followers"
+    ],
+    "example": "The singer has a new follower on her blog.",
+    "exampleVi": "Ca sĩ có thêm một người theo dõi mới trên blog.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/follower"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "blog",
+    "word": "blog",
+    "pos": "n",
+    "additionalPos": [
+      "v"
+    ],
+    "vi": "Trang nhật ký trực tuyến / Viết blog",
+    "ipa": "/blɒɡ/",
+    "stress": "BLOG",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "write a blog",
+      "a travel blog"
+    ],
+    "example": "She writes a personal blog about her travel experiences.",
+    "exampleVi": "Cô ấy viết một blog cá nhân về những trải nghiệm du lịch của mình.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/blog_1"
+    ]
+  },
+  {
+    "id": "greet",
+    "word": "greet",
+    "pos": "v",
+    "vi": "chào hỏi",
+    "ipa": "/ɡriːt/",
+    "stress": "GREET",
+    "level": "A2",
+    "topic": "people",
+    "collocations": [
+      "greet a visitor",
+      "greet someone with a smile"
+    ],
+    "example": "She greeted me with a smile.",
+    "exampleVi": "Cô ấy chào tôi bằng một nụ cười.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/greet"
+    ]
+  },
+  {
+    "id": "greeting",
+    "word": "greeting",
+    "pos": "n",
+    "vi": "lời chào",
+    "ipa": "/ˈɡriːtɪŋ/",
+    "stress": "GREET·ing",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "a friendly greeting",
+      "exchange greetings"
+    ],
+    "example": "“Good morning” is a common greeting.",
+    "exampleVi": "“Good morning” là một lời chào phổ biến.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/greeting"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "get-in-touch",
+    "word": "get in touch",
+    "pos": "phr",
+    "vi": "liên lạc",
+    "ipa": "/ˌɡet ɪn ˈtʌtʃ/",
+    "stress": "get in TOUCH",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "get in touch with someone",
+      "get in touch by email"
+    ],
+    "example": "Please get in touch with me when you arrive.",
+    "exampleVi": "Hãy liên lạc với tôi khi bạn đến nơi.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/touch_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "hear-from",
+    "word": "hear from",
+    "pos": "phr",
+    "vi": "nhận được tin từ ai",
+    "ipa": "/ˈhɪə frəm/",
+    "stress": "HEAR from",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "hear from a friend",
+      "hope to hear from you"
+    ],
+    "example": "I haven’t heard from Anna for two weeks.",
+    "exampleVi": "Tôi đã không nhận được tin từ Anna trong hai tuần.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/hear"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "reply",
+    "word": "reply",
+    "pos": "v",
+    "additionalPos": [
+      "n"
+    ],
+    "vi": "trả lời (v); câu trả lời (n)",
+    "ipa": "/rɪˈplaɪ/",
+    "stress": "re·PLY",
+    "level": "A2",
+    "topic": "people",
+    "collocations": [
+      "reply to an email",
+      "a quick reply"
+    ],
+    "example": "He replied to my email this morning.",
+    "exampleVi": "Anh ấy đã trả lời email của tôi sáng nay.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/reply_1"
+    ]
+  },
+  {
+    "id": "contact",
+    "word": "contact",
+    "pos": "v",
+    "additionalPos": [
+      "n"
+    ],
+    "vi": "liên lạc, liên hệ (v); sự liên lạc (n)",
+    "ipa": "/ˈkɒntækt/",
+    "stress": "CON·tact",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "contact a company",
+      "contact someone by phone"
+    ],
+    "example": "You can contact me by phone or email.",
+    "exampleVi": "Bạn có thể liên lạc với tôi qua điện thoại hoặc email.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/contact_2"
+    ]
+  },
+  {
+    "id": "conversation",
+    "word": "conversation",
+    "pos": "n",
+    "vi": "cuộc hội thoại",
+    "ipa": "/ˌkɒnvəˈseɪʃn/",
+    "stress": "con·ver·SA·tion",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "have a conversation",
+      "start a conversation"
+    ],
+    "example": "We had a long conversation about work.",
+    "exampleVi": "Chúng tôi đã có một cuộc trò chuyện dài về công việc.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/conversation"
+    ]
+  },
+  {
+    "id": "introduce",
+    "word": "introduce",
+    "pos": "v",
+    "vi": "giới thiệu",
+    "ipa": "/ˌɪntrəˈdjuːs/",
+    "stress": "in·tro·DUCE",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "introduce yourself",
+      "introduce someone to a colleague"
+    ],
+    "example": "Let me introduce you to my colleague.",
+    "exampleVi": "Để tôi giới thiệu bạn với đồng nghiệp của tôi.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/introduce"
+    ]
+  },
+  {
+    "id": "surprise",
+    "word": "surprise",
+    "pos": "n",
+    "vi": "sự bất ngờ",
+    "ipa": "/səˈpraɪz/",
+    "stress": "sur·PRISE",
+    "level": "A2",
+    "topic": "people",
+    "collocations": [
+      "a lovely surprise",
+      "a birthday surprise"
+    ],
+    "example": "What a lovely surprise!",
+    "exampleVi": "Thật là một bất ngờ thú vị!",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/surprise_1"
+    ]
+  },
+  {
+    "id": "news",
+    "word": "news",
+    "pos": "n",
+    "vi": "tin tức; tin mới",
+    "ipa": "/njuːz/",
+    "stress": "NEWS",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "good news",
+      "hear the news"
+    ],
+    "example": "That’s fantastic news!",
+    "exampleVi": "Đó là một tin tuyệt vời!",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/news"
+    ]
+  },
+  {
+    "id": "these-days",
+    "word": "these days",
+    "pos": "adv",
+    "vi": "dạo gần đây",
+    "ipa": "/ˌðiːz ˈdeɪz/",
+    "stress": "these DAYS",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "work these days",
+      "live abroad these days"
+    ],
+    "example": "Where are you working these days?",
+    "exampleVi": "Dạo này bạn đang làm việc ở đâu?",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/these"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "by-the-way",
+    "word": "by the way",
+    "pos": "adv",
+    "vi": "nhân tiện",
+    "ipa": "/ˌbaɪ ðə ˈweɪ/",
+    "stress": "by the WAY",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "by the way, thanks",
+      "by the way, are you free"
+    ],
+    "example": "By the way, this is my brother, Ben.",
+    "exampleVi": "Nhân tiện, đây là em trai tôi, Ben.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/way_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "catch-up-with",
+    "word": "catch up with",
+    "pos": "phr",
+    "vi": "trò chuyện để cập nhật tình hình",
+    "ipa": "/ˌkætʃ ˈʌp wɪð/",
+    "stress": "catch UP with",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "catch up with friends",
+      "catch up with a colleague"
+    ],
+    "example": "I'd like to catch up with my old classmates.",
+    "exampleVi": "Tôi muốn gặp lại và hỏi thăm các bạn học cũ.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/catch_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "meet-for-a-chat",
+    "word": "meet for a chat",
+    "pos": "v",
+    "vi": "gặp nhau để trò chuyện",
+    "ipa": "/ˌmiːt fər ə ˈtʃæt/",
+    "stress": "meet for a CHAT",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "meet for a chat after work",
+      "meet for a quick chat"
+    ],
+    "example": "We sometimes meet for a chat after work.",
+    "exampleVi": "Đôi khi chúng tôi gặp nhau trò chuyện sau giờ làm.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/chat_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "socialise",
+    "word": "socialise",
+    "pos": "v",
+    "vi": "giao lưu",
+    "ipa": "/ˈsəʊʃəlaɪz/",
+    "stress": "SO·cial·ise",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "socialise with friends",
+      "socialise after work"
+    ],
+    "example": "Joining a club is a good way to socialise.",
+    "exampleVi": "Tham gia câu lạc bộ là một cách tốt để giao lưu.",
+    "altSpellings": [
+      "socialize"
+    ],
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/socialize"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "host-family",
+    "word": "host family",
+    "pos": "n",
+    "vi": "gia đình bản xứ cho ở cùng",
+    "ipa": "/ˈhəʊst ˌfæm.əl.i/",
+    "stress": "HOST fam·i·ly",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "stay with a host family",
+      "meet your host family"
+    ],
+    "example": "Staying with a host family can help you practise English.",
+    "exampleVi": "Ở cùng gia đình bản xứ có thể giúp bạn luyện tiếng Anh.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/family_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "challenge",
+    "word": "challenge",
+    "pos": "n",
+    "vi": "thử thách",
+    "ipa": "/ˈtʃælɪndʒ/",
+    "stress": "CHAL·lenge",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "face a challenge",
+      "a difficult challenge"
+    ],
+    "example": "Learning a new language can be a challenge.",
+    "exampleVi": "Học một ngôn ngữ mới có thể là một thử thách.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/challenge_1"
+    ]
+  },
+  {
+    "id": "experience-event",
+    "word": "experience",
+    "pos": "n",
+    "vi": "một trải nghiệm, sự việc đã trải qua",
+    "ipa": "/ɪkˈspɪəriəns/",
+    "stress": "ex·PE·ri·ence",
+    "level": "A2",
+    "topic": "people",
+    "collocations": [
+      "an amazing experience",
+      "a valuable experience"
+    ],
+    "example": "Visiting Japan was an unforgettable experience.",
+    "exampleVi": "Chuyến đi Nhật Bản là một trải nghiệm khó quên.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/experience_1"
+    ]
+  },
+  {
+    "id": "opportunity",
+    "word": "opportunity",
+    "pos": "n",
+    "vi": "cơ hội",
+    "ipa": "/ˌɒpəˈtjuːnəti/",
+    "stress": "op·por·TU·ni·ty",
+    "level": "A2",
+    "topic": "people",
+    "collocations": [
+      "a job opportunity",
+      "an opportunity to learn"
+    ],
+    "example": "The job gives me an opportunity to travel.",
+    "exampleVi": "Công việc cho tôi cơ hội đi du lịch.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 2
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/opportunity"
+    ]
+  },
+  {
+    "id": "guidebook",
+    "word": "guidebook",
+    "pos": "n",
+    "vi": "sách hướng dẫn du lịch",
+    "ipa": "/ˈɡaɪdbʊk/",
+    "stress": "GUIDE·book",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "a travel guidebook",
+      "read a guidebook"
+    ],
+    "example": "I bought a detailed guidebook before visiting Rome.",
+    "exampleVi": "Tôi đã mua một cuốn sách hướng dẫn chi tiết trước khi thăm Rome.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 3
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/guidebook"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "miss-a-train",
+    "word": "miss a train",
+    "pos": "phr",
+    "vi": "nhỡ/trễ chuyến tàu/các phương tiện",
+    "ipa": "/mɪs ə ˈtreɪn/",
+    "stress": "miss a TRAIN",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "miss a morning train",
+      "nearly miss a train"
+    ],
+    "example": "There is no need to panic if you miss a train.",
+    "exampleVi": "Không cần hoảng hốt nếu bạn lỡ một chuyến tàu.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 3
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/miss_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "break-down",
+    "word": "break down",
+    "pos": "phr",
+    "vi": "bị hỏng (động cơ/xe)",
+    "ipa": "/ˌbreɪk ˈdaʊn/",
+    "stress": "break DOWN",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "a car breaks down",
+      "break down on the motorway"
+    ],
+    "example": "Cars sometimes break down in cold weather.",
+    "exampleVi": "Xe ô tô đôi khi bị hỏng khi trời lạnh.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 3
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/break-down"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "get-lost",
+    "word": "get lost",
+    "pos": "phr",
+    "vi": "bị lạc đường",
+    "ipa": "/ɡet ˈlɒst/",
+    "stress": "get LOST",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "get lost in a city",
+      "get lost on the way"
+    ],
+    "example": "If you get lost, call me.",
+    "exampleVi": "Nếu bạn bị lạc, hãy gọi tôi.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 3
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/lost_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "board-the-plane",
+    "word": "board the plane",
+    "pos": "phr",
+    "vi": "lên máy bay",
+    "ipa": "/bɔːd ðə ˈpleɪn/",
+    "stress": "board the PLANE",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "board the plane at a gate",
+      "wait to board the plane"
+    ],
+    "example": "Passengers were invited to board the plane at Gate 5.",
+    "exampleVi": "Hành khách được mời lên máy bay tại Cổng số 5.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 3
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/plane_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "excursion",
+    "word": "excursion",
+    "pos": "n",
+    "vi": "chuyến tham quan ngắn ngày",
+    "ipa": "/ɪkˈskɜːʃn/",
+    "stress": "ex·CUR·sion",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "a day excursion",
+      "go on an excursion"
+    ],
+    "example": "We went on a day excursion to the ancient castle.",
+    "exampleVi": "Chúng tôi đã đi một chuyến tham quan ngắn ngày đến tòa lâu đài cổ.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 3
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/excursion"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "delayed",
+    "word": "delayed",
+    "pos": "adj",
+    "vi": "bị hoãn, chậm trễ",
+    "ipa": "/dɪˈleɪd/",
+    "stress": "de·LAYED",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "a delayed flight",
+      "be delayed by traffic"
+    ],
+    "example": "The flight was delayed for three hours due to fog.",
+    "exampleVi": "Chuyến bay đã bị hoãn ba tiếng do sương mù.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 3
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/delay_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "cancelled",
+    "word": "cancelled",
+    "pos": "adj",
+    "vi": "bị hủy (chuyến bay/tàu)",
+    "ipa": "/ˈkænsld/",
+    "stress": "CAN·celled",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "a cancelled flight",
+      "a cancelled meeting"
+    ],
+    "example": "Unfortunately, our train was cancelled because of bad weather.",
+    "exampleVi": "Thật không may, chuyến tàu của chúng tôi đã bị hủy do thời tiết xấu.",
+    "altSpellings": [
+      "canceled"
+    ],
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 3
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/cancel"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "luggage-allowance",
+    "word": "luggage allowance",
+    "pos": "n",
+    "vi": "hạn mức hành lý cho phép",
+    "ipa": "/ˈlʌɡɪdʒ əˌlaʊəns/",
+    "stress": "LUG·gage al·LOW·ance",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "check the luggage allowance",
+      "a generous luggage allowance"
+    ],
+    "example": "The airline's strict luggage allowance is 20 kilograms per guest.",
+    "exampleVi": "Hạn mức hành lý nghiêm ngặt của hãng hàng không là 20 kg mỗi khách.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 3
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/allowance"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "travel-insurance",
+    "word": "travel insurance",
+    "pos": "n",
+    "vi": "bảo hiểm du lịch",
+    "ipa": "/ˈtrævl ɪnʃʊərəns/",
+    "stress": "TRAV·el in·SUR·ance",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "buy travel insurance",
+      "take out travel insurance"
+    ],
+    "example": "It is advisable to buy travel insurance before going abroad.",
+    "exampleVi": "Bạn nên mua bảo hiểm du lịch trước khi đi nước ngoài.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 3
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/insurance"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "picturesque",
+    "word": "picturesque",
+    "pos": "adj",
+    "vi": "đẹp như tranh vẽ",
+    "ipa": "/ˌpɪktʃəˈresk/",
+    "stress": "pic·tur·ESQUE",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "a picturesque village",
+      "picturesque scenery"
+    ],
+    "example": "We stayed in a picturesque village near the lake.",
+    "exampleVi": "Chúng tôi đã ở trong một ngôi làng đẹp như tranh vẽ gần bờ hồ.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 3
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/picturesque"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "breathtaking",
+    "word": "breathtaking",
+    "pos": "adj",
+    "vi": "đẹp ngoạn mục",
+    "ipa": "/ˈbreθteɪkɪŋ/",
+    "stress": "BREATH·tak·ing",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "a breathtaking view",
+      "breathtaking scenery"
+    ],
+    "example": "The view from the top of the mountain was absolutely breathtaking.",
+    "exampleVi": "Khung cảnh từ đỉnh núi thực sự vô cùng ngoạn mục.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 3
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/breathtaking"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "unforgettable",
+    "word": "unforgettable",
+    "pos": "adj",
+    "vi": "đáng nhớ, khó quên",
+    "ipa": "/ˌʌnfəˈɡetəbl/",
+    "stress": "un·for·GET·ta·ble",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "an unforgettable experience",
+      "an unforgettable holiday"
+    ],
+    "example": "Watching the sunset over the ocean was an unforgettable experience.",
+    "exampleVi": "Ngắm hoàng hôn trên đại dương là một trải nghiệm khó quên.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 3
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/unforgettable"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "hospitality",
+    "word": "hospitality",
+    "pos": "n",
+    "vi": "lòng hiếu khách",
+    "ipa": "/ˌhɒspɪˈtæləti/",
+    "stress": "hos·pi·TAL·i·ty",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "warm hospitality",
+      "thank someone for their hospitality"
+    ],
+    "example": "We were deeply impressed by the warm hospitality of the local people.",
+    "exampleVi": "Chúng tôi ấn tượng sâu sắc bởi lòng hiếu khách ấm áp của người dân địa phương.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 3
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/hospitality"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "turbulence",
+    "word": "turbulence",
+    "pos": "n",
+    "vi": "sự nhiễu động không khí",
+    "ipa": "/ˈtɜːbjələns/",
+    "stress": "TUR·bu·lence",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "severe turbulence",
+      "experience turbulence"
+    ],
+    "example": "The flight experienced severe turbulence during the storm.",
+    "exampleVi": "Chuyến bay đã gặp sự nhiễu động không khí mạnh trong suốt trận bão.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 3
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/turbulence"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "ticket-office",
+    "word": "ticket office",
+    "pos": "n",
+    "vi": "phòng/quầy bán vé",
+    "ipa": "/ˈtɪkɪt ˈɒfɪs/",
+    "stress": "TICK·et of·fice",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "find the ticket office",
+      "buy a ticket at the ticket office"
+    ],
+    "example": "You can buy your train tickets at the ticket office near the main entrance.",
+    "exampleVi": "Bạn có thể mua vé tàu tại quầy bán vé gần lối vào chính.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/office"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "platform",
+    "word": "platform",
+    "pos": "n",
+    "vi": "sân ga (chờ tàu)",
+    "ipa": "/ˈplætfɔːm/",
+    "stress": "PLAT·form",
+    "level": "A2",
+    "topic": "travel",
+    "collocations": [
+      "a train platform",
+      "leave from platform five"
+    ],
+    "example": "The express train to Edinburgh departs from Platform 4.",
+    "exampleVi": "Chuyến tàu tốc hành đi Edinburgh khởi hành từ Sân ga số 4.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/platform"
+    ]
+  },
+  {
+    "id": "timetable",
+    "word": "timetable",
+    "pos": "n",
+    "vi": "lịch trình / bảng giờ tàu xe",
+    "ipa": "/ˈtaɪmteɪbl/",
+    "stress": "TIME·ta·ble",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "a train timetable",
+      "check the timetable"
+    ],
+    "example": "Check the bus timetable to see when the next coach arrives.",
+    "exampleVi": "Hãy kiểm tra bảng giờ xe buýt để xem khi nào chuyến xe khách tiếp theo đến.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/timetable_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "single-ticket",
+    "word": "single ticket",
+    "pos": "n",
+    "vi": "vé một chiều",
+    "ipa": "/ˈsɪŋɡl ˈtɪkɪt/",
+    "stress": "SIN·gle tick·et",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "buy a single ticket",
+      "a single ticket to London"
+    ],
+    "example": "A single ticket to Oxford costs £12.50.",
+    "exampleVi": "Một vé một chiều đi Oxford có giá 12.50 bảng Anh.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/ticket_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "return-ticket",
+    "word": "return ticket",
+    "pos": "n",
+    "vi": "vé khứ hồi",
+    "ipa": "/rɪˌtɜːn ˈtɪkɪt/",
+    "stress": "re·TURN tick·et",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "buy a return ticket",
+      "a return ticket to Oxford"
+    ],
+    "example": "Buying a return ticket is usually cheaper than two single tickets.",
+    "exampleVi": "Mua một vé khứ hồi thường rẻ hơn mua hai vé một chiều.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/return-ticket"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "bus-station",
+    "word": "bus station",
+    "pos": "n",
+    "vi": "bến xe buýt",
+    "ipa": "/ˈbʌs steɪʃn/",
+    "stress": "BUS sta·tion",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "arrive at the bus station",
+      "a central bus station"
+    ],
+    "example": "We agreed to meet outside the central bus station.",
+    "exampleVi": "Chúng tôi đã đồng ý gặp nhau bên ngoài bến xe buýt trung tâm.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/bus-station"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "tourist-information-centre",
+    "word": "tourist information centre",
+    "pos": "n",
+    "vi": "trung tâm thông tin du lịch",
+    "ipa": "/ˌtʊərɪst ˌɪnfəˈmeɪʃən ˈsentə/",
+    "stress": "TOUR·ist in·for·MA·tion cen·tre",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "visit a tourist information centre",
+      "ask at the tourist information centre"
+    ],
+    "example": "We visited the tourist information centre to get a map.",
+    "exampleVi": "Chúng tôi đến trung tâm thông tin du lịch để lấy bản đồ.",
+    "altSpellings": [
+      "tourist information center"
+    ],
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/centre_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "travel-blog",
+    "word": "travel blog",
+    "pos": "n",
+    "vi": "nhật ký du lịch trực tuyến",
+    "ipa": "/ˈtrævl blɒɡ/",
+    "stress": "TRAV·el blog",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "write a travel blog",
+      "read a travel blog"
+    ],
+    "example": "She writes a popular travel blog about her backpacking trips.",
+    "exampleVi": "Cô ấy viết một trang nhật ký du lịch nổi tiếng về các chuyến du lịch ba lô của mình.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/blog_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "opening-hours",
+    "word": "opening hours",
+    "pos": "n",
+    "vi": "giờ mở cửa (di tích/cửa hàng)",
+    "ipa": "/ˈəʊpənɪŋ aʊəz/",
+    "stress": "O·pen·ing hours",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "check the opening hours",
+      "extended opening hours"
+    ],
+    "example": "What are the museum’s opening hours on Sundays?",
+    "exampleVi": "Giờ mở cửa của bảo tàng vào các ngày Chủ nhật là mấy giờ?",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/opening-hours"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "harbour",
+    "word": "harbour",
+    "pos": "n",
+    "vi": "bến cảng",
+    "ipa": "/ˈhɑːbə(r)/",
+    "stress": "HAR·bour",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "a fishing harbour",
+      "a small harbour"
+    ],
+    "example": "Many fishing boats were anchored safely in the harbour.",
+    "exampleVi": "Nhiều con thuyền đánh cá đã neo đậu an toàn trong bến cảng.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/harbour_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "sightseeing-tour",
+    "word": "sightseeing tour",
+    "pos": "n",
+    "vi": "chuyến tham quan ngắm cảnh",
+    "ipa": "/ˈsaɪtsiːɪŋ tʊə(r)/",
+    "stress": "SIGHT·see·ing tour",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "go on a sightseeing tour",
+      "a guided sightseeing tour"
+    ],
+    "example": "We decided to book a guided sightseeing tour of the old city.",
+    "exampleVi": "Chúng tôi đã quyết định đặt một chuyến tham quan ngắm cảnh có hướng dẫn viên tại khu phố cổ.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/tour_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "housemate",
+    "word": "housemate",
+    "pos": "n",
+    "vi": "bạn cùng nhà",
+    "ipa": "/ˈhaʊsmeɪt/",
+    "stress": "HOUSE·mate",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "share with a housemate",
+      "a friendly housemate"
+    ],
+    "example": "My housemate recommended a great seafood restaurant near the coast.",
+    "exampleVi": "Bạn cùng nhà của tôi đã tiến cử một nhà hàng hải sản rất tuyệt gần bờ biển.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/housemate"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "commuter",
+    "word": "commuter",
+    "pos": "n",
+    "vi": "người di chuyển làm hằng ngày",
+    "ipa": "/kəˈmjuːtə(r)/",
+    "stress": "com·MUT·er",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "a daily commuter",
+      "commuter traffic"
+    ],
+    "example": "Thousands of commuters use the underground system every morning.",
+    "exampleVi": "Hàng ngàn người đi làm sử dụng hệ thống tàu điện ngầm mỗi buổi sáng.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/commuter"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "express-train",
+    "word": "express train",
+    "pos": "n",
+    "vi": "tàu hỏa tốc hành",
+    "ipa": "/ɪkˈspres treɪn/",
+    "stress": "ex·PRESS train",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "take an express train",
+      "an express train to London"
+    ],
+    "example": "The express train saves us nearly an hour of travelling time.",
+    "exampleVi": "Tàu hỏa tốc hành tiết kiệm cho chúng tôi gần một giờ thời gian di chuyển.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/train_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "fare",
+    "word": "fare",
+    "pos": "n",
+    "vi": "giá vé tàu xe / cước phí",
+    "ipa": "/feə(r)/",
+    "stress": "FARE",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "a bus fare",
+      "pay the fare"
+    ],
+    "example": "Bus fares have increased slightly this year.",
+    "exampleVi": "Giá vé xe buýt đã tăng nhẹ trong năm nay.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/fare_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "in-advance",
+    "word": "in advance",
+    "pos": "phr",
+    "vi": "trước / làm trước",
+    "ipa": "/ɪn ədˈvɑːns/",
+    "stress": "in ad·VANCE",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "book in advance",
+      "pay in advance"
+    ],
+    "example": "It is much cheaper if you book your accommodation in advance.",
+    "exampleVi": "Sẽ rẻ hơn nhiều nếu bạn đặt chỗ ở trước.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/advance_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "booking-reference",
+    "word": "booking reference",
+    "pos": "n",
+    "vi": "mã số đặt chỗ",
+    "ipa": "/ˈbʊkɪŋ ˈrefrəns/",
+    "stress": "BOOK·ing ref·er·ence",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "a booking reference number",
+      "quote your booking reference"
+    ],
+    "example": "Please show your booking reference at the check-in desk.",
+    "exampleVi": "Vui lòng xuất trình mã số đặt chỗ tại quầy làm thủ tục.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/reference_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "peak-hours",
+    "word": "peak hours",
+    "pos": "n",
+    "vi": "giờ cao điểm",
+    "ipa": "/ˈpiːk ˌaʊəz/",
+    "stress": "PEAK hours",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "travel during peak hours",
+      "avoid peak hours"
+    ],
+    "example": "Train tickets are more expensive during peak hours.",
+    "exampleVi": "Vé tàu đắt hơn trong các khung giờ cao điểm.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/peak_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "welcoming",
+    "word": "welcoming",
+    "pos": "adj",
+    "vi": "ấm áp, nồng hậu, hiếu khách",
+    "ipa": "/ˈwelkəmɪŋ/",
+    "stress": "WEL·com·ing",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "a welcoming atmosphere",
+      "a welcoming smile"
+    ],
+    "example": "The local people in this town are extremely friendly and welcoming.",
+    "exampleVi": "Người dân địa phương ở thị trấn này cực kỳ thân thiện và hiếu khách.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/welcoming"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "attractive",
+    "word": "attractive",
+    "pos": "adj",
+    "vi": "cuốn hút, hấp dẫn",
+    "ipa": "/əˈtræktɪv/",
+    "stress": "at·TRAC·tive",
+    "level": "A2",
+    "topic": "travel",
+    "collocations": [
+      "an attractive place",
+      "an attractive offer"
+    ],
+    "example": "Venice is famous for its attractive canals and historic architecture.",
+    "exampleVi": "Venice nổi tiếng với các dòng kênh hấp dẫn và kiến trúc lịch sử.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/attractive"
+    ]
+  },
+  {
+    "id": "efficient",
+    "word": "efficient",
+    "pos": "adj",
+    "vi": "hiệu quả, hoạt động tốt",
+    "ipa": "/ɪˈfɪʃnt/",
+    "stress": "ef·FI·cient",
+    "level": "B2",
+    "topic": "travel",
+    "collocations": [
+      "an efficient service",
+      "an efficient system"
+    ],
+    "example": "The public transport system in Germany is very fast and efficient.",
+    "exampleVi": "Hệ thống giao thông công cộng ở Đức rất nhanh chóng và hiệu quả.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/efficient"
+    ]
+  },
+  {
+    "id": "local-speciality",
+    "word": "local speciality",
+    "pos": "n",
+    "vi": "đặc sản địa phương",
+    "ipa": "/ˌləʊkəl ˌspeʃiˈæləti/",
+    "stress": "LO·cal spe·ci·AL·i·ty",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "try a local speciality",
+      "serve a local speciality"
+    ],
+    "example": "You should try this local speciality.",
+    "exampleVi": "Bạn nên thử món đặc sản địa phương này.",
+    "altSpellings": [
+      "local specialty"
+    ],
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/speciality"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "recommendation",
+    "word": "recommendation",
+    "pos": "n",
+    "vi": "lời khuyên / sự tiến cử",
+    "ipa": "/ˌrekəmenˈdeɪʃn/",
+    "stress": "rec·om·men·DA·tion",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "make a recommendation",
+      "a personal recommendation"
+    ],
+    "example": "On his recommendation, we stayed at a lovely small hotel.",
+    "exampleVi": "Theo lời tiến cử của anh ấy, chúng tôi đã ở tại một khách sạn nhỏ xinh xắn.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/recommendation"
+    ]
+  },
+  {
+    "id": "credit-card",
+    "word": "credit card",
+    "pos": "n",
+    "vi": "thẻ tín dụng",
+    "ipa": "/ˈkredɪt kɑːd/",
+    "stress": "CRED·it card",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "pay by credit card",
+      "a credit card bill"
+    ],
+    "example": "You can use your credit card to book hotel rooms online.",
+    "exampleVi": "Bạn có thể dùng thẻ tín dụng để đặt phòng khách sạn trực tuyến.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 6
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/credit-card"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "bank-account",
+    "word": "bank account",
+    "pos": "n",
+    "vi": "tài khoản ngân hàng",
+    "ipa": "/ˈbæŋk əkaʊnt/",
+    "stress": "BANK ac·count",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "open a bank account",
+      "check a bank account"
+    ],
+    "example": "I opened a new bank account to keep my savings safe.",
+    "exampleVi": "Tôi đã mở một tài khoản ngân hàng mới để giữ tiền tiết kiệm an toàn.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 6
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/bank-account"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "save-up",
+    "word": "save up",
+    "pos": "phr",
+    "vi": "tiết kiệm tiền (cho mục đích)",
+    "ipa": "/ˌseɪv ˈʌp/",
+    "stress": "save UP",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "save up for a holiday",
+      "save up enough money"
+    ],
+    "example": "She is trying to save up for a new laptop for university.",
+    "exampleVi": "Cô ấy đang cố gắng tiết kiệm tiền để mua một chiếc máy tính xách tay mới cho đại học.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 6
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/save_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "expense",
+    "word": "expense",
+    "pos": "n",
+    "vi": "chi phí, khoản chi tiêu",
+    "ipa": "/ɪkˈspens/",
+    "stress": "ex·PENSE",
+    "level": "B2",
+    "topic": "shopping",
+    "collocations": [
+      "a major expense",
+      "travel expenses"
+    ],
+    "example": "Housing and food are the two biggest monthly expenses for students.",
+    "exampleVi": "Nơi ở và thức ăn là hai khoản chi tiêu hằng tháng lớn nhất của sinh viên.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 6
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/expense"
+    ]
+  },
+  {
+    "id": "investment",
+    "word": "investment",
+    "pos": "n",
+    "vi": "khoản đầu tư / sự đầu tư",
+    "ipa": "/ɪnˈvestmənt/",
+    "stress": "in·VEST·ment",
+    "level": "B2",
+    "topic": "shopping",
+    "collocations": [
+      "make an investment",
+      "a long-term investment"
+    ],
+    "example": "Buying property in a growing city is usually a safe investment.",
+    "exampleVi": "Mua bất động sản ở một thành phố đang phát triển thường là một khoản đầu tư an toàn.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 6
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/investment"
+    ]
+  },
+  {
+    "id": "charity",
+    "word": "charity",
+    "pos": "n",
+    "vi": "tổ chức / quỹ từ thiện",
+    "ipa": "/ˈtʃærəti/",
+    "stress": "CHAR·i·ty",
+    "level": "A2",
+    "topic": "shopping",
+    "collocations": [
+      "give to charity",
+      "a local charity"
+    ],
+    "example": "He regularly donates money to a local children's charity.",
+    "exampleVi": "Anh ấy thường xuyên quyên góp tiền cho một tổ chức từ thiện trẻ em địa phương.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 6
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/charity"
+    ]
+  },
+  {
+    "id": "donation",
+    "word": "donation",
+    "pos": "n",
+    "vi": "khoản quyên góp, sự cho tặng",
+    "ipa": "/dəʊˈneɪʃn/",
+    "stress": "do·NA·tion",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "make a donation",
+      "a generous donation"
+    ],
+    "example": "The hospital received a generous donation of £50,000.",
+    "exampleVi": "Bệnh viện đã nhận được một khoản quyên góp hào phóng trị giá 50.000 bảng.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 6
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/donation"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "impulsive-buying",
+    "word": "impulsive buying",
+    "pos": "n",
+    "vi": "việc mua sắm ngẫu hứng",
+    "ipa": "/ɪmˈpʌlsɪv ˈbaɪɪŋ/",
+    "stress": "im·PUL·sive buy·ing",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "avoid impulsive buying",
+      "a habit of impulsive buying"
+    ],
+    "example": "You can avoid impulsive buying by making a shopping list.",
+    "exampleVi": "Bạn có thể tránh việc mua sắm ngẫu hứng bằng cách lập danh sách mua đồ.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 6
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/impulsive"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "financial-independence",
+    "word": "financial independence",
+    "pos": "n",
+    "vi": "sự tự chủ / tự lập tài chính",
+    "ipa": "/faɪˌnænʃəl ˌɪndɪˈpendəns/",
+    "stress": "fi·NAN·cial in·de·PEN·dence",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "achieve financial independence",
+      "work towards financial independence"
+    ],
+    "example": "Achieving financial independence allows you to make your own life choices.",
+    "exampleVi": "Đạt được sự tự chủ tài chính cho phép bạn tự đưa ra các lựa chọn trong cuộc sống.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 6
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/independence"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "value-for-money",
+    "word": "value for money",
+    "pos": "n",
+    "vi": "đáng giá đồng tiền",
+    "ipa": "/ˈvæljuː fə ˈmʌni/",
+    "stress": "VAL·ue for mon·ey",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "good value for money",
+      "offer value for money"
+    ],
+    "example": "This set menu offers excellent value for money.",
+    "exampleVi": "Thực đơn trọn gói này mang lại giá trị rất đáng tiền.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 6
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/money"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "extravagant",
+    "word": "extravagant",
+    "pos": "adj",
+    "vi": "xa hoa, lãng phí",
+    "ipa": "/ɪkˈstrævəɡənt/",
+    "stress": "ex·TRAV·a·gant",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "an extravagant lifestyle",
+      "extravagant spending"
+    ],
+    "example": "Spending a fortune on designer clothes seems quite extravagant.",
+    "exampleVi": "Chi một số tiền lớn cho quần áo hàng hiệu nghe có vẻ khá xa hoa, lãng phí.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 6
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/extravagant"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "economical",
+    "word": "economical",
+    "pos": "adj",
+    "vi": "tiết kiệm, có tính kinh tế",
+    "ipa": "/ˌiːkəˈnɒmɪkl/",
+    "stress": "e·co·NOM·i·cal",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "an economical car",
+      "be economical with money"
+    ],
+    "example": "Cooking meals at home is much more economical than eating out.",
+    "exampleVi": "Tự nấu ăn ở nhà tiết kiệm hơn nhiều so với việc đi ăn ngoài.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 6
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/economical"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "overspend",
+    "word": "overspend",
+    "pos": "v",
+    "vi": "chi tiêu quá mức / vỡ quỹ",
+    "ipa": "/ˌəʊvəˈspend/",
+    "stress": "o·ver·SPEND",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "overspend on clothes",
+      "avoid overspending"
+    ],
+    "example": "Be careful not to overspend when you go to the shopping mall.",
+    "exampleVi": "Hãy cẩn thận đừng chi tiêu quá mức khi bạn đi đến trung tâm thương mại.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 6
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/overspend_2"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "shop-assistant",
+    "word": "shop assistant",
+    "pos": "n",
+    "vi": "nhân viên bán hàng",
+    "ipa": "/ˈʃɒp əsɪstənt/",
+    "stress": "SHOP as·sis·tant",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "ask a shop assistant",
+      "work as a shop assistant"
+    ],
+    "example": "The shop assistant was very polite and helped me find the right shoe size.",
+    "exampleVi": "Người bán hàng rất lịch sự và đã giúp tôi tìm đúng cỡ giày.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/shop-assistant"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "cash-register",
+    "word": "cash register",
+    "pos": "n",
+    "vi": "quầy thu ngân / máy tính tiền",
+    "ipa": "/ˈkæʃ redʒɪstə(r)/",
+    "stress": "CASH reg·is·ter",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "use a cash register",
+      "work at the cash register"
+    ],
+    "example": "You can pay for your items at the cash register near the exit.",
+    "exampleVi": "Bạn có thể thanh toán món đồ của mình tại quầy thu ngân gần lối ra.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/cash-register"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "pin",
+    "word": "PIN",
+    "pos": "n",
+    "vi": "mã PIN thanh toán thẻ",
+    "ipa": "/pɪn/",
+    "stress": "PIN",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "enter your PIN",
+      "remember your PIN"
+    ],
+    "example": "Please enter your PIN.",
+    "exampleVi": "Vui lòng nhập mã PIN.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/pin_1"
+    ]
+  },
+  {
+    "id": "present",
+    "word": "present",
+    "pos": "n",
+    "vi": "quà tặng",
+    "ipa": "/ˈpreznt/",
+    "stress": "PRES·ent",
+    "level": "A1",
+    "topic": "shopping",
+    "collocations": [
+      "a birthday present",
+      "give a present"
+    ],
+    "example": "I bought a birthday present for my sister.",
+    "exampleVi": "Tôi mua quà sinh nhật cho em gái.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/present_2"
+    ]
+  },
+  {
+    "id": "price-tag",
+    "word": "price tag",
+    "pos": "n",
+    "vi": "nhãn giá",
+    "ipa": "/ˈpraɪs tæɡ/",
+    "stress": "PRICE tag",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "check the price tag",
+      "an expensive price tag"
+    ],
+    "example": "The price tag shows that this jacket is on sale for £45.",
+    "exampleVi": "Nhãn giá thể hiện chiếc áo khoác này đang giảm giá còn 45 bảng.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/price-tag"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "fundraising",
+    "word": "fundraising",
+    "pos": "n",
+    "vi": "việc gây quỹ từ thiện",
+    "ipa": "/ˈfʌndreɪzɪŋ/",
+    "stress": "FUND·rais·ing",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "a fundraising event",
+      "organise fundraising"
+    ],
+    "example": "Our school organized a fundraising event to help homeless children.",
+    "exampleVi": "Trường chúng tôi đã tổ chức một sự kiện gây quỹ để giúp đỡ trẻ em vô gia cư.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/fundraising"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "sponsor",
+    "word": "sponsor",
+    "pos": "v",
+    "additionalPos": [
+      "n"
+    ],
+    "vi": "tài trợ (v); nhà tài trợ (n)",
+    "ipa": "/ˈspɒnsə(r)/",
+    "stress": "SPON·sor",
+    "level": "B2",
+    "topic": "shopping",
+    "collocations": [
+      "sponsor an event",
+      "sponsor a local team"
+    ],
+    "example": "A local bank agreed to sponsor our charity marathon.",
+    "exampleVi": "Một ngân hàng địa phương đã đồng ý tài trợ cho cuộc chạy marathon từ thiện của chúng tôi.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/sponsor_2"
+    ]
+  },
+  {
+    "id": "exchange",
+    "word": "exchange",
+    "pos": "v",
+    "additionalPos": [
+      "n"
+    ],
+    "vi": "đổi hàng (v); sự đổi hàng (n)",
+    "ipa": "/ɪksˈtʃeɪndʒ/",
+    "stress": "ex·CHANGE",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "exchange an item",
+      "exchange a shirt"
+    ],
+    "example": "I’d like to exchange these boots for a larger size, please.",
+    "exampleVi": "Cho tôi xin đổi đôi ủng này lấy một cỡ lớn hơn nhé.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/exchange_2"
+    ]
+  },
+  {
+    "id": "cashier",
+    "word": "cashier",
+    "pos": "n",
+    "vi": "nhân viên thu ngân",
+    "ipa": "/kæˈʃɪə(r)/",
+    "stress": "cash·IER",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "pay the cashier",
+      "work as a cashier"
+    ],
+    "example": "The cashier handed me the receipt and wished me a good day.",
+    "exampleVi": "Nhân viên thu ngân đưa cho tôi hóa đơn và chúc tôi một ngày tốt lành.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/cashier_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "contactless-payment",
+    "word": "contactless payment",
+    "pos": "n",
+    "vi": "thanh toán không tiếp xúc",
+    "ipa": "/ˈkɒntæktləs ˈpeɪmənt/",
+    "stress": "CON·tact·less pay·ment",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "make a contactless payment",
+      "accept contactless payments"
+    ],
+    "example": "You can pay quickly using contactless payment with your card or phone.",
+    "exampleVi": "Bạn có thể thanh toán nhanh chóng bằng thanh toán không tiếp xúc qua thẻ hoặc điện thoại.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/payment"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "overpriced",
+    "word": "overpriced",
+    "pos": "adj",
+    "vi": "quá đắt / đắt hơn giá trị thực",
+    "ipa": "/ˌəʊvəˈpraɪst/",
+    "stress": "o·ver·PRICED",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "an overpriced product",
+      "an overpriced restaurant"
+    ],
+    "example": "Coffee in the airport terminal is completely overpriced.",
+    "exampleVi": "Cà phê ở nhà ga sân bay hoàn toàn bị bán quá đắt.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/overpriced"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "affordable",
+    "word": "affordable",
+    "pos": "adj",
+    "vi": "giá cả phải chăng, vừa túi tiền",
+    "ipa": "/əˈfɔːdəbl/",
+    "stress": "af·FORD·a·ble",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "an affordable price",
+      "affordable housing"
+    ],
+    "example": "The shop offers stylish clothes at very affordable prices.",
+    "exampleVi": "Cửa hàng cung cấp quần áo thời trang với giá rất phải chăng.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/affordable"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "generosity",
+    "word": "generosity",
+    "pos": "n",
+    "vi": "sự hào phóng / lòng hảo tâm",
+    "ipa": "/ˌdʒenəˈrɒsəti/",
+    "stress": "gen·er·OS·i·ty",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "show generosity",
+      "thank someone for their generosity"
+    ],
+    "example": "Thank you for your generosity in supporting our community project.",
+    "exampleVi": "Cảm ơn lòng hảo tâm của bạn trong việc hỗ trợ dự án cộng đồng của chúng tôi.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/generosity"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "volunteer",
+    "word": "volunteer",
+    "pos": "n",
+    "additionalPos": [
+      "v"
+    ],
+    "vi": "tình nguyện viên / làm tự nguyện",
+    "ipa": "/ˌvɒlənˈtɪə(r)/",
+    "stress": "vol·un·TEER",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "a charity volunteer",
+      "work as a volunteer"
+    ],
+    "example": "She works as a volunteer at the animal shelter every Saturday.",
+    "exampleVi": "Cô ấy làm tình nguyện viên tại trạm cứu hộ động vật vào mỗi thứ Bảy.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/volunteer_1"
+    ]
+  },
+  {
+    "id": "supporter",
+    "word": "supporter",
+    "pos": "n",
+    "vi": "người ủng hộ / cổ vũ",
+    "ipa": "/səˈpɔːtə(r)/",
+    "stress": "sup·PORT·er",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "a loyal supporter",
+      "a charity supporter"
+    ],
+    "example": "Thousands of supporters donated money online for the cause.",
+    "exampleVi": "Hàng ngàn người ủng hộ đã quyên góp tiền trực tuyến cho mục đích này.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/supporter"
+    ]
+  },
+  {
+    "id": "awareness",
+    "word": "awareness",
+    "pos": "n",
+    "vi": "sự nhận thức / hiểu biết",
+    "ipa": "/əˈweənəs/",
+    "stress": "a·WARE·ness",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "raise awareness",
+      "public awareness"
+    ],
+    "example": "The campaign aims to raise public awareness about environmental protection.",
+    "exampleVi": "Chiến dịch nhằm mục đích nâng cao nhận thức cộng đồng về bảo vệ môi trường.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/awareness"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "non-profit-organisation",
+    "word": "non-profit organisation",
+    "pos": "n",
+    "vi": "tổ chức phi lợi nhuận",
+    "ipa": "/ˌnɒnˈprɒfɪt ˌɔːɡənaɪˈzeɪʃən/",
+    "stress": "non-PROF·it or·gan·i·SA·tion",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "a local non-profit organisation",
+      "work for a non-profit organisation"
+    ],
+    "example": "She works for a non-profit organisation.",
+    "exampleVi": "Cô ấy làm việc cho một tổ chức phi lợi nhuận.",
+    "altSpellings": [
+      "non-profit organization"
+    ],
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/non-profit_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "campaign",
+    "word": "campaign",
+    "pos": "n",
+    "vi": "chiến dịch (gây quỹ/truyền thông)",
+    "ipa": "/kæmˈpeɪn/",
+    "stress": "cam·PAIGN",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "a fundraising campaign",
+      "launch a campaign"
+    ],
+    "example": "They launched a successful fundraising campaign last month.",
+    "exampleVi": "Họ đã khởi động một chiến dịch gây quỹ thành công vào tháng trước.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/campaign_1"
+    ]
+  },
+  {
+    "id": "tie",
+    "word": "tie",
+    "pos": "n",
+    "vi": "cà vạt",
+    "ipa": "/taɪ/",
+    "stress": "TIE",
+    "level": "A2",
+    "topic": "shopping",
+    "collocations": [
+      "wear a tie",
+      "a silk tie"
+    ],
+    "example": "My father usually wears a tie to formal meetings.",
+    "exampleVi": "Bố tôi thường đeo cà vạt khi tham dự các cuộc họp trang trọng.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/tie_1"
+    ]
+  },
+  {
+    "id": "bracelet",
+    "word": "bracelet",
+    "pos": "n",
+    "vi": "vòng tay",
+    "ipa": "/ˈbreɪslət/",
+    "stress": "BRACE·let",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "a silver bracelet",
+      "wear a bracelet"
+    ],
+    "example": "She received a silver bracelet for her birthday.",
+    "exampleVi": "Cô ấy được tặng một chiếc vòng tay bạc vào sinh nhật.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/bracelet"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "high-heels",
+    "word": "high heels",
+    "pos": "n",
+    "vi": "giày cao gót",
+    "ipa": "/ˌhaɪ ˈhiːlz/",
+    "stress": "high HEELS",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "wear high heels",
+      "a pair of high heels"
+    ],
+    "example": "I don't like wearing high heels because they are uncomfortable.",
+    "exampleVi": "Tôi không thích đi giày cao gót vì chúng không thoải mái.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/high-heels"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "tracksuit",
+    "word": "tracksuit",
+    "pos": "n",
+    "vi": "bộ đồ thể thao",
+    "ipa": "/ˈtræksuːt/",
+    "stress": "TRACK·suit",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "wear a tracksuit",
+      "a sports tracksuit"
+    ],
+    "example": "He wears a tracksuit when he goes jogging.",
+    "exampleVi": "Anh ấy mặc đồ thể thao khi chạy bộ.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/tracksuit"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "sweatshirt",
+    "word": "sweatshirt",
+    "pos": "n",
+    "vi": "áo nỉ",
+    "ipa": "/ˈswetʃɜːt/",
+    "stress": "SWEAT·shirt",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "a cotton sweatshirt",
+      "wear a sweatshirt"
+    ],
+    "example": "I bought a warm sweatshirt for winter.",
+    "exampleVi": "Tôi mua một chiếc áo nỉ ấm cho mùa đông.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/sweatshirt"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "gloves",
+    "word": "gloves",
+    "pos": "n",
+    "vi": "găng tay",
+    "ipa": "/ɡlʌvz/",
+    "stress": "GLOVES",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "a pair of gloves",
+      "wear gloves"
+    ],
+    "example": "You should wear gloves when it's cold.",
+    "exampleVi": "Bạn nên đeo găng tay khi trời lạnh.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/glove"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "tights",
+    "word": "tights",
+    "pos": "n",
+    "vi": "quần tất",
+    "ipa": "/taɪts/",
+    "stress": "TIGHTS",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "a pair of tights",
+      "wear tights"
+    ],
+    "example": "She wore black tights with her dress.",
+    "exampleVi": "Cô ấy mặc quần tất đen cùng chiếc váy.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/tights"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "earrings",
+    "word": "earrings",
+    "pos": "n",
+    "vi": "hoa tai",
+    "ipa": "/ˈɪərɪŋz/",
+    "stress": "EAR·rings",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "a pair of earrings",
+      "silver earrings"
+    ],
+    "example": "My sister bought some beautiful earrings.",
+    "exampleVi": "Chị gái tôi mua một đôi hoa tai rất đẹp.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/earring"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "sandals",
+    "word": "sandals",
+    "pos": "n",
+    "vi": "dép xăng đan",
+    "ipa": "/ˈsændəlz/",
+    "stress": "SAN·dals",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "wear sandals",
+      "a pair of sandals"
+    ],
+    "example": "We usually wear sandals in summer.",
+    "exampleVi": "Chúng tôi thường đi dép xăng đan vào mùa hè.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/sandal"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "flat-shoes",
+    "word": "flat shoes",
+    "pos": "n",
+    "vi": "giày đế bằng",
+    "ipa": "/ˌflæt ˈʃuːz/",
+    "stress": "flat SHOES",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "wear flat shoes",
+      "comfortable flat shoes"
+    ],
+    "example": "Flat shoes are more comfortable for walking.",
+    "exampleVi": "Giày đế bằng thoải mái hơn khi đi bộ.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/flat_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "formal",
+    "word": "formal",
+    "pos": "adj",
+    "vi": "trang trọng",
+    "ipa": "/ˈfɔːml/",
+    "stress": "FOR·mal",
+    "level": "A2",
+    "topic": "shopping",
+    "collocations": [
+      "formal clothes",
+      "a formal meeting"
+    ],
+    "example": "My father usually wears a tie to formal meetings.",
+    "exampleVi": "Bố tôi thường đeo cà vạt khi tham dự các cuộc họp trang trọng.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/formal"
+    ]
+  },
+  {
+    "id": "casual",
+    "word": "casual",
+    "pos": "adj",
+    "vi": "thường ngày, không trang trọng",
+    "ipa": "/ˈkæʒuəl/",
+    "stress": "CAS·u·al",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "casual clothes",
+      "a casual event"
+    ],
+    "example": "I prefer casual clothes when I meet my friends.",
+    "exampleVi": "Tôi thích trang phục thường ngày khi gặp bạn bè.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/casual_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "ancient",
+    "word": "ancient",
+    "pos": "adj",
+    "vi": "cổ xưa",
+    "ipa": "/ˈeɪnʃənt/",
+    "stress": "AN·cient",
+    "level": "A2",
+    "topic": "shopping",
+    "collocations": [
+      "an ancient temple",
+      "an ancient city"
+    ],
+    "example": "We visited an ancient temple during our holiday.",
+    "exampleVi": "Chúng tôi tham quan một ngôi đền cổ trong kỳ nghỉ.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/ancient"
+    ]
+  },
+  {
+    "id": "magnificent",
+    "word": "magnificent",
+    "pos": "adj",
+    "vi": "tráng lệ",
+    "ipa": "/mæɡˈnɪfɪsnt/",
+    "stress": "mag·NIF·i·cent",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "a magnificent view",
+      "a magnificent building"
+    ],
+    "example": "The view from the mountain was magnificent.",
+    "exampleVi": "Khung cảnh nhìn từ ngọn núi rất tráng lệ.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/magnificent"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "ordinary",
+    "word": "ordinary",
+    "pos": "adj",
+    "vi": "bình thường",
+    "ipa": "/ˈɔːdnri/",
+    "stress": "OR·di·nar·y",
+    "level": "A2",
+    "topic": "shopping",
+    "collocations": [
+      "an ordinary day",
+      "an ordinary building"
+    ],
+    "example": "It looks like an ordinary office building.",
+    "exampleVi": "Nó trông giống một tòa nhà văn phòng bình thường.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/ordinary"
+    ]
+  },
+  {
+    "id": "narrow",
+    "word": "narrow",
+    "pos": "adj",
+    "vi": "hẹp",
+    "ipa": "/ˈnærəʊ/",
+    "stress": "NAR·row",
+    "level": "A2",
+    "topic": "shopping",
+    "collocations": [
+      "a narrow street",
+      "a narrow path"
+    ],
+    "example": "The old town has many narrow streets.",
+    "exampleVi": "Khu phố cổ có nhiều con đường hẹp.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/narrow_1"
+    ]
+  },
+  {
+    "id": "wide",
+    "word": "wide",
+    "pos": "adj",
+    "vi": "rộng",
+    "ipa": "/waɪd/",
+    "stress": "WIDE",
+    "level": "A2",
+    "topic": "shopping",
+    "collocations": [
+      "a wide road",
+      "a wide range"
+    ],
+    "example": "The main road is wide enough for buses.",
+    "exampleVi": "Con đường chính đủ rộng cho xe buýt.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/wide_1"
+    ]
+  },
+  {
+    "id": "empty",
+    "word": "empty",
+    "pos": "adj",
+    "vi": "trống vắng",
+    "ipa": "/ˈempti/",
+    "stress": "EMP·ty",
+    "level": "A2",
+    "topic": "shopping",
+    "collocations": [
+      "an empty room",
+      "an empty street"
+    ],
+    "example": "The streets were almost empty late at night.",
+    "exampleVi": "Các con phố gần như vắng người vào đêm khuya.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/empty_1"
+    ]
+  },
+  {
+    "id": "arrangement",
+    "word": "arrangement",
+    "pos": "n",
+    "vi": "sự sắp xếp, lịch hẹn",
+    "ipa": "/əˈreɪndʒmənt/",
+    "stress": "ar·RANGE·ment",
+    "level": "A2",
+    "topic": "people",
+    "collocations": [
+      "make an arrangement",
+      "a travel arrangement"
+    ],
+    "example": "We've made an arrangement to meet at six.",
+    "exampleVi": "Chúng tôi đã sắp xếp gặp nhau lúc sáu giờ.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/arrangement"
+    ]
+  },
+  {
+    "id": "invitation",
+    "word": "invitation",
+    "pos": "n",
+    "vi": "lời mời",
+    "ipa": "/ˌɪnvɪˈteɪʃn/",
+    "stress": "in·vi·TA·tion",
+    "level": "A2",
+    "topic": "people",
+    "collocations": [
+      "accept an invitation",
+      "send an invitation"
+    ],
+    "example": "Thank you for your invitation to the party.",
+    "exampleVi": "Cảm ơn bạn đã mời tôi đến bữa tiệc.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/invitation"
+    ]
+  },
+  {
+    "id": "invite",
+    "word": "invite",
+    "pos": "v",
+    "vi": "mời",
+    "ipa": "/ɪnˈvaɪt/",
+    "stress": "in·VITE",
+    "level": "A2",
+    "topic": "people",
+    "collocations": [
+      "invite someone to dinner",
+      "invite a friend"
+    ],
+    "example": "I'm going to invite a few friends for dinner.",
+    "exampleVi": "Tôi định mời một vài người bạn đến ăn tối.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/invite_1"
+    ]
+  },
+  {
+    "id": "available",
+    "word": "available",
+    "pos": "adj",
+    "vi": "rảnh, có thể tham gia",
+    "ipa": "/əˈveɪləbl/",
+    "stress": "a·VAIL·a·ble",
+    "level": "A2",
+    "topic": "people",
+    "collocations": [
+      "be available for work",
+      "available on Friday"
+    ],
+    "example": "Are you available on Saturday afternoon?",
+    "exampleVi": "Bạn có rảnh vào chiều thứ Bảy không?",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/available"
+    ]
+  },
+  {
+    "id": "busy",
+    "word": "busy",
+    "pos": "adj",
+    "vi": "bận",
+    "ipa": "/ˈbɪzi/",
+    "stress": "BUS·y",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "a busy day",
+      "be busy with work"
+    ],
+    "example": "I'm busy on Friday, but I'm free on Sunday.",
+    "exampleVi": "Tôi bận vào thứ Sáu nhưng rảnh vào Chủ nhật.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/busy_1"
+    ]
+  },
+  {
+    "id": "get-together",
+    "word": "get together",
+    "pos": "phr",
+    "vi": "gặp mặt, tụ họp",
+    "ipa": "/ɡet təˈɡeðə/",
+    "stress": "get to·GETH·er",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "get together with friends",
+      "get together for dinner"
+    ],
+    "example": "Let's get together for a meal next week.",
+    "exampleVi": "Chúng ta hãy gặp nhau ăn một bữa vào tuần tới.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/get-together_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "come-round",
+    "word": "come round",
+    "pos": "phr",
+    "vi": "ghé thăm nhà ai",
+    "ipa": "/ˌkʌm ˈraʊnd/",
+    "stress": "come ROUND",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "come round for dinner",
+      "come round to my house"
+    ],
+    "example": "Would you like to come round for coffee?",
+    "exampleVi": "Bạn có muốn ghé nhà tôi uống cà phê không?",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/come-round"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "meet-up",
+    "word": "meet up",
+    "pos": "phr",
+    "vi": "gặp nhau theo lịch hẹn",
+    "ipa": "/ˌmiːt ˈʌp/",
+    "stress": "meet UP",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "meet up with friends",
+      "meet up after work"
+    ],
+    "example": "We're meeting up outside the cinema.",
+    "exampleVi": "Chúng tôi sẽ gặp nhau bên ngoài rạp chiếu phim.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/meet-up"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "organise",
+    "word": "organise",
+    "pos": "v",
+    "vi": "tổ chức, sắp xếp",
+    "ipa": "/ˈɔːɡənaɪz/",
+    "stress": "OR·gan·ise",
+    "level": "A2",
+    "topic": "people",
+    "collocations": [
+      "organise an event",
+      "organise a meeting"
+    ],
+    "example": "She organised a birthday dinner for her brother.",
+    "exampleVi": "Cô ấy tổ chức một bữa tối sinh nhật cho em trai.",
+    "altSpellings": [
+      "organize"
+    ],
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/organize"
+    ]
+  },
+  {
+    "id": "reschedule",
+    "word": "reschedule",
+    "pos": "v",
+    "vi": "đổi lịch",
+    "ipa": "/ˌriːˈʃedjuːl/",
+    "stress": "re·SCHED·ule",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "reschedule a meeting",
+      "reschedule an appointment"
+    ],
+    "example": "We need to reschedule our meeting.",
+    "exampleVi": "Chúng ta cần đổi lịch cuộc hẹn.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/reschedule"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "appointment",
+    "word": "appointment",
+    "pos": "n",
+    "vi": "cuộc hẹn",
+    "ipa": "/əˈpɔɪntmənt/",
+    "stress": "ap·POINT·ment",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "make an appointment",
+      "a dentist's appointment"
+    ],
+    "example": "I have a dentist's appointment on Monday.",
+    "exampleVi": "Tôi có lịch hẹn nha sĩ vào thứ Hai.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/appointment"
+    ]
+  },
+  {
+    "id": "catch-up",
+    "word": "catch up",
+    "pos": "phr",
+    "vi": "trò chuyện, cập nhật tình hình sau một thời gian",
+    "ipa": "/ˌkætʃ ˈʌp/",
+    "stress": "catch UP",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "catch up over coffee",
+      "catch up with friends"
+    ],
+    "example": "It was great to catch up with my old friends.",
+    "exampleVi": "Thật tuyệt khi được gặp gỡ và trò chuyện với những người bạn cũ.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/catch-up_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "birthday-dinner",
+    "word": "birthday dinner",
+    "pos": "n",
+    "vi": "bữa tối mừng sinh nhật",
+    "ipa": "/ˈbɜːθdeɪ ˌdɪnə/",
+    "stress": "BIRTH·day din·ner",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "organise a birthday dinner",
+      "attend a birthday dinner"
+    ],
+    "example": "We're having a birthday dinner on Friday.",
+    "exampleVi": "Chúng tôi sẽ tổ chức một bữa tối sinh nhật vào thứ Sáu.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/dinner"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "barbecue",
+    "word": "barbecue",
+    "pos": "n",
+    "vi": "tiệc nướng",
+    "ipa": "/ˈbɑːbɪkjuː/",
+    "stress": "BAR·be·cue",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "have a barbecue",
+      "a family barbecue"
+    ],
+    "example": "Our neighbours are having a barbecue this weekend.",
+    "exampleVi": "Hàng xóm của chúng tôi sẽ tổ chức tiệc nướng vào cuối tuần này.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/barbecue_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "housewarming-party",
+    "word": "housewarming party",
+    "pos": "n",
+    "vi": "tiệc tân gia",
+    "ipa": "/ˈhaʊswɔːmɪŋ ˌpɑːti/",
+    "stress": "HOUSE·warm·ing par·ty",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "have a housewarming party",
+      "invite someone to a housewarming party"
+    ],
+    "example": "They invited us to their housewarming party.",
+    "exampleVi": "Họ mời chúng tôi đến dự tiệc tân gia.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/party_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "celebration",
+    "word": "celebration",
+    "pos": "n",
+    "vi": "buổi lễ, dịp ăn mừng",
+    "ipa": "/ˌselɪˈbreɪʃn/",
+    "stress": "cel·e·BRA·tion",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "a birthday celebration",
+      "hold a celebration"
+    ],
+    "example": "The celebration starts at seven o'clock.",
+    "exampleVi": "Buổi ăn mừng bắt đầu lúc bảy giờ.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/celebration"
+    ]
+  },
+  {
+    "id": "host",
+    "word": "host",
+    "pos": "v",
+    "additionalPos": [
+      "n"
+    ],
+    "vi": "tổ chức, đăng cai (v); chủ nhà, chủ tiệc (n)",
+    "ipa": "/həʊst/",
+    "stress": "HOST",
+    "level": "B2",
+    "topic": "people",
+    "collocations": [
+      "host a party",
+      "host an event"
+    ],
+    "example": "We will host a small party on Friday.",
+    "exampleVi": "Chúng tôi sẽ tổ chức một bữa tiệc nhỏ vào thứ Sáu.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/host_2"
+    ]
+  },
+  {
+    "id": "guest",
+    "word": "guest",
+    "pos": "n",
+    "vi": "khách mời",
+    "ipa": "/ɡest/",
+    "stress": "GUEST",
+    "level": "A2",
+    "topic": "people",
+    "collocations": [
+      "welcome a guest",
+      "a dinner guest"
+    ],
+    "example": "There will be about twenty guests.",
+    "exampleVi": "Sẽ có khoảng hai mươi khách mời.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/guest_1"
+    ]
+  },
+  {
+    "id": "accept-an-invitation",
+    "word": "accept an invitation",
+    "pos": "phr",
+    "vi": "nhận lời mời",
+    "ipa": "/əkˌsept ən ˌɪnvɪˈteɪʃən/",
+    "stress": "ac·CEPT an in·vi·TA·tion",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "accept an invitation to dinner",
+      "gladly accept an invitation"
+    ],
+    "example": "I was happy to accept an invitation to dinner.",
+    "exampleVi": "Tôi vui vẻ nhận lời mời ăn tối.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/invitation"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "decline-an-invitation",
+    "word": "decline an invitation",
+    "pos": "phr",
+    "vi": "từ chối lời mời",
+    "ipa": "/dɪˌklaɪn ən ˌɪnvɪˈteɪʃən/",
+    "stress": "de·CLINE an in·vi·TA·tion",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "politely decline an invitation",
+      "decline an invitation to a party"
+    ],
+    "example": "You can politely decline an invitation.",
+    "exampleVi": "Bạn có thể lịch sự từ chối lời mời.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/invitation"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "bring-along",
+    "word": "bring along",
+    "pos": "phr",
+    "vi": "mang theo thứ gì",
+    "ipa": "/brɪŋ ˈsʌmθɪŋ əˈlɒŋ/",
+    "stress": "bring a·LONG",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "bring along a friend",
+      "bring along some food"
+    ],
+    "example": "Please bring along some drinks.",
+    "exampleVi": "Vui lòng mang theo ít đồ uống.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/bring"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "look-forward-to",
+    "word": "look forward to",
+    "pos": "phr",
+    "vi": "mong chờ",
+    "ipa": "/lʊk ˈfɔːwəd tuː/",
+    "stress": "look FOR·ward to",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "look forward to seeing someone",
+      "look forward to a holiday"
+    ],
+    "example": "I'm looking forward to seeing everyone.",
+    "exampleVi": "Tôi đang mong chờ được gặp mọi người.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/look-forward-to"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "confirm",
+    "word": "confirm",
+    "pos": "v",
+    "vi": "xác nhận",
+    "ipa": "/kənˈfɜːm/",
+    "stress": "con·FIRM",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "confirm a booking",
+      "confirm a meeting"
+    ],
+    "example": "Can you confirm the meeting time?",
+    "exampleVi": "Bạn có thể xác nhận thời gian gặp mặt không?",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/confirm"
+    ]
+  },
+  {
+    "id": "flexible",
+    "word": "flexible",
+    "pos": "adj",
+    "vi": "linh hoạt",
+    "ipa": "/ˈfleksəbl/",
+    "stress": "FLEX·i·ble",
+    "level": "B2",
+    "topic": "people",
+    "collocations": [
+      "flexible working hours",
+      "a flexible schedule"
+    ],
+    "example": "My schedule is flexible this week.",
+    "exampleVi": "Lịch của tôi khá linh hoạt trong tuần này.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/flexible"
+    ]
+  },
+  {
+    "id": "apologise",
+    "word": "apologise",
+    "pos": "v",
+    "vi": "xin lỗi",
+    "ipa": "/əˈpɒlədʒaɪz/",
+    "stress": "a·POL·o·gise",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "apologise for being late",
+      "apologise to someone"
+    ],
+    "example": "I need to apologise for changing our plans.",
+    "exampleVi": "Tôi cần xin lỗi vì đã thay đổi kế hoạch của chúng ta.",
+    "altSpellings": [
+      "apologize"
+    ],
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/apologize"
+    ]
+  },
+  {
+    "id": "memorable",
+    "word": "memorable",
+    "pos": "adj",
+    "vi": "đáng nhớ",
+    "ipa": "/ˈmemərəbl/",
+    "stress": "MEM·o·ra·ble",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "a memorable evening",
+      "a memorable experience"
+    ],
+    "example": "We had a memorable evening together.",
+    "exampleVi": "Chúng tôi đã có một buổi tối đáng nhớ cùng nhau.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/memorable"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "strengthen-relationships",
+    "word": "strengthen relationships",
+    "pos": "phr",
+    "vi": "củng cố các mối quan hệ",
+    "ipa": "/ˈstreŋθən rɪˈleɪʃənʃɪps/",
+    "stress": "STRENGTH·en re·LA·tion·ships",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "strengthen family relationships",
+      "strengthen relationships at work"
+    ],
+    "example": "Social activities can strengthen relationships.",
+    "exampleVi": "Các hoạt động xã hội có thể củng cố những mối quan hệ.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 9
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/strengthen"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "application",
+    "word": "application",
+    "pos": "n",
+    "vi": "Đơn xin việc / Hồ sơ",
+    "ipa": "/ˌæplɪˈkeɪʃn/",
+    "stress": "ap·pli·CA·tion",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "a job application",
+      "submit an application"
+    ],
+    "example": "She sent her job application to three international media companies.",
+    "exampleVi": "Cô ấy đã gửi đơn xin việc tới ba công ty truyền thông quốc tế.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/application"
+    ]
+  },
+  {
+    "id": "employer",
+    "word": "employer",
+    "pos": "n",
+    "vi": "Nhà tuyển dụng / Chủ lao động",
+    "ipa": "/ɪmˈplɔɪə(r)/",
+    "stress": "em·PLOY·er",
+    "level": "A2",
+    "topic": "work",
+    "collocations": [
+      "a potential employer",
+      "a good employer"
+    ],
+    "example": "A good employer values team collaboration and continuous professional development.",
+    "exampleVi": "Một nhà tuyển dụng tốt trân trọng sự hợp tác nhóm và phát triển chuyên môn liên tục.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/employer"
+    ]
+  },
+  {
+    "id": "resume",
+    "word": "resume",
+    "pos": "n",
+    "vi": "Sơ yếu lý lịch / CV",
+    "ipa": "/ˈrez.juː.meɪ/",
+    "stress": "RE·su·me",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "send a resume",
+      "an updated resume"
+    ],
+    "example": "Please attach your updated resume when submitting the online form.",
+    "exampleVi": "Vui lòng đính kèm sơ yếu lý lịch mới nhất khi nộp biểu mẫu trực tuyến.",
+    "altSpellings": [
+      "résumé"
+    ],
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/resume_2"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "future-plan",
+    "word": "future plan",
+    "pos": "n",
+    "vi": "Kế hoạch tương lai",
+    "ipa": "/ˈfjuː.tʃər plæn/",
+    "stress": "FU·ture plan",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "discuss future plans",
+      "make a future plan"
+    ],
+    "example": "Her future plan includes studying for a Master's degree abroad.",
+    "exampleVi": "Kế hoạch tương lai của cô ấy bao gồm việc học bằng Thạc sĩ ở nước ngoài.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/plan_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "field",
+    "word": "field",
+    "pos": "n",
+    "vi": "Lĩnh vực chuyên môn",
+    "ipa": "/fiːld/",
+    "stress": "FIELD",
+    "level": "A2",
+    "topic": "work",
+    "collocations": [
+      "a field of study",
+      "work in a field"
+    ],
+    "example": "Digital technology is a rapidly growing field with many career opportunities.",
+    "exampleVi": "Công nghệ kỹ thuật số là một lĩnh vực phát triển nhanh với nhiều cơ hội nghề nghiệp.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/field_1"
+    ]
+  },
+  {
+    "id": "training",
+    "word": "training",
+    "pos": "n",
+    "vi": "Khóa đào tạo",
+    "ipa": "/ˈtreɪnɪŋ/",
+    "stress": "TRAIN·ing",
+    "level": "A2",
+    "topic": "work",
+    "collocations": [
+      "staff training",
+      "receive training"
+    ],
+    "example": "The firm provides intensive skill training for all new staff members.",
+    "exampleVi": "Công ty cung cấp khóa đào tạo kỹ năng chuyên sâu cho tất cả nhân viên mới.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/training"
+    ]
+  },
+  {
+    "id": "goal",
+    "word": "goal",
+    "pos": "n",
+    "vi": "Mục tiêu công việc",
+    "ipa": "/ɡəʊl/",
+    "stress": "GOAL",
+    "level": "A2",
+    "topic": "work",
+    "collocations": [
+      "set a goal",
+      "achieve a goal"
+    ],
+    "example": "Setting achievable long-term goals is key to professional success.",
+    "exampleVi": "Đặt ra các mục tiêu dài hạn có thể đạt được là chìa khóa tới thành công chuyên môn.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/goal"
+    ]
+  },
+  {
+    "id": "full-time-job",
+    "word": "full-time job",
+    "pos": "n",
+    "vi": "Công việc toàn thời gian",
+    "ipa": "/ˌfʊlˈtaɪm dʒɒb/",
+    "stress": "full-TIME job",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "find a full-time job",
+      "have a full-time job"
+    ],
+    "example": "She is seeking a full-time job in financial analysis.",
+    "exampleVi": "Cô ấy đang tìm kiếm một công việc toàn thời gian trong lĩnh vực phân tích tài chính.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/job_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "part-time-work",
+    "word": "part-time work",
+    "pos": "n",
+    "vi": "Việc làm bán thời gian",
+    "ipa": "/ˌpɑːtˈtaɪm wɜːk/",
+    "stress": "part-TIME work",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "find part-time work",
+      "look for part-time work"
+    ],
+    "example": "Part-time work allows students to earn pocket money while studying.",
+    "exampleVi": "Việc làm bán thời gian cho phép học sinh kiếm tiền tiêu xài trong khi học.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/work_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "ambition",
+    "word": "ambition",
+    "pos": "n",
+    "vi": "Hoài bão / Khát vọng",
+    "ipa": "/æmˈbɪʃn/",
+    "stress": "am·BI·tion",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "a lifelong ambition",
+      "achieve an ambition"
+    ],
+    "example": "His main ambition is to establish his own marketing agency in the future.",
+    "exampleVi": "Hoài bão chính của anh ấy là thành lập công ty tiếp thị riêng trong tương lai.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/ambition"
+    ]
+  },
+  {
+    "id": "job-advertisement",
+    "word": "job advertisement",
+    "pos": "n",
+    "vi": "tin tuyển dụng",
+    "ipa": "/ˈdʒɒb ədˌvɜːtɪsmənt/",
+    "stress": "JOB ad·VER·tise·ment",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "read a job advertisement",
+      "respond to a job advertisement"
+    ],
+    "example": "I saw a job advertisement on a student website.",
+    "exampleVi": "Tôi nhìn thấy một tin tuyển dụng trên trang web dành cho sinh viên.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/advertisement"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "apply-for",
+    "word": "apply for",
+    "pos": "phr",
+    "vi": "ứng tuyển",
+    "ipa": "/əˈplaɪ fɔː/",
+    "stress": "ap·PLY for",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "apply for a job",
+      "apply for a course"
+    ],
+    "example": "I'm going to apply for a part-time job.",
+    "exampleVi": "Tôi sẽ ứng tuyển một công việc bán thời gian.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/apply"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "applicant",
+    "word": "applicant",
+    "pos": "n",
+    "vi": "người ứng tuyển",
+    "ipa": "/ˈæplɪkənt/",
+    "stress": "AP·pli·cant",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "a successful applicant",
+      "a job applicant"
+    ],
+    "example": "The company interviewed five applicants.",
+    "exampleVi": "Công ty đã phỏng vấn năm ứng viên.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/applicant"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "cv",
+    "word": "CV",
+    "pos": "n",
+    "vi": "sơ yếu lý lịch",
+    "ipa": "/ˌsiː ˈviː/",
+    "stress": "C·V",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "attach a CV",
+      "an updated CV"
+    ],
+    "example": "I've attached my CV to the email.",
+    "exampleVi": "Tôi đã đính kèm CV vào email.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/cv"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "vacancy",
+    "word": "vacancy",
+    "pos": "n",
+    "vi": "vị trí tuyển dụng còn trống",
+    "ipa": "/ˈveɪkənsi/",
+    "stress": "VA·can·cy",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "a job vacancy",
+      "a vacancy for a receptionist"
+    ],
+    "example": "There is a vacancy for a receptionist.",
+    "exampleVi": "Hiện có một vị trí lễ tân đang tuyển dụng.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/vacancy"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "previous-experience",
+    "word": "previous experience",
+    "pos": "n",
+    "vi": "kinh nghiệm trước đây",
+    "ipa": "/ˈpriːviəs ɪkˈspɪəriəns/",
+    "stress": "PRE·vi·ous ex·PE·ri·ence",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "previous work experience",
+      "gain previous experience"
+    ],
+    "example": "Do you have any previous experience in a café?",
+    "exampleVi": "Bạn đã có kinh nghiệm làm việc ở quán cà phê chưa?",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/experience_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "customer-service",
+    "word": "customer service",
+    "pos": "n",
+    "vi": "dịch vụ khách hàng",
+    "ipa": "/ˌkʌstəmə ˈsɜːvɪs/",
+    "stress": "cus·tom·er SER·vice",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "good customer service",
+      "work in customer service"
+    ],
+    "example": "Good communication is important in customer service.",
+    "exampleVi": "Giao tiếp tốt rất quan trọng trong dịch vụ khách hàng.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/customer-service"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "attach",
+    "word": "attach",
+    "pos": "v",
+    "vi": "đính kèm",
+    "ipa": "/əˈtætʃ/",
+    "stress": "at·TACH",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "attach a file",
+      "attach a CV"
+    ],
+    "example": "Please attach a copy of your CV.",
+    "exampleVi": "Vui lòng đính kèm một bản CV.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/attach"
+    ]
+  },
+  {
+    "id": "working-hours",
+    "word": "working hours",
+    "pos": "n",
+    "vi": "giờ làm việc",
+    "ipa": "/ˈwɜːkɪŋ ˌaʊəz/",
+    "stress": "WORK·ing hours",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "flexible working hours",
+      "regular working hours"
+    ],
+    "example": "I'd like to know more about the working hours.",
+    "exampleVi": "Tôi muốn biết thêm về giờ làm việc.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/working_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "offer",
+    "word": "offer",
+    "pos": "v",
+    "additionalPos": [
+      "n"
+    ],
+    "vi": "đề nghị giúp (v); lời đề nghị giúp (n)",
+    "ipa": "/ˈɒfə(r)/",
+    "stress": "OF·fer",
+    "level": "A2",
+    "topic": "work",
+    "collocations": [
+      "offer help",
+      "offer to help"
+    ],
+    "example": "My colleague offered to help me finish the report.",
+    "exampleVi": "Đồng nghiệp đề nghị giúp tôi hoàn thành báo cáo.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/offer_1"
+    ]
+  },
+  {
+    "id": "suggestion",
+    "word": "suggestion",
+    "pos": "n",
+    "vi": "lời gợi ý",
+    "ipa": "/səˈdʒestʃən/",
+    "stress": "sug·GES·tion",
+    "level": "A2",
+    "topic": "work",
+    "collocations": [
+      "make a suggestion",
+      "a useful suggestion"
+    ],
+    "example": "That's a useful suggestion.",
+    "exampleVi": "Đó là một gợi ý hữu ích.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/suggestion"
+    ]
+  },
+  {
+    "id": "reassure",
+    "word": "reassure",
+    "pos": "v",
+    "vi": "trấn an",
+    "ipa": "/ˌriːəˈʃʊə(r)/",
+    "stress": "re·as·SURE",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "reassure someone",
+      "reassure a customer"
+    ],
+    "example": "My manager reassured me before the interview.",
+    "exampleVi": "Quản lý đã trấn an tôi trước buổi phỏng vấn.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/reassure"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "worry",
+    "word": "worry",
+    "pos": "v",
+    "vi": "lo lắng",
+    "ipa": "/ˈwʌri/",
+    "stress": "WOR·ry",
+    "level": "A2",
+    "topic": "work",
+    "collocations": [
+      "worry about money",
+      "don't worry"
+    ],
+    "example": "Don't worry about the meeting.",
+    "exampleVi": "Đừng lo về cuộc họp.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/worry_1"
+    ]
+  },
+  {
+    "id": "arrange",
+    "word": "arrange",
+    "pos": "v",
+    "vi": "sắp xếp",
+    "ipa": "/əˈreɪndʒ/",
+    "stress": "ar·RANGE",
+    "level": "A2",
+    "topic": "work",
+    "collocations": [
+      "arrange a meeting",
+      "arrange transport"
+    ],
+    "example": "I'll arrange the transport for our guests.",
+    "exampleVi": "Tôi sẽ sắp xếp phương tiện di chuyển cho khách.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/arrange"
+    ]
+  },
+  {
+    "id": "help-out",
+    "word": "help out",
+    "pos": "phr",
+    "vi": "giúp đỡ",
+    "ipa": "/ˌhelp ˈaʊt/",
+    "stress": "help OUT",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "help out with a task",
+      "help someone out"
+    ],
+    "example": "Can you help out with the decorations?",
+    "exampleVi": "Bạn có thể giúp một tay trang trí không?",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/help-out"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "make-a-list",
+    "word": "make a list",
+    "pos": "phr",
+    "vi": "lập danh sách",
+    "ipa": "/meɪk ə ˈlɪst/",
+    "stress": "make a LIST",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "make a shopping list",
+      "make a list of tasks"
+    ],
+    "example": "Let's make a list of everything we need.",
+    "exampleVi": "Hãy lập danh sách mọi thứ chúng ta cần.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/list_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "take-care-of",
+    "word": "take care of",
+    "pos": "phr",
+    "vi": "chăm sóc; xử lý việc gì",
+    "ipa": "/teɪk ˈkeər əv/",
+    "stress": "take CARE of",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "take care of children",
+      "take care of the arrangements"
+    ],
+    "example": "I'll take care of the food and drinks.",
+    "exampleVi": "Tôi sẽ lo phần đồ ăn và thức uống.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/care_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "suitable",
+    "word": "suitable",
+    "pos": "adj",
+    "vi": "phù hợp",
+    "ipa": "/ˈsuːtəbl/",
+    "stress": "SUIT·a·ble",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "suitable for students",
+      "a suitable candidate"
+    ],
+    "example": "This part-time job is suitable for students.",
+    "exampleVi": "Công việc bán thời gian này phù hợp với sinh viên.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/suitable"
+    ]
+  },
+  {
+    "id": "hardworking",
+    "word": "hardworking",
+    "pos": "adj",
+    "vi": "chăm chỉ",
+    "ipa": "/ˌhɑːdˈwɜːkɪŋ/",
+    "stress": "hard·WORK·ing",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "a hardworking student",
+      "hardworking staff"
+    ],
+    "example": "We are looking for a hardworking assistant.",
+    "exampleVi": "Chúng tôi đang tìm một trợ lý chăm chỉ.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/hard-working"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "confident",
+    "word": "confident",
+    "pos": "adj",
+    "vi": "tự tin",
+    "ipa": "/ˈkɒnfɪdənt/",
+    "stress": "CON·fi·dent",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "feel confident",
+      "confident about the future"
+    ],
+    "example": "I'm confident when I speak to customers.",
+    "exampleVi": "Tôi tự tin khi giao tiếp với khách hàng.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/confident"
+    ]
+  },
+  {
+    "id": "develop-skills",
+    "word": "develop skills",
+    "pos": "phr",
+    "vi": "phát triển kỹ năng",
+    "ipa": "/dɪˈveləp skɪlz/",
+    "stress": "de·VEL·op skills",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "develop communication skills",
+      "develop practical skills"
+    ],
+    "example": "This job will help you develop skills in communication.",
+    "exampleVi": "Công việc này sẽ giúp bạn phát triển kỹ năng giao tiếp.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/develop"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "work-in-a-team",
+    "word": "work in a team",
+    "pos": "phr",
+    "vi": "làm việc nhóm",
+    "ipa": "/wɜːk ɪn ə ˈtiːm/",
+    "stress": "work in a TEAM",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "work in a small team",
+      "learn to work in a team"
+    ],
+    "example": "You need to work in a team on this project.",
+    "exampleVi": "Bạn cần làm việc nhóm trong dự án này.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 12
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/team_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "gift",
+    "word": "gift",
+    "pos": "n",
+    "vi": "quà tặng",
+    "ipa": "/ɡɪft/",
+    "stress": "GIFT",
+    "level": "A2",
+    "topic": "shopping",
+    "collocations": [
+      "a thoughtful gift",
+      "give a gift"
+    ],
+    "example": "Thank you for your thoughtful gift.",
+    "exampleVi": "Cảm ơn món quà chu đáo của bạn.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/gift_1"
+    ]
+  },
+  {
+    "id": "donate",
+    "word": "donate",
+    "pos": "v",
+    "vi": "quyên góp, hiến tặng",
+    "ipa": "/dəʊˈneɪt/",
+    "stress": "do·NATE",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "donate money",
+      "donate to charity"
+    ],
+    "example": "Many students donate old books to charity.",
+    "exampleVi": "Nhiều học sinh quyên góp sách cũ cho tổ chức từ thiện.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/donate"
+    ]
+  },
+  {
+    "id": "information",
+    "word": "information",
+    "pos": "n",
+    "vi": "thông tin (danh từ không đếm được)",
+    "ipa": "/ˌɪnfəˈmeɪʃn/",
+    "stress": "in·for·MA·tion",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "useful information",
+      "a piece of information"
+    ],
+    "example": "Could you give me some information about the course?",
+    "exampleVi": "Bạn có thể cho tôi thông tin về khóa học không?",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/information"
+    ]
+  },
+  {
+    "id": "travel-around",
+    "word": "travel around",
+    "pos": "n",
+    "vi": "đi du lịch khắp một nơi",
+    "ipa": "/ˌtrævəl əˈraʊnd/",
+    "stress": "TRAV·el a·round",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "travel around a country",
+      "travel around the world"
+    ],
+    "example": "We want to travel around Thailand.",
+    "exampleVi": "Chúng tôi muốn đi du lịch khắp Thái Lan.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 5
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/around_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "get-to",
+    "word": "get to",
+    "pos": "n",
+    "vi": "đến, tới một nơi",
+    "ipa": "/ˈɡet tuː/",
+    "stress": "GET to",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "get to the airport",
+      "get to work"
+    ],
+    "example": "How did you get to the airport?",
+    "exampleVi": "Bạn đến sân bay bằng cách nào?",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 5
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/get-to"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "go-away",
+    "word": "go away",
+    "pos": "v",
+    "vi": "đi xa, đi nghỉ ở nơi khác",
+    "ipa": "/ɡəʊ əˈweɪ/",
+    "stress": "go a·WAY",
+    "level": "A2",
+    "topic": "travel",
+    "collocations": [
+      "go away for a weekend",
+      "go away on holiday"
+    ],
+    "example": "We want to go away for the weekend.",
+    "exampleVi": "Chúng tôi muốn đi nghỉ xa vào cuối tuần.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 5
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/go-away"
+    ]
+  },
+  {
+    "id": "do-some-sightseeing",
+    "word": "do some sightseeing",
+    "pos": "n",
+    "vi": "đi tham quan ngắm cảnh",
+    "ipa": "/duː səm ˈsaɪtsiːɪŋ/",
+    "stress": "do some SIGHT·see·ing",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "do some sightseeing in town",
+      "do some sightseeing on holiday"
+    ],
+    "example": "We will do some sightseeing tomorrow.",
+    "exampleVi": "Ngày mai chúng tôi sẽ đi tham quan.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 5
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/sightseeing"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "change-verb",
+    "word": "change",
+    "pos": "v",
+    "vi": "đổi, thay đổi",
+    "ipa": "/tʃeɪndʒ/",
+    "stress": "CHANGE",
+    "level": "A1",
+    "topic": "travel",
+    "collocations": [
+      "change trains",
+      "change a booking"
+    ],
+    "example": "We need to change trains in London.",
+    "exampleVi": "Chúng tôi cần đổi tàu ở Luân Đôn.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 5
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/change_1"
+    ]
+  },
+  {
+    "id": "raise-money",
+    "word": "raise money",
+    "pos": "n",
+    "vi": "gây quỹ, quyên tiền",
+    "ipa": "/reɪz ˈmʌni/",
+    "stress": "raise MON·ey",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "raise money for charity",
+      "raise money for a school"
+    ],
+    "example": "The concert will raise money for charity.",
+    "exampleVi": "Buổi hòa nhạc sẽ gây quỹ từ thiện.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      },
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/money"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "arrange-a-meeting",
+    "word": "arrange a meeting",
+    "pos": "n",
+    "vi": "sắp xếp một cuộc họp",
+    "ipa": "/əˌreɪndʒ ə ˈmiːtɪŋ/",
+    "stress": "ar·RANGE a meet·ing",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "arrange a meeting with a client",
+      "arrange a meeting for Monday"
+    ],
+    "example": "Can we arrange a meeting for Monday?",
+    "exampleVi": "Chúng ta có thể sắp xếp cuộc họp vào thứ Hai không?",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/meeting"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "till",
+    "word": "till",
+    "pos": "n",
+    "vi": "quầy hoặc máy thu ngân (Anh-Anh)",
+    "ipa": "/tɪl/",
+    "stress": "TILL",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "pay at the till",
+      "work at the till"
+    ],
+    "example": "You can pay at the till.",
+    "exampleVi": "Bạn có thể thanh toán ở quầy thu ngân.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 7
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/till_1"
+    ]
+  },
+  {
+    "id": "scarf",
+    "word": "scarf",
+    "pos": "n",
+    "vi": "khăn quàng cổ",
+    "ipa": "/skɑːf/",
+    "stress": "SCARF",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "wear a scarf",
+      "a warm scarf"
+    ],
+    "example": "Wear a scarf to keep your neck warm.",
+    "exampleVi": "Hãy quàng khăn để giữ ấm cổ.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/scarf_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "t-shirt",
+    "word": "T-shirt",
+    "pos": "n",
+    "vi": "áo phông, áo thun",
+    "ipa": "/ˈtiː ʃɜːt/",
+    "stress": "T-SHIRT",
+    "level": "A1",
+    "topic": "shopping",
+    "collocations": [
+      "a cotton T-shirt",
+      "wear a T-shirt"
+    ],
+    "example": "He is wearing a blue T-shirt.",
+    "exampleVi": "Anh ấy đang mặc áo phông màu xanh.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/t-shirt"
+    ]
+  },
+  {
+    "id": "formal-jacket",
+    "word": "formal jacket",
+    "pos": "n",
+    "vi": "áo khoác dùng trong dịp trang trọng",
+    "ipa": "/ˌfɔːməl ˈdʒækɪt/",
+    "stress": "FOR·mal jack·et",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "wear a formal jacket",
+      "a smart formal jacket"
+    ],
+    "example": "She wore a formal jacket to the interview.",
+    "exampleVi": "Cô ấy mặc áo khoác lịch sự đến buổi phỏng vấn.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/jacket"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "loan",
+    "word": "loan",
+    "pos": "n",
+    "vi": "khoản vay",
+    "ipa": "/ləʊn/",
+    "stress": "LOAN",
+    "level": "B2",
+    "topic": "shopping",
+    "collocations": [
+      "a bank loan",
+      "repay a loan"
+    ],
+    "example": "They took out a loan to buy a car.",
+    "exampleVi": "Họ vay một khoản tiền để mua xe.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 6
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/loan_1"
+    ]
+  },
+  {
+    "id": "receptionist",
+    "word": "receptionist",
+    "pos": "n",
+    "vi": "nhân viên lễ tân",
+    "ipa": "/rɪˈsepʃənɪst/",
+    "stress": "re·CEP·tion·ist",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "a hotel receptionist",
+      "work as a receptionist"
+    ],
+    "example": "The receptionist welcomed us to the hotel.",
+    "exampleVi": "Lễ tân chào đón chúng tôi đến khách sạn.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/receptionist"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "plumber",
+    "word": "plumber",
+    "pos": "n",
+    "vi": "thợ sửa ống nước",
+    "ipa": "/ˈplʌmə(r)/",
+    "stress": "PLUMB·er",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "call a plumber",
+      "a qualified plumber"
+    ],
+    "example": "The plumber repaired a broken pipe.",
+    "exampleVi": "Thợ sửa ống nước sửa một đường ống hỏng.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/plumber"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "accountant",
+    "word": "accountant",
+    "pos": "n",
+    "vi": "kế toán viên",
+    "ipa": "/əˈkaʊntənt/",
+    "stress": "ac·COUNT·ant",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "a junior accountant",
+      "work as an accountant"
+    ],
+    "example": "An accountant checks financial records.",
+    "exampleVi": "Kế toán viên kiểm tra sổ sách tài chính.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/accountant"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "pilot",
+    "word": "pilot",
+    "pos": "n",
+    "vi": "phi công",
+    "ipa": "/ˈpaɪlət/",
+    "stress": "PI·lot",
+    "level": "A2",
+    "topic": "work",
+    "collocations": [
+      "an airline pilot",
+      "a qualified pilot"
+    ],
+    "example": "The pilot flew the aircraft safely.",
+    "exampleVi": "Phi công lái máy bay an toàn.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/pilot_1"
+    ]
+  },
+  {
+    "id": "electrician",
+    "word": "electrician",
+    "pos": "n",
+    "vi": "thợ điện",
+    "ipa": "/ɪˌlekˈtrɪʃn/",
+    "stress": "e·lec·TRI·cian",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "a qualified electrician",
+      "call an electrician"
+    ],
+    "example": "An electrician installed the lights.",
+    "exampleVi": "Thợ điện lắp đèn.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/electrician"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "instructor",
+    "word": "instructor",
+    "pos": "n",
+    "vi": "người hướng dẫn, huấn luyện viên",
+    "ipa": "/ɪnˈstrʌktə(r)/",
+    "stress": "in·STRUC·tor",
+    "level": "A2",
+    "topic": "work",
+    "collocations": [
+      "a driving instructor",
+      "an outdoor activity instructor"
+    ],
+    "example": "Our instructor taught us how to climb safely.",
+    "exampleVi": "Người hướng dẫn dạy chúng tôi cách leo núi an toàn.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/instructor"
+    ]
+  },
+  {
+    "id": "engineer",
+    "word": "engineer",
+    "pos": "n",
+    "vi": "kỹ sư",
+    "ipa": "/ˌendʒɪˈnɪə(r)/",
+    "stress": "en·gi·NEER",
+    "level": "A2",
+    "topic": "work",
+    "collocations": [
+      "a civil engineer",
+      "work as an engineer"
+    ],
+    "example": "The engineer designed a new bridge.",
+    "exampleVi": "Kỹ sư thiết kế một cây cầu mới.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/engineer_1"
+    ]
+  },
+  {
+    "id": "lawyer",
+    "word": "lawyer",
+    "pos": "n",
+    "vi": "luật sư",
+    "ipa": "/ˈlɔɪə(r)/",
+    "stress": "LAW·yer",
+    "level": "A2",
+    "topic": "work",
+    "collocations": [
+      "consult a lawyer",
+      "a qualified lawyer"
+    ],
+    "example": "You should ask a lawyer for legal advice.",
+    "exampleVi": "Bạn nên hỏi luật sư để được tư vấn pháp lý.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/lawyer"
+    ]
+  },
+  {
+    "id": "rewarding",
+    "word": "rewarding",
+    "pos": "adj",
+    "vi": "bổ ích, mang lại sự hài lòng",
+    "ipa": "/rɪˈwɔːdɪŋ/",
+    "stress": "re·WARD·ing",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "a rewarding job",
+      "a rewarding experience"
+    ],
+    "example": "Teaching can be a rewarding job.",
+    "exampleVi": "Dạy học có thể là một công việc bổ ích.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/rewarding"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "careers-fair",
+    "word": "careers fair",
+    "pos": "n",
+    "vi": "ngày hội việc làm",
+    "ipa": "/kəˈrɪəz feə/",
+    "stress": "ca·REERS fair",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "attend a careers fair",
+      "a university careers fair"
+    ],
+    "example": "We met several employers at the careers fair.",
+    "exampleVi": "Chúng tôi gặp vài nhà tuyển dụng tại ngày hội việc làm.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/fair_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "responsibility",
+    "word": "responsibility",
+    "pos": "n",
+    "vi": "trách nhiệm",
+    "ipa": "/rɪˌspɒnsəˈbɪləti/",
+    "stress": "re·spon·si·BIL·i·ty",
+    "level": "B1",
+    "topic": "work",
+    "collocations": [
+      "take responsibility",
+      "a main responsibility"
+    ],
+    "example": "Answering emails is part of my responsibility.",
+    "exampleVi": "Trả lời email là một phần trách nhiệm của tôi.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 11
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/responsibility"
+    ]
+  },
+  {
+    "id": "necklace",
+    "word": "necklace",
+    "pos": "n",
+    "vi": "dây chuyền, vòng cổ",
+    "ipa": "/ˈnekləs/",
+    "stress": "NECK·lace",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "a gold necklace",
+      "wear a necklace"
+    ],
+    "example": "She wore a silver necklace.",
+    "exampleVi": "Cô ấy đeo một chiếc dây chuyền bạc.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/necklace_1"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "shirt",
+    "word": "shirt",
+    "pos": "n",
+    "vi": "áo sơ mi",
+    "ipa": "/ʃɜːt/",
+    "stress": "SHIRT",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "a cotton shirt",
+      "wear a shirt"
+    ],
+    "example": "He wore a white shirt to work.",
+    "exampleVi": "Anh ấy mặc áo sơ mi trắng đi làm.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/shirt"
+    ]
+  },
+  {
+    "id": "clothing",
+    "word": "clothing",
+    "pos": "n",
+    "vi": "quần áo (danh từ không đếm được)",
+    "ipa": "/ˈkləʊðɪŋ/",
+    "stress": "CLOTH·ing",
+    "level": "A2",
+    "topic": "people",
+    "collocations": [
+      "warm clothing",
+      "protective clothing"
+    ],
+    "example": "We donated warm clothing to the charity.",
+    "exampleVi": "Chúng tôi quyên góp quần áo ấm cho tổ chức từ thiện.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/clothing"
+    ]
+  },
+  {
+    "id": "bottle",
+    "word": "bottle",
+    "pos": "n",
+    "vi": "chai, lọ",
+    "ipa": "/ˈbɒtl/",
+    "stress": "BOT·tle",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "a water bottle",
+      "a bottle of water"
+    ],
+    "example": "I brought a bottle of water.",
+    "exampleVi": "Tôi mang theo một chai nước.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/bottle_1"
+    ]
+  },
+  {
+    "id": "ticket",
+    "word": "ticket",
+    "pos": "n",
+    "vi": "vé",
+    "ipa": "/ˈtɪkɪt/",
+    "stress": "TICK·et",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "buy a ticket",
+      "a train ticket"
+    ],
+    "example": "You need a ticket to enter the museum.",
+    "exampleVi": "Bạn cần vé để vào bảo tàng.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 10
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/ticket_1"
+    ]
+  },
+  {
+    "id": "always",
+    "word": "always",
+    "pos": "adv",
+    "vi": "luôn luôn",
+    "ipa": "/ˈɔːlweɪz/",
+    "stress": "AL·ways",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "always arrive early",
+      "always remember"
+    ],
+    "example": "I always drink water in the morning.",
+    "exampleVi": "Tôi luôn uống nước vào buổi sáng.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/always"
+    ]
+  },
+  {
+    "id": "usually",
+    "word": "usually",
+    "pos": "adv",
+    "vi": "thường thường",
+    "ipa": "/ˈjuːʒuəli/",
+    "stress": "U·su·al·ly",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "usually go to work",
+      "usually eat at home"
+    ],
+    "example": "We usually walk to school.",
+    "exampleVi": "Chúng tôi thường đi bộ đến trường.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/usually"
+    ]
+  },
+  {
+    "id": "normally",
+    "word": "normally",
+    "pos": "adv",
+    "vi": "thông thường",
+    "ipa": "/ˈnɔːməli/",
+    "stress": "NOR·mal·ly",
+    "level": "A2",
+    "topic": "people",
+    "collocations": [
+      "normally work from home",
+      "normally arrive on time"
+    ],
+    "example": "She normally works from home.",
+    "exampleVi": "Cô ấy thường làm việc ở nhà.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/normally"
+    ]
+  },
+  {
+    "id": "often",
+    "word": "often",
+    "pos": "adv",
+    "vi": "thường, hay",
+    "ipa": "/ˈɒfn/",
+    "stress": "OF·ten",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "often visit friends",
+      "often travel by bus"
+    ],
+    "example": "I often visit my grandparents.",
+    "exampleVi": "Tôi thường thăm ông bà.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/often"
+    ]
+  },
+  {
+    "id": "sometimes",
+    "word": "sometimes",
+    "pos": "adv",
+    "vi": "thỉnh thoảng",
+    "ipa": "/ˈsʌmtaɪmz/",
+    "stress": "SOME·times",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "sometimes go shopping",
+      "sometimes feel tired"
+    ],
+    "example": "We sometimes eat out.",
+    "exampleVi": "Thỉnh thoảng chúng tôi ăn ngoài.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/sometimes"
+    ]
+  },
+  {
+    "id": "hardly-ever",
+    "word": "hardly ever",
+    "pos": "adv",
+    "vi": "hầu như không bao giờ",
+    "ipa": "/ˌhɑːdli ˈevə/",
+    "stress": "HARD·ly ev·er",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "hardly ever eat out",
+      "hardly ever arrive late"
+    ],
+    "example": "He hardly ever arrives late.",
+    "exampleVi": "Anh ấy hầu như không bao giờ đến muộn.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/ever"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "never",
+    "word": "never",
+    "pos": "adv",
+    "vi": "không bao giờ",
+    "ipa": "/ˈnevə(r)/",
+    "stress": "NEV·er",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "never give up",
+      "never be late"
+    ],
+    "example": "I never smoke.",
+    "exampleVi": "Tôi không bao giờ hút thuốc.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/never_1"
+    ]
+  },
+  {
+    "id": "seldom",
+    "word": "seldom",
+    "pos": "adv",
+    "vi": "hiếm khi",
+    "ipa": "/ˈseldəm/",
+    "stress": "SEL·dom",
+    "level": "B1",
+    "topic": "people",
+    "collocations": [
+      "seldom travel alone",
+      "seldom eat out"
+    ],
+    "example": "We seldom travel in winter.",
+    "exampleVi": "Chúng tôi hiếm khi đi du lịch vào mùa đông.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/seldom"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "amazing",
+    "word": "amazing",
+    "pos": "adj",
+    "vi": "đáng kinh ngạc, tuyệt vời",
+    "ipa": "/əˈmeɪzɪŋ/",
+    "stress": "a·MAZ·ing",
+    "level": "A1",
+    "topic": "people",
+    "collocations": [
+      "an amazing view",
+      "an amazing experience"
+    ],
+    "example": "The performance was amazing.",
+    "exampleVi": "Buổi biểu diễn thật tuyệt vời.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 1
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/amazing"
+    ]
+  },
+  {
+    "id": "gorgeous",
+    "word": "gorgeous",
+    "pos": "adj",
+    "vi": "rất đẹp, lộng lẫy",
+    "ipa": "/ˈɡɔːdʒəs/",
+    "stress": "GOR·geous",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "a gorgeous beach",
+      "gorgeous weather"
+    ],
+    "example": "The beach was gorgeous at sunset.",
+    "exampleVi": "Bãi biển rất đẹp lúc hoàng hôn.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 5
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/gorgeous"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "information-desk",
+    "word": "information desk",
+    "pos": "n",
+    "vi": "quầy thông tin",
+    "ipa": "/ˌɪnfəˈmeɪʃən desk/",
+    "stress": "in·for·MA·tion desk",
+    "level": "B1",
+    "topic": "travel",
+    "collocations": [
+      "ask at the information desk",
+      "find the information desk"
+    ],
+    "example": "We asked at the information desk.",
+    "exampleVi": "Chúng tôi hỏi tại quầy thông tin.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 4
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/desk"
+    ],
+    "levelIsEstimate": true
+  },
+  {
+    "id": "high",
+    "word": "high",
+    "pos": "adj",
+    "vi": "cao",
+    "ipa": "/haɪ/",
+    "stress": "HIGH",
+    "level": "A1",
+    "topic": "shopping",
+    "collocations": [
+      "a high building",
+      "a high price"
+    ],
+    "example": "The hotel has a high ceiling.",
+    "exampleVi": "Khách sạn có trần cao.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/high_1"
+    ]
+  },
+  {
+    "id": "tiny",
+    "word": "tiny",
+    "pos": "adj",
+    "vi": "rất nhỏ",
+    "ipa": "/ˈtaɪni/",
+    "stress": "TI·ny",
+    "level": "B1",
+    "topic": "shopping",
+    "collocations": [
+      "a tiny room",
+      "a tiny village"
+    ],
+    "example": "They live in a tiny village.",
+    "exampleVi": "Họ sống trong một ngôi làng rất nhỏ.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/tiny"
+    ]
+  },
+  {
+    "id": "huge",
+    "word": "huge",
+    "pos": "adj",
+    "vi": "rất lớn, khổng lồ",
+    "ipa": "/hjuːdʒ/",
+    "stress": "HUGE",
+    "level": "A2",
+    "topic": "shopping",
+    "collocations": [
+      "a huge building",
+      "a huge crowd"
+    ],
+    "example": "There was a huge crowd outside.",
+    "exampleVi": "Có một đám đông rất lớn ở bên ngoài.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/huge"
+    ]
+  },
+  {
+    "id": "low",
+    "word": "low",
+    "pos": "adj",
+    "vi": "thấp",
+    "ipa": "/ləʊ/",
+    "stress": "LOW",
+    "level": "A2",
+    "topic": "shopping",
+    "collocations": [
+      "a low price",
+      "a low wall"
+    ],
+    "example": "The shop offers low prices.",
+    "exampleVi": "Cửa hàng bán với giá thấp.",
+    "lessonRefs": [
+      {
+        "levelId": "pre-intermediate",
+        "lesson": 8
+      }
+    ],
+    "references": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/low_1"
+    ]
+  }
+]

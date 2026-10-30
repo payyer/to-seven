@@ -1,0 +1,2824 @@
+[
+  {
+    "id": "accept-an-invitation",
+    "word": "accept an invitation",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/invitation",
+      "headword": "invitation",
+      "pos": "noun",
+      "ukIpa": "/ˌɪnvɪˈteɪʃn/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "accountant",
+    "word": "accountant",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/accountant",
+      "headword": "accountant",
+      "pos": "noun",
+      "ukIpa": "/əˈkaʊntənt/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "affordable",
+    "word": "affordable",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/affordable",
+      "headword": "affordable",
+      "pos": "adjective",
+      "ukIpa": "/əˈfɔːdəbl/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "age",
+    "word": "age",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/age_1",
+      "headword": "age",
+      "pos": "noun",
+      "ukIpa": "/eɪdʒ/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "all-right",
+    "word": "all right",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/all-right_1",
+      "headword": "all right",
+      "pos": "exclamation",
+      "ukIpa": "/ɔːl ˈraɪt/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "always",
+    "word": "always",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/always",
+      "headword": "always",
+      "pos": "adverb",
+      "ukIpa": "/ˈɔːlweɪz/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "amazing",
+    "word": "amazing",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/amazing",
+      "headword": "amazing",
+      "pos": "adjective",
+      "ukIpa": "/əˈmeɪzɪŋ/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "ambition",
+    "word": "ambition",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ambition",
+      "headword": "ambition",
+      "pos": "noun",
+      "ukIpa": "/æmˈbɪʃn/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "ancient",
+    "word": "ancient",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ancient",
+      "headword": "ancient",
+      "pos": "adjective",
+      "ukIpa": "/ˈeɪnʃənt/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "apologise",
+    "word": "apologise",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/apologize",
+      "headword": "apologize",
+      "pos": "verb",
+      "ukIpa": "/əˈpɒlədʒaɪz/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "applicant",
+    "word": "applicant",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/applicant",
+      "headword": "applicant",
+      "pos": "noun",
+      "ukIpa": "/ˈæplɪkənt/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "application",
+    "word": "application",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/application",
+      "headword": "application",
+      "pos": "noun",
+      "ukIpa": "/ˌæplɪˈkeɪʃn/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "apply-for",
+    "word": "apply for",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/apply",
+      "headword": "apply",
+      "pos": "verb",
+      "ukIpa": "/əˈplaɪ/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "appointment",
+    "word": "appointment",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/appointment",
+      "headword": "appointment",
+      "pos": "noun",
+      "ukIpa": "/əˈpɔɪntmənt/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "arrange",
+    "word": "arrange",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/arrange",
+      "headword": "arrange",
+      "pos": "verb",
+      "ukIpa": "/əˈreɪndʒ/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "arrange-a-meeting",
+    "word": "arrange a meeting",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/meeting",
+      "headword": "meeting",
+      "pos": "noun",
+      "ukIpa": "/ˈmiːtɪŋ/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "arrangement",
+    "word": "arrangement",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/arrangement",
+      "headword": "arrangement",
+      "pos": "noun",
+      "ukIpa": "/əˈreɪndʒmənt/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "attach",
+    "word": "attach",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/attach",
+      "headword": "attach",
+      "pos": "verb",
+      "ukIpa": "/əˈtætʃ/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "attractive",
+    "word": "attractive",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/attractive",
+      "headword": "attractive",
+      "pos": "adjective",
+      "ukIpa": "/əˈtræktɪv/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "available",
+    "word": "available",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/available",
+      "headword": "available",
+      "pos": "adjective",
+      "ukIpa": "/əˈveɪləbl/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "awareness",
+    "word": "awareness",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/awareness",
+      "headword": "awareness",
+      "pos": "noun",
+      "ukIpa": "/əˈweənəs/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "awful",
+    "word": "awful",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/awful_1",
+      "headword": "awful",
+      "pos": "adjective",
+      "ukIpa": "/ˈɔːfl/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "bank-account",
+    "word": "bank account",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/bank-account",
+      "headword": "bank account",
+      "pos": "noun",
+      "ukIpa": "/ˈbæŋk əkaʊnt/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "barbecue",
+    "word": "barbecue",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/barbecue_1",
+      "headword": "barbecue",
+      "pos": "noun",
+      "ukIpa": "/ˈbɑːbɪkjuː/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "be-into",
+    "word": "be into",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/be_1",
+      "headword": "be",
+      "pos": "verb",
+      "ukIpa": "/bi/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "birthday",
+    "word": "birthday",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/birthday",
+      "headword": "birthday",
+      "pos": "noun",
+      "ukIpa": "/ˈbɜːθdeɪ/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "birthday-dinner",
+    "word": "birthday dinner",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/dinner",
+      "headword": "dinner",
+      "pos": "noun",
+      "ukIpa": "/ˈdɪnə(r)/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "blog",
+    "word": "blog",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/blog_1",
+      "headword": "blog",
+      "pos": "noun",
+      "ukIpa": "/blɒɡ/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "board-the-plane",
+    "word": "board the plane",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/plane_1",
+      "headword": "plane",
+      "pos": "noun",
+      "ukIpa": "/pleɪn/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "booking-reference",
+    "word": "booking reference",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reference_1",
+      "headword": "reference",
+      "pos": "noun",
+      "ukIpa": "/ˈrefrəns/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "bottle",
+    "word": "bottle",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/bottle_1",
+      "headword": "bottle",
+      "pos": "noun",
+      "ukIpa": "/ˈbɒtl/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "bracelet",
+    "word": "bracelet",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/bracelet",
+      "headword": "bracelet",
+      "pos": "noun",
+      "ukIpa": "/ˈbreɪslət/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "break-down",
+    "word": "break down",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/break-down",
+      "headword": "break down",
+      "pos": "phrasal verb",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "breathtaking",
+    "word": "breathtaking",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/breathtaking",
+      "headword": "breathtaking",
+      "pos": "adjective",
+      "ukIpa": "/ˈbreθteɪkɪŋ/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "bring-along",
+    "word": "bring along",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/bring",
+      "headword": "bring",
+      "pos": "verb",
+      "ukIpa": "/brɪŋ/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "bus-station",
+    "word": "bus station",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/bus-station",
+      "headword": "bus station",
+      "pos": "noun",
+      "ukIpa": "/ˈbʌs steɪʃn/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "busy",
+    "word": "busy",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/busy_1",
+      "headword": "busy",
+      "pos": "adjective",
+      "ukIpa": "/ˈbɪzi/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "by-the-way",
+    "word": "by the way",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/way_1",
+      "headword": "way",
+      "pos": "noun",
+      "ukIpa": "/weɪ/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "campaign",
+    "word": "campaign",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/campaign_1",
+      "headword": "campaign",
+      "pos": "noun",
+      "ukIpa": "/kæmˈpeɪn/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "cancel",
+    "word": "cancel",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cancel",
+      "headword": "cancel",
+      "pos": "verb",
+      "ukIpa": "/ˈkænsl/",
+      "cefr": "B2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "cancelled",
+    "word": "cancelled",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cancel",
+      "headword": "cancel",
+      "pos": "verb",
+      "ukIpa": "/ˈkænsl/",
+      "cefr": "B2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "careers-fair",
+    "word": "careers fair",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/fair_1",
+      "headword": "fair",
+      "pos": "adjective",
+      "ukIpa": "/feə(r)/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "cash-register",
+    "word": "cash register",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cash-register",
+      "headword": "cash register",
+      "pos": "noun",
+      "ukIpa": "/ˈkæʃ redʒɪstə(r)/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "cashier",
+    "word": "cashier",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cashier_1",
+      "headword": "cashier",
+      "pos": "noun",
+      "ukIpa": "/kæˈʃɪə(r)/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "casual",
+    "word": "casual",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/casual_1",
+      "headword": "casual",
+      "pos": "adjective",
+      "ukIpa": "/ˈkæʒuəl/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "catch-up",
+    "word": "catch up",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/catch-up_1",
+      "headword": "catch up",
+      "pos": "phrasal verb",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "catch-up-with",
+    "word": "catch up with",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/catch_1",
+      "headword": "catch",
+      "pos": "verb",
+      "ukIpa": "/kætʃ/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "celebration",
+    "word": "celebration",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/celebration",
+      "headword": "celebration",
+      "pos": "noun",
+      "ukIpa": "/ˌselɪˈbreɪʃn/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "challenge",
+    "word": "challenge",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/challenge_1",
+      "headword": "challenge",
+      "pos": "noun",
+      "ukIpa": "/ˈtʃælɪndʒ/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "change-verb",
+    "word": "change",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/change_1",
+      "headword": "change",
+      "pos": "verb",
+      "ukIpa": "/tʃeɪndʒ/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "charity",
+    "word": "charity",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/charity",
+      "headword": "charity",
+      "pos": "noun",
+      "ukIpa": "/ˈtʃærəti/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "clothing",
+    "word": "clothing",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/clothing",
+      "headword": "clothing",
+      "pos": "noun",
+      "ukIpa": "/ˈkləʊðɪŋ/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "come-round",
+    "word": "come round",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/come-round",
+      "headword": "come round",
+      "pos": "phrasal verb",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "comment",
+    "word": "comment",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/comment_1",
+      "headword": "comment",
+      "pos": "noun",
+      "ukIpa": "/ˈkɒment/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "communication",
+    "word": "communication",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/communication",
+      "headword": "communication",
+      "pos": "noun",
+      "ukIpa": "/kəˌmjuːnɪˈkeɪʃn/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "commuter",
+    "word": "commuter",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/commuter",
+      "headword": "commuter",
+      "pos": "noun",
+      "ukIpa": "/kəˈmjuːtə(r)/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "confident",
+    "word": "confident",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/confident",
+      "headword": "confident",
+      "pos": "adjective",
+      "ukIpa": "/ˈkɒnfɪdənt/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "confirm",
+    "word": "confirm",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/confirm",
+      "headword": "confirm",
+      "pos": "verb",
+      "ukIpa": "/kənˈfɜːm/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "contact",
+    "word": "contact",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/contact_2",
+      "headword": "contact",
+      "pos": "verb",
+      "ukIpa": "/ˈkɒntækt/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "contactless-payment",
+    "word": "contactless payment",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/payment",
+      "headword": "payment",
+      "pos": "noun",
+      "ukIpa": "/ˈpeɪmənt/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "conversation",
+    "word": "conversation",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/conversation",
+      "headword": "conversation",
+      "pos": "noun",
+      "ukIpa": "/ˌkɒnvəˈseɪʃn/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "credit-card",
+    "word": "credit card",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/credit-card",
+      "headword": "credit card",
+      "pos": "noun",
+      "ukIpa": "/ˈkredɪt kɑːd/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "customer-service",
+    "word": "customer service",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/customer-service",
+      "headword": "customer service",
+      "pos": "noun",
+      "ukIpa": "/ˌkʌstəmə ˈsɜːvɪs/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "cv",
+    "word": "CV",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cv",
+      "headword": "CV",
+      "pos": "noun",
+      "ukIpa": "/ˌsiː ˈviː/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "decline-an-invitation",
+    "word": "decline an invitation",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/invitation",
+      "headword": "invitation",
+      "pos": "noun",
+      "ukIpa": "/ˌɪnvɪˈteɪʃn/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "delayed",
+    "word": "delayed",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/delay_1",
+      "headword": "delay",
+      "pos": "noun",
+      "ukIpa": "/dɪˈleɪ/",
+      "cefr": "B2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "develop-skills",
+    "word": "develop skills",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/develop",
+      "headword": "develop",
+      "pos": "verb",
+      "ukIpa": "/dɪˈveləp/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "do-some-sightseeing",
+    "word": "do some sightseeing",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sightseeing",
+      "headword": "sightseeing",
+      "pos": "noun",
+      "ukIpa": "/ˈsaɪtsiːɪŋ/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "donate",
+    "word": "donate",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/donate",
+      "headword": "donate",
+      "pos": "verb",
+      "ukIpa": "/dəʊˈneɪt/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "donation",
+    "word": "donation",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/donation",
+      "headword": "donation",
+      "pos": "noun",
+      "ukIpa": "/dəʊˈneɪʃn/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "earrings",
+    "word": "earrings",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/earring",
+      "headword": "earring",
+      "pos": "noun",
+      "ukIpa": "/ˈɪərɪŋ/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "economical",
+    "word": "economical",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/economical",
+      "headword": "economical",
+      "pos": "adjective",
+      "ukIpa": "/ˌiːkəˈnɒmɪkl/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "efficient",
+    "word": "efficient",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/efficient",
+      "headword": "efficient",
+      "pos": "adjective",
+      "ukIpa": "/ɪˈfɪʃnt/",
+      "cefr": "B2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "electrician",
+    "word": "electrician",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/electrician",
+      "headword": "electrician",
+      "pos": "noun",
+      "ukIpa": "/ɪˌlekˈtrɪʃn/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "employer",
+    "word": "employer",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/employer",
+      "headword": "employer",
+      "pos": "noun",
+      "ukIpa": "/ɪmˈplɔɪə(r)/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "empty",
+    "word": "empty",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/empty_1",
+      "headword": "empty",
+      "pos": "adjective",
+      "ukIpa": "/ˈempti/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "engineer",
+    "word": "engineer",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/engineer_1",
+      "headword": "engineer",
+      "pos": "noun",
+      "ukIpa": "/ˌendʒɪˈnɪə(r)/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "exchange",
+    "word": "exchange",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/exchange_2",
+      "headword": "exchange",
+      "pos": "verb",
+      "ukIpa": "/ɪksˈtʃeɪndʒ/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "excursion",
+    "word": "excursion",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/excursion",
+      "headword": "excursion",
+      "pos": "noun",
+      "ukIpa": "/ɪkˈskɜːʃn/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "expense",
+    "word": "expense",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/expense",
+      "headword": "expense",
+      "pos": "noun",
+      "ukIpa": "/ɪkˈspens/",
+      "cefr": "B2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "experience-event",
+    "word": "experience",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/experience_1",
+      "headword": "experience",
+      "pos": "noun",
+      "ukIpa": "/ɪkˈspɪəriəns/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "express-train",
+    "word": "express train",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/train_1",
+      "headword": "train",
+      "pos": "noun",
+      "ukIpa": "/treɪn/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "extravagant",
+    "word": "extravagant",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/extravagant",
+      "headword": "extravagant",
+      "pos": "adjective",
+      "ukIpa": "/ɪkˈstrævəɡənt/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "fare",
+    "word": "fare",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/fare_1",
+      "headword": "fare",
+      "pos": "noun",
+      "ukIpa": "/feə(r)/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "field",
+    "word": "field",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/field_1",
+      "headword": "field",
+      "pos": "noun",
+      "ukIpa": "/fiːld/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "financial-independence",
+    "word": "financial independence",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/independence",
+      "headword": "independence",
+      "pos": "noun",
+      "ukIpa": "/ˌɪndɪˈpendəns/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "flat-shoes",
+    "word": "flat shoes",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/flat_1",
+      "headword": "flat",
+      "pos": "noun",
+      "ukIpa": "/flæt/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "flexible",
+    "word": "flexible",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/flexible",
+      "headword": "flexible",
+      "pos": "adjective",
+      "ukIpa": "/ˈfleksəbl/",
+      "cefr": "B2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "follower",
+    "word": "follower",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/follower",
+      "headword": "follower",
+      "pos": "noun",
+      "ukIpa": "/ˈfɒləʊə(r)/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "formal",
+    "word": "formal",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/formal",
+      "headword": "formal",
+      "pos": "adjective",
+      "ukIpa": "/ˈfɔːml/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "formal-jacket",
+    "word": "formal jacket",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/jacket",
+      "headword": "jacket",
+      "pos": "noun",
+      "ukIpa": "/ˈdʒækɪt/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "full-time-job",
+    "word": "full-time job",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/job_1",
+      "headword": "job",
+      "pos": "noun",
+      "ukIpa": "/dʒɒb/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "fundraising",
+    "word": "fundraising",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/fundraising",
+      "headword": "fundraising",
+      "pos": "noun",
+      "ukIpa": "/ˈfʌndreɪzɪŋ/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "future-plan",
+    "word": "future plan",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/plan_1",
+      "headword": "plan",
+      "pos": "noun",
+      "ukIpa": "/plæn/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "generosity",
+    "word": "generosity",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/generosity",
+      "headword": "generosity",
+      "pos": "noun",
+      "ukIpa": "/ˌdʒenəˈrɒsəti/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "get-in-touch",
+    "word": "get in touch",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/touch_1",
+      "headword": "touch",
+      "pos": "verb",
+      "ukIpa": "/tʌtʃ/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "get-lost",
+    "word": "get lost",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/lost_1",
+      "headword": "lost",
+      "pos": "adjective",
+      "ukIpa": "/lɒst/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "get-to",
+    "word": "get to",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/get-to",
+      "headword": "get to",
+      "pos": "phrasal verb",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "get-together",
+    "word": "get together",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/get-together_1",
+      "headword": "get together",
+      "pos": "phrasal verb",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "gift",
+    "word": "gift",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/gift_1",
+      "headword": "gift",
+      "pos": "noun",
+      "ukIpa": "/ɡɪft/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "gloves",
+    "word": "gloves",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/glove",
+      "headword": "glove",
+      "pos": "noun",
+      "ukIpa": "/ɡlʌv/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "go-away",
+    "word": "go away",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/go-away",
+      "headword": "go away",
+      "pos": "phrasal verb",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "goal",
+    "word": "goal",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/goal",
+      "headword": "goal",
+      "pos": "noun",
+      "ukIpa": "/ɡəʊl/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "gorgeous",
+    "word": "gorgeous",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/gorgeous",
+      "headword": "gorgeous",
+      "pos": "adjective",
+      "ukIpa": "/ˈɡɔːdʒəs/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "great",
+    "word": "great",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/great_1",
+      "headword": "great",
+      "pos": "adjective",
+      "ukIpa": "/ɡreɪt/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "greet",
+    "word": "greet",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/greet",
+      "headword": "greet",
+      "pos": "verb",
+      "ukIpa": "/ɡriːt/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "greeting",
+    "word": "greeting",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/greeting",
+      "headword": "greeting",
+      "pos": "noun",
+      "ukIpa": "/ˈɡriːtɪŋ/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "guest",
+    "word": "guest",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/guest_1",
+      "headword": "guest",
+      "pos": "noun",
+      "ukIpa": "/ɡest/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "guidebook",
+    "word": "guidebook",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/guidebook",
+      "headword": "guidebook",
+      "pos": "noun",
+      "ukIpa": "/ˈɡaɪdbʊk/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "harbour",
+    "word": "harbour",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/harbour_1",
+      "headword": "harbour",
+      "pos": "noun",
+      "ukIpa": "/ˈhɑːbə(r)/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "hardly-ever",
+    "word": "hardly ever",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ever",
+      "headword": "ever",
+      "pos": "adverb",
+      "ukIpa": "/ˈevə(r)/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "hardworking",
+    "word": "hardworking",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hard-working",
+      "headword": "hard-working",
+      "pos": "adjective",
+      "ukIpa": "/ˌhɑːd ˈwɜːkɪŋ/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "hear-from",
+    "word": "hear from",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hear",
+      "headword": "hear",
+      "pos": "verb",
+      "ukIpa": "/hɪə(r)/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "help-out",
+    "word": "help out",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/help-out",
+      "headword": "help out",
+      "pos": "phrasal verb",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "high",
+    "word": "high",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/high_1",
+      "headword": "high",
+      "pos": "adjective",
+      "ukIpa": "/haɪ/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "high-heels",
+    "word": "high heels",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/high-heels",
+      "headword": "high heels",
+      "pos": "noun",
+      "ukIpa": "/ˌhaɪ ˈhiːlz/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "hobbies",
+    "word": "hobbies",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hobby",
+      "headword": "hobby",
+      "pos": "noun",
+      "ukIpa": "/ˈhɒbi/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "holiday",
+    "word": "holiday",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/holiday_1",
+      "headword": "holiday",
+      "pos": "noun",
+      "ukIpa": "/ˈhɒlədeɪ/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "hospitality",
+    "word": "hospitality",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hospitality",
+      "headword": "hospitality",
+      "pos": "noun",
+      "ukIpa": "/ˌhɒspɪˈtæləti/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "host",
+    "word": "host",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/host_2",
+      "headword": "host",
+      "pos": "verb",
+      "ukIpa": "/həʊst/",
+      "cefr": "B2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "host-family",
+    "word": "host family",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/family_1",
+      "headword": "family",
+      "pos": "noun",
+      "ukIpa": "/ˈfæməli/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "housemate",
+    "word": "housemate",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/housemate",
+      "headword": "housemate",
+      "pos": "noun",
+      "ukIpa": "/ˈhaʊsmeɪt/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "housewarming-party",
+    "word": "housewarming party",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/party_1",
+      "headword": "party",
+      "pos": "noun",
+      "ukIpa": "/ˈpɑːti/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "huge",
+    "word": "huge",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/huge",
+      "headword": "huge",
+      "pos": "adjective",
+      "ukIpa": "/hjuːdʒ/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "impulsive-buying",
+    "word": "impulsive buying",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/impulsive",
+      "headword": "impulsive",
+      "pos": "adjective",
+      "ukIpa": "/ɪmˈpʌlsɪv/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "in-advance",
+    "word": "in advance",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/advance_1",
+      "headword": "advance",
+      "pos": "noun",
+      "ukIpa": "/ədˈvɑːns/",
+      "cefr": "B2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "information",
+    "word": "information",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/information",
+      "headword": "information",
+      "pos": "noun",
+      "ukIpa": "/ˌɪnfəˈmeɪʃn/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "information-desk",
+    "word": "information desk",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/desk",
+      "headword": "desk",
+      "pos": "noun",
+      "ukIpa": "/desk/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "instructor",
+    "word": "instructor",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/instructor",
+      "headword": "instructor",
+      "pos": "noun",
+      "ukIpa": "/ɪnˈstrʌktə(r)/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "interests",
+    "word": "interests",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/interest_1",
+      "headword": "interest",
+      "pos": "noun",
+      "ukIpa": "/ˈɪntrəst/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "introduce",
+    "word": "introduce",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/introduce",
+      "headword": "introduce",
+      "pos": "verb",
+      "ukIpa": "/ˌɪntrəˈdjuːs/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "investment",
+    "word": "investment",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/investment",
+      "headword": "investment",
+      "pos": "noun",
+      "ukIpa": "/ɪnˈvestmənt/",
+      "cefr": "B2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "invitation",
+    "word": "invitation",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/invitation",
+      "headword": "invitation",
+      "pos": "noun",
+      "ukIpa": "/ˌɪnvɪˈteɪʃn/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "invite",
+    "word": "invite",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/invite_1",
+      "headword": "invite",
+      "pos": "verb",
+      "ukIpa": "/ɪnˈvaɪt/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "job-advertisement",
+    "word": "job advertisement",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/advertisement",
+      "headword": "advertisement",
+      "pos": "noun",
+      "ukIpa": "/ədˈvɜːtɪsmənt/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "lawyer",
+    "word": "lawyer",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/lawyer",
+      "headword": "lawyer",
+      "pos": "noun",
+      "ukIpa": "/ˈlɔɪə(r)/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "loan",
+    "word": "loan",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/loan_1",
+      "headword": "loan",
+      "pos": "noun",
+      "ukIpa": "/ləʊn/",
+      "cefr": "B2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "local-speciality",
+    "word": "local speciality",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/speciality",
+      "headword": "speciality",
+      "pos": "noun",
+      "ukIpa": "/ˌspeʃiˈæləti/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "look-forward-to",
+    "word": "look forward to",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/look-forward-to",
+      "headword": "look forward to",
+      "pos": "phrasal verb",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "low",
+    "word": "low",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/low_1",
+      "headword": "low",
+      "pos": "adjective",
+      "ukIpa": "/ləʊ/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "luggage-allowance",
+    "word": "luggage allowance",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/allowance",
+      "headword": "allowance",
+      "pos": "noun",
+      "ukIpa": "/əˈlaʊəns/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "magnificent",
+    "word": "magnificent",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/magnificent",
+      "headword": "magnificent",
+      "pos": "adjective",
+      "ukIpa": "/mæɡˈnɪfɪsnt/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "make-a-list",
+    "word": "make a list",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/list_1",
+      "headword": "list",
+      "pos": "noun",
+      "ukIpa": "/lɪst/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "married",
+    "word": "married",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/married",
+      "headword": "married",
+      "pos": "adjective",
+      "ukIpa": "/ˈmærid/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "meet-for-a-chat",
+    "word": "meet for a chat",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/chat_1",
+      "headword": "chat",
+      "pos": "verb",
+      "ukIpa": "/tʃæt/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "meet-up",
+    "word": "meet up",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/meet-up",
+      "headword": "meet up",
+      "pos": "phrasal verb",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "memorable",
+    "word": "memorable",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/memorable",
+      "headword": "memorable",
+      "pos": "adjective",
+      "ukIpa": "/ˈmemərəbl/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "message",
+    "word": "message",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/message_1",
+      "headword": "message",
+      "pos": "noun",
+      "ukIpa": "/ˈmesɪdʒ/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "miss-a-train",
+    "word": "miss a train",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/miss_1",
+      "headword": "miss",
+      "pos": "verb",
+      "ukIpa": "/mɪs/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "money",
+    "word": "money",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/money",
+      "headword": "money",
+      "pos": "noun",
+      "ukIpa": "/ˈmʌni/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "narrow",
+    "word": "narrow",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/narrow_1",
+      "headword": "narrow",
+      "pos": "adjective",
+      "ukIpa": "/ˈnærəʊ/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "necklace",
+    "word": "necklace",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/necklace_1",
+      "headword": "necklace",
+      "pos": "noun",
+      "ukIpa": "/ˈnekləs/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "never",
+    "word": "never",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/never_1",
+      "headword": "never",
+      "pos": "adverb",
+      "ukIpa": "/ˈnevə(r)/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "news",
+    "word": "news",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/news",
+      "headword": "news",
+      "pos": "noun",
+      "ukIpa": "/njuːz/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "non-profit-organisation",
+    "word": "non-profit organisation",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/non-profit_1",
+      "headword": "non-profit",
+      "pos": "noun",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "normally",
+    "word": "normally",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/normally",
+      "headword": "normally",
+      "pos": "adverb",
+      "ukIpa": "/ˈnɔːməli/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "offer",
+    "word": "offer",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/offer_1",
+      "headword": "offer",
+      "pos": "verb",
+      "ukIpa": "/ˈɒfə(r)/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "often",
+    "word": "often",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/often",
+      "headword": "often",
+      "pos": "adverb",
+      "ukIpa": "/ˈɒfn/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "opening-hours",
+    "word": "opening hours",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/opening-hours",
+      "headword": "opening hours",
+      "pos": "noun",
+      "ukIpa": "/ˈəʊpənɪŋ aʊəz/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "opportunity",
+    "word": "opportunity",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/opportunity",
+      "headword": "opportunity",
+      "pos": "noun",
+      "ukIpa": "/ˌɒpəˈtjuːnəti/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "ordinary",
+    "word": "ordinary",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ordinary",
+      "headword": "ordinary",
+      "pos": "adjective",
+      "ukIpa": "/ˈɔːdnri/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "organise",
+    "word": "organise",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/organize",
+      "headword": "organize",
+      "pos": "verb",
+      "ukIpa": "/ˈɔːɡənaɪz/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "overpriced",
+    "word": "overpriced",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/overpriced",
+      "headword": "overpriced",
+      "pos": "adjective",
+      "ukIpa": "/ˌəʊvəˈpraɪst/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "overspend",
+    "word": "overspend",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/overspend_2",
+      "headword": "overspend",
+      "pos": "verb",
+      "ukIpa": "/ˌəʊvəˈspend/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "part-time-work",
+    "word": "part-time work",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/work_1",
+      "headword": "work",
+      "pos": "verb",
+      "ukIpa": "/wɜːk/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "peak-hours",
+    "word": "peak hours",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/peak_1",
+      "headword": "peak",
+      "pos": "noun",
+      "ukIpa": "/piːk/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "perfect",
+    "word": "perfect",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/perfect_1",
+      "headword": "perfect",
+      "pos": "adjective",
+      "ukIpa": "/ˈpɜːfɪkt/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "personal",
+    "word": "personal",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/personal",
+      "headword": "personal",
+      "pos": "adjective",
+      "ukIpa": "/ˈpɜːsənl/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "picturesque",
+    "word": "picturesque",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/picturesque",
+      "headword": "picturesque",
+      "pos": "adjective",
+      "ukIpa": "/ˌpɪktʃəˈresk/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "pilot",
+    "word": "pilot",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pilot_1",
+      "headword": "pilot",
+      "pos": "noun",
+      "ukIpa": "/ˈpaɪlət/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "pin",
+    "word": "PIN",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pin_1",
+      "headword": "pin",
+      "pos": "noun",
+      "ukIpa": "/pɪn/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "plan",
+    "word": "plan",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/plan_1",
+      "headword": "plan",
+      "pos": "noun",
+      "ukIpa": "/plæn/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "platform",
+    "word": "platform",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/platform",
+      "headword": "platform",
+      "pos": "noun",
+      "ukIpa": "/ˈplætfɔːm/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "plumber",
+    "word": "plumber",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/plumber",
+      "headword": "plumber",
+      "pos": "noun",
+      "ukIpa": "/ˈplʌmə(r)/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "politics",
+    "word": "politics",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/politics",
+      "headword": "politics",
+      "pos": "noun",
+      "ukIpa": "/ˈpɒlətɪks/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "present",
+    "word": "present",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/present_2",
+      "headword": "present",
+      "pos": "noun",
+      "ukIpa": "/ˈpreznt/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "previous-experience",
+    "word": "previous experience",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/experience_1",
+      "headword": "experience",
+      "pos": "noun",
+      "ukIpa": "/ɪkˈspɪəriəns/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "price-tag",
+    "word": "price tag",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/price-tag",
+      "headword": "price tag",
+      "pos": "noun",
+      "ukIpa": "/ˈpraɪs tæɡ/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "raise-money",
+    "word": "raise money",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/money",
+      "headword": "money",
+      "pos": "noun",
+      "ukIpa": "/ˈmʌni/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "reassure",
+    "word": "reassure",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reassure",
+      "headword": "reassure",
+      "pos": "verb",
+      "ukIpa": "/ˌriːəˈʃʊə(r)/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "receptionist",
+    "word": "receptionist",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/receptionist",
+      "headword": "receptionist",
+      "pos": "noun",
+      "ukIpa": "/rɪˈsepʃənɪst/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "recommendation",
+    "word": "recommendation",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/recommendation",
+      "headword": "recommendation",
+      "pos": "noun",
+      "ukIpa": "/ˌrekəmenˈdeɪʃn/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "relaxed",
+    "word": "relaxed",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/relaxed",
+      "headword": "relaxed",
+      "pos": "adjective",
+      "ukIpa": "/rɪˈlækst/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "religion",
+    "word": "religion",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/religion",
+      "headword": "religion",
+      "pos": "noun",
+      "ukIpa": "/rɪˈlɪdʒən/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "reply",
+    "word": "reply",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reply_1",
+      "headword": "reply",
+      "pos": "verb",
+      "ukIpa": "/rɪˈplaɪ/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "reschedule",
+    "word": "reschedule",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reschedule",
+      "headword": "reschedule",
+      "pos": "verb",
+      "ukIpa": "/ˌriːˈʃedjuːl/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "responsibility",
+    "word": "responsibility",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/responsibility",
+      "headword": "responsibility",
+      "pos": "noun",
+      "ukIpa": "/rɪˌspɒnsəˈbɪləti/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "resume",
+    "word": "resume",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/resume_2",
+      "headword": "résumé",
+      "pos": "noun",
+      "ukIpa": "/ˈrezjuːmeɪ/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "return-ticket",
+    "word": "return ticket",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/return-ticket",
+      "headword": "return ticket",
+      "pos": "noun",
+      "ukIpa": "/rɪˌtɜːn ˈtɪkɪt/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "rewarding",
+    "word": "rewarding",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/rewarding",
+      "headword": "rewarding",
+      "pos": "adjective",
+      "ukIpa": "/rɪˈwɔːdɪŋ/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "rude",
+    "word": "rude",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/rude",
+      "headword": "rude",
+      "pos": "adjective",
+      "ukIpa": "/ruːd/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "sandals",
+    "word": "sandals",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sandal",
+      "headword": "sandal",
+      "pos": "noun",
+      "ukIpa": "/ˈsændl/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "save-up",
+    "word": "save up",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/save_1",
+      "headword": "save",
+      "pos": "verb",
+      "ukIpa": "/seɪv/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "scarf",
+    "word": "scarf",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/scarf_1",
+      "headword": "scarf",
+      "pos": "noun",
+      "ukIpa": "/skɑːf/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "seldom",
+    "word": "seldom",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/seldom",
+      "headword": "seldom",
+      "pos": "adverb",
+      "ukIpa": "/ˈseldəm/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "shirt",
+    "word": "shirt",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/shirt",
+      "headword": "shirt",
+      "pos": "noun",
+      "ukIpa": "/ʃɜːt/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "shop-assistant",
+    "word": "shop assistant",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/shop-assistant",
+      "headword": "shop assistant",
+      "pos": "noun",
+      "ukIpa": "/ˈʃɒp əsɪstənt/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "sightseeing-tour",
+    "word": "sightseeing tour",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tour_1",
+      "headword": "tour",
+      "pos": "noun",
+      "ukIpa": "/tʊə(r)/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "single-ticket",
+    "word": "single ticket",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ticket_1",
+      "headword": "ticket",
+      "pos": "noun",
+      "ukIpa": "/ˈtɪkɪt/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "socialise",
+    "word": "socialise",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/socialize",
+      "headword": "socialize",
+      "pos": "verb",
+      "ukIpa": "/ˈsəʊʃəlaɪz/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "sometimes",
+    "word": "sometimes",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sometimes",
+      "headword": "sometimes",
+      "pos": "adverb",
+      "ukIpa": "/ˈsʌmtaɪmz/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "sponsor",
+    "word": "sponsor",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sponsor_2",
+      "headword": "sponsor",
+      "pos": "noun",
+      "ukIpa": "/ˈspɒnsə(r)/",
+      "cefr": "B2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "strange",
+    "word": "strange",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/strange",
+      "headword": "strange",
+      "pos": "adjective",
+      "ukIpa": "/streɪndʒ/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "strengthen-relationships",
+    "word": "strengthen relationships",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/strengthen",
+      "headword": "strengthen",
+      "pos": "verb",
+      "ukIpa": "/ˈstreŋkθn/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "suggestion",
+    "word": "suggestion",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/suggestion",
+      "headword": "suggestion",
+      "pos": "noun",
+      "ukIpa": "/səˈdʒestʃən/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "suitable",
+    "word": "suitable",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/suitable",
+      "headword": "suitable",
+      "pos": "adjective",
+      "ukIpa": "/ˈsuːtəbl/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "supporter",
+    "word": "supporter",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/supporter",
+      "headword": "supporter",
+      "pos": "noun",
+      "ukIpa": "/səˈpɔːtə(r)/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "surprise",
+    "word": "surprise",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/surprise_1",
+      "headword": "surprise",
+      "pos": "noun",
+      "ukIpa": "/səˈpraɪz/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "sweatshirt",
+    "word": "sweatshirt",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sweatshirt",
+      "headword": "sweatshirt",
+      "pos": "noun",
+      "ukIpa": "/ˈswetʃɜːt/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "t-shirt",
+    "word": "T-shirt",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/t-shirt",
+      "headword": "T-shirt",
+      "pos": "noun",
+      "ukIpa": "/ˈtiː ʃɜːt/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "take-care-of",
+    "word": "take care of",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/care_1",
+      "headword": "care",
+      "pos": "noun",
+      "ukIpa": "/keə(r)/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "these-days",
+    "word": "these days",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/these",
+      "headword": "these",
+      "pos": "determiner,",
+      "ukIpa": "/ðiːz/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "ticket",
+    "word": "ticket",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ticket_1",
+      "headword": "ticket",
+      "pos": "noun",
+      "ukIpa": "/ˈtɪkɪt/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "ticket-office",
+    "word": "ticket office",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/office",
+      "headword": "office",
+      "pos": "noun",
+      "ukIpa": "/ˈɒfɪs/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "tie",
+    "word": "tie",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tie_1",
+      "headword": "tie",
+      "pos": "verb",
+      "ukIpa": "/taɪ/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "tights",
+    "word": "tights",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tights",
+      "headword": "tights",
+      "pos": "noun",
+      "ukIpa": "/taɪts/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "till",
+    "word": "till",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/till_1",
+      "headword": "till",
+      "pos": "conjunction,",
+      "ukIpa": "/tɪl/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "timetable",
+    "word": "timetable",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/timetable_1",
+      "headword": "timetable",
+      "pos": "noun",
+      "ukIpa": "/ˈtaɪmteɪbl/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "tiny",
+    "word": "tiny",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tiny",
+      "headword": "tiny",
+      "pos": "adjective",
+      "ukIpa": "/ˈtaɪni/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "tourist-information-centre",
+    "word": "tourist information centre",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/centre_1",
+      "headword": "centre",
+      "pos": "noun",
+      "ukIpa": "/ˈsentə(r)/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "tracksuit",
+    "word": "tracksuit",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tracksuit",
+      "headword": "tracksuit",
+      "pos": "noun",
+      "ukIpa": "/ˈtræksuːt/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "training",
+    "word": "training",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/training",
+      "headword": "training",
+      "pos": "noun",
+      "ukIpa": "/ˈtreɪnɪŋ/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "travel-around",
+    "word": "travel around",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/around_1",
+      "headword": "around",
+      "pos": "preposition",
+      "ukIpa": "/əˈraʊnd/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "travel-blog",
+    "word": "travel blog",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/blog_1",
+      "headword": "blog",
+      "pos": "noun",
+      "ukIpa": "/blɒɡ/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "travel-insurance",
+    "word": "travel insurance",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/insurance",
+      "headword": "insurance",
+      "pos": "noun",
+      "ukIpa": "/ɪnˈʃʊərəns/",
+      "cefr": "B2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "turbulence",
+    "word": "turbulence",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/turbulence",
+      "headword": "turbulence",
+      "pos": "noun",
+      "ukIpa": "/ˈtɜːbjələns/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "unforgettable",
+    "word": "unforgettable",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/unforgettable",
+      "headword": "unforgettable",
+      "pos": "adjective",
+      "ukIpa": "/ˌʌnfəˈɡetəbl/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "usually",
+    "word": "usually",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/usually",
+      "headword": "usually",
+      "pos": "adverb",
+      "ukIpa": "/ˈjuːʒuəli/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "vacancy",
+    "word": "vacancy",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/vacancy",
+      "headword": "vacancy",
+      "pos": "noun",
+      "ukIpa": "/ˈveɪkənsi/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "value-for-money",
+    "word": "value for money",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/money",
+      "headword": "money",
+      "pos": "noun",
+      "ukIpa": "/ˈmʌni/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "volunteer",
+    "word": "volunteer",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/volunteer_1",
+      "headword": "volunteer",
+      "pos": "noun",
+      "ukIpa": "/ˌvɒlənˈtɪə(r)/",
+      "cefr": "B1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "welcoming",
+    "word": "welcoming",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/welcoming",
+      "headword": "welcoming",
+      "pos": "adjective",
+      "ukIpa": "/ˈwelkəmɪŋ/",
+      "cefr": null
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "wide",
+    "word": "wide",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/wide_1",
+      "headword": "wide",
+      "pos": "adjective",
+      "ukIpa": "/waɪd/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "work-in-a-team",
+    "word": "work in a team",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/team_1",
+      "headword": "team",
+      "pos": "noun",
+      "ukIpa": "/tiːm/",
+      "cefr": "A1"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "working-hours",
+    "word": "working hours",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/working_1",
+      "headword": "working",
+      "pos": "adjective",
+      "ukIpa": "/ˈwɜːkɪŋ/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "worry",
+    "word": "worry",
+    "reference": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/worry_1",
+      "headword": "worry",
+      "pos": "verb",
+      "ukIpa": "/ˈwʌri/",
+      "cefr": "A2"
+    },
+    "checkedAt": "2026-10-30"
+  }
+]

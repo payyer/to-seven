@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useRef, useState, type ChangeEvent } from "react";
 import { TOPICS } from "@/data/topics";
 import { WORDS } from "@/data/words";
@@ -15,7 +14,7 @@ export function SettingsView() {
   const [message, setMessage] = useState<string | null>(null);
 
   if (!state) return <Loading />;
-  const { settings, placement } = state;
+  const { settings } = state;
 
   const toggleTopic = (id: TopicId) => {
     const list = settings.preferredTopics;
@@ -82,10 +81,6 @@ export function SettingsView() {
         <h2 className="font-semibold">Nhóm từ ưu tiên</h2>
         <p className="mt-0.5 text-sm text-ink-2">
           Từ mới được chọn theo nhóm này trước, sau đó đến nhóm khó hơn một bậc.
-          {placement && ` Bài kiểm tra gợi ý: ${placement.recommendedLevel}.`}{" "}
-          <Link href="/placement" className="font-medium text-accent-strong hover:underline">
-            {placement ? "Kiểm tra lại" : "Làm bài kiểm tra"}
-          </Link>
         </p>
         <div className="mt-3 grid grid-cols-4 gap-2" role="radiogroup" aria-label="Nhóm từ ưu tiên">
           {LEVELS.map((l) => (
@@ -163,7 +158,7 @@ export function SettingsView() {
       <Card>
         <h2 className="font-semibold">Dữ liệu</h2>
         <p className="mt-0.5 text-sm text-ink-2">
-          Tiến độ và bản nháp đang lưu trên Supabase, đồng bộ giữa các thiết bị. Bạn vẫn có thể xuất file sao lưu.
+          Tiến độ từ vựng gốc đang lưu trên Supabase. Các nút tại đây chỉ áp dụng cho dữ liệu gốc; sao lưu và xóa tiến độ cấp độ nằm trong từng cấp độ.
         </p>
         <div className="mt-3 flex flex-wrap gap-2">
           <Button variant="secondary" onClick={download}>

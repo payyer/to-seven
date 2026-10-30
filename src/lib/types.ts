@@ -52,6 +52,11 @@ export interface Word {
   altSpellings?: string[];
   /** Các LIST trên lớp có từ này (LIST 1, 2…). */
   classLists?: number[];
+  /** Course references do not change SRS progress or priority lists. */
+  lessonRefs?: { levelId: string; lesson: number }[];
+  references?: string[];
+  levelIsEstimate?: boolean;
+  additionalPos?: PartOfSpeech[];
 }
 
 export type Grade = "again" | "hard" | "good" | "easy";

@@ -1,0 +1,1938 @@
+{
+  "all-right": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "awful": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 5
+    }
+  ],
+  "strange": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 5
+    }
+  ],
+  "delicious": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 5
+    }
+  ],
+  "perfect": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 5
+    }
+  ],
+  "boring": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "great": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "relaxed": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 5
+    }
+  ],
+  "rude": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 5
+    }
+  ],
+  "personal": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "age": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "married": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "interests": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "hobbies": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "religion": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "politics": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "money": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "birthday": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "plan": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "cancel": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "be-into": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "holiday": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "communication": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "message": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "comment": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "follower": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "blog": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "greet": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "greeting": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "keep-in-touch": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "get-in-touch": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "hear-from": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "reply": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "contact": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "conversation": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "introduce": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "surprise": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "news": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "these-days": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "by-the-way": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "lose-touch": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "catch-up-with": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "meet-for-a-chat": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "socialise": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "host-family": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "abroad": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "challenge": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "experience-event": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "opportunity": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "colleague": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 2
+    }
+  ],
+  "guidebook": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "passport": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "sightseeing": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "souvenir": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "campsite": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "accommodation": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "miss-a-train": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "break-down": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "get-lost": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "set-off": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 5
+    }
+  ],
+  "board-the-plane": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "traffic-jam": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "itinerary": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "destination": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "excursion": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "delayed": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "cancelled": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "luggage-allowance": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "travel-insurance": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "picturesque": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "breathtaking": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "unforgettable": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "hospitality": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "turbulence": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 3
+    }
+  ],
+  "ticket-office": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "platform": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "timetable": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "single-ticket": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "return-ticket": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "bus-station": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "tourist-information-centre": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "travel-blog": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "opening-hours": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "harbour": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "sightseeing-tour": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "housemate": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "commuter": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "express-train": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "fare": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "in-advance": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "booking-reference": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "peak-hours": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "welcoming": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "attractive": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "efficient": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "local-speciality": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "scenery": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "recommendation": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "cash": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "credit-card": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "discount": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "bargain": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "sale": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "bank-account": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "borrow": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "lend": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "owe": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "save-up": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "afford": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "pay-back": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "budget": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "income": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "expense": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "investment": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "charity": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "donation": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "impulsive-buying": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "financial-independence": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "value-for-money": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "extravagant": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "economical": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "overspend": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "shop-assistant": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "customer": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "cash-register": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "receipt": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "pin": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "change": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "present": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "price-tag": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "fundraising": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "sponsor": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "refund": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "exchange": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "cashier": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "contactless-payment": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "overpriced": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "affordable": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "generosity": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "volunteer": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "supporter": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "awareness": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "non-profit-organisation": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "campaign": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "tie": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "bracelet": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "high-heels": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "tracksuit": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "sweatshirt": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "gloves": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "tights": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "earrings": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "sandals": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "flat-shoes": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "formal": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "casual": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "ancient": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "modern": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "magnificent": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "ordinary": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "peaceful": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "noisy": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "narrow": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "wide": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "crowded": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 5
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "empty": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "indoor": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "outdoor": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "arrangement": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "invitation": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "invite": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "available": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "busy": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "get-together": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "come-round": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "meet-up": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "organise": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "reschedule": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "appointment": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "catch-up": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "birthday-dinner": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "barbecue": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "housewarming-party": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "celebration": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "host": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "guest": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "accept-an-invitation": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "decline-an-invitation": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "bring-along": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "look-forward-to": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "confirm": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "convenient": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "flexible": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "considerate": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "apologise": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "memorable": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "strengthen-relationships": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 9
+    }
+  ],
+  "application": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "career": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "employee": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "employer": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "salary": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "qualification": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "interview": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "experience": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "promotion": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "resume": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "future-plan": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "career-path": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "degree": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "graduate": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "field": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "training": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "schedule": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "assignment": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "goal": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "full-time-job": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "part-time-work": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "work-life-balance": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "ambition": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "job-advertisement": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "apply-for": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "applicant": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "cv": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "vacancy": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "previous-experience": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "customer-service": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "attach": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "working-hours": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "offer": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "suggestion": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "reassure": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "worry": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "arrange": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "help-out": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "make-a-list": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "take-care-of": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "suitable": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "hardworking": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "confident": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "reliable": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "develop-skills": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "work-in-a-team": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 12
+    }
+  ],
+  "gift": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "donate": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "information": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "travel-around": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 5
+    }
+  ],
+  "get-to": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 5
+    }
+  ],
+  "go-away": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 5
+    }
+  ],
+  "do-some-sightseeing": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 5
+    }
+  ],
+  "change-verb": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 5
+    }
+  ],
+  "raise-money": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    },
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "arrange-a-meeting": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "till": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "scarf": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "t-shirt": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "formal-jacket": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "loan": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 6
+    }
+  ],
+  "receptionist": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "plumber": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "accountant": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "pilot": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "electrician": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "instructor": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "engineer": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "lawyer": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "rewarding": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "careers-fair": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "responsibility": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 11
+    }
+  ],
+  "necklace": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "shirt": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "clothing": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "furniture": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "luggage": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "bottle": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "ticket": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ],
+  "always": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "usually": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "normally": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "often": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "sometimes": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "hardly-ever": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "never": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "seldom": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "amazing": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "gorgeous": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 5
+    }
+  ],
+  "information-desk": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 4
+    }
+  ],
+  "high": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "tiny": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "huge": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "low": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 8
+    }
+  ],
+  "occasionally": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "rarely": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 1
+    }
+  ],
+  "check-out": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 5
+    }
+  ],
+  "support": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 7
+    }
+  ],
+  "advice": [
+    {
+      "levelId": "pre-intermediate",
+      "lesson": 10
+    }
+  ]
+}

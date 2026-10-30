@@ -1,5 +1,7 @@
 import type { Level, PartOfSpeech, TopicId, Word } from "@/lib/types";
 import { CLASS_LISTS } from "./class-words";
+import lessonWords from "./lesson-words.json";
+import lessonRefs from "./lesson-word-refs.json";
 
 /**
  * Kho từ tự soạn theo chủ đề IELTS Speaking Part 1.
@@ -455,7 +457,7 @@ export function slugify(text: string): string {
     .replace(/^-|-$/g, "");
 }
 
-export const WORDS: Word[] = Object.entries(RAW).flatMap(([topic, rows]) =>
+export const BASE_WORDS: Word[] = Object.entries(RAW).flatMap(([topic, rows]) =>
   rows.map(([word, pos, vi, ipa, stress, level, collocations, example, exampleVi]) => ({
     id: slugify(word),
     word,
@@ -473,4 +475,6 @@ export const WORDS: Word[] = Object.entries(RAW).flatMap(([topic, rows]) =>
   })),
 );
 
+const refs = lessonRefs as Record<string, {levelId: string; lesson: number}[]>;
+export const WORDS: Word[] = [...BASE_WORDS.map(w => ({ ...w, lessonRefs: refs[w.id] })), ...lessonWords as Word[]];
 export const WORD_BY_ID: Record<string, Word> = Object.fromEntries(WORDS.map((w) => [w.id, w]));
